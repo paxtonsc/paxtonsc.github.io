@@ -6,13 +6,13 @@ permalink: /adventures/2024/07/ptarmigan-traverse/
 
 ![Up to Cascade Pass](/images/2024-07-ptarmigan/2024-07-ptarmigan4533.JPG)
 
-With two days off work for July 4th, Mary and I decided to backpack the Ptarmigan traverse, a route our friend Wyatt Mullen [recommended]](https://wyattmullen.com/adventures/20220819-ptarmigan-traverse).
+With two days off work for July 4th, Mary and I decided to backpack the Ptarmigan traverse, a route our friend Wyatt Mullen [recommended](https://wyattmullen.com/adventures/20220819-ptarmigan-traverse).
 
 We departed at 5:30 AM on Thursday morning from our house in Seattle and drove two hours to drop bikes at the Downey Creek Trailhead (the route is a point-to-point, and it was my brilliant idea to turn it into a loop with our bikes). Then we drove another 2 hours to the El Dorado Trailhead which is currently as far as the Cascade Pass Road is open due to spring mud slides. 
 
 ![Less easy walking.](/images/2024-07-ptarmigan/2024-07-ptarmigan4534.JPG){:width="100%"}
 
-Once we departed from the trail the travel became a little more exciting. Mary hasn't spend a ton of time walking on steep snow, and was a little nervous about the traverses across slopes ranging from 30-35 degrees. 
+The first couple of miles up to Cascade Pass was easy walking. Once we departed from the trail the travel became a little more exciting. Mary hasn't spend a ton of time walking on steep snow, and was a little nervous about the traverses across slopes ranging from 30-35 degrees. 
 
 ![Camp night 1.](/images/2024-07-ptarmigan/2024-07-ptarmigan4592.JPG)
 
@@ -40,8 +40,9 @@ After breakfast/lunch we continued on to the La Conte glacier. The glacier made 
 
 
 ![](/images/2024-07-ptarmigan/2024-07-ptarmigan4746.JPG)
+_Mary applying the classic butt slide to descend down towards the South Cascade glacier._
 
-Mary applying the classic butt slide to descend down towards the South Cascade glacier. After traversing the top of South Cascade Glacier,  we descended down towards towards White Rocks Lake. 
+After traversing the top of South Cascade Glacier,  we descended down towards towards White Rocks Lake. 
 
 ![](/images/2024-07-ptarmigan/2024-07-ptarmigan4805.JPG)
 

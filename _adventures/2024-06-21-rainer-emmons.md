@@ -4,6 +4,8 @@ date: 2024-06-21
 permalink: /adventures/2024/06/rainer-via-emmons/
 ---
 
+![Sun rising on Rainer.](/images/2024-06-rainer/2024-6-rainer4489.JPG)
+*Wyatt taking a photo of the sunrise.*
 
 Last Sunday, Wyatt and I made loose plans to climb Rainier on Friday. Wyatt was worried about lenticular clouds on Saturday, so Friday became our day. We decided to check trip reports on Wednesday evening to make the final go/no-go call. Wyatt’s biggest concern was that the snow from the previous weekend would not be sufficiently solidified to provide good corn skiing. On Wednesday, Wyatt found a Strava trip report indicating decent conditions. We decided to go for it. We each paid the $68 annual climbing fee and made plans for me to pick up the climbing permit at the ranger station before 5 p.m. on Thursday.
 
@@ -13,11 +15,8 @@ After getting the permit, I enjoyed a leisurely evening eating the chicken curry
 
 We set our alarms for 2 a.m., which allowed us about four hours of sleep. When I woke up and started getting dressed, I was mildly concerned that if Wyatt slept through his alarm, I wouldn’t know exactly where he had decided to lay out his sleeping bag. But it was no issue. By 2:20 we were both packed up, ate a quick breakfast (yogurt and a scone for me), and started walking in our trail runners at 2:34. The first ~3.5 miles was on a decent trail, which eventually became partially snow-covered as we gained elevation. The walking was easy, and we covered those 3.5 miles in a little over an hour. At that point, we crossed a creek on a sketchy snow bridge and proceeded on snow for the rest of the day. Around 4 a.m., as we were putting on our boots and skis, we started seeing color in the sky, with the sun rising about an hour later.
 
-![Sun rising on Rainer.](/images/2024-06-rainer/2024-6-rainer4489.JPG)
-*Wyatt taking a photo of the sunrise.*
-
 ![Looking over at the Emmons glacier.](/images/2024-06-rainer/2024-6-rainer4494.JPG)
-*And Wyatt looking over at the track up the Emmons glacier.*
+*Wyatt looking over at the track up the Emmons glacier.*
 
 We made it to Camp Schurman (9500 ft) at around 7 AM. 
 

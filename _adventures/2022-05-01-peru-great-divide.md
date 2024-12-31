@@ -95,4 +95,9 @@ _The 11th day of riding I was feeling somewhat healthier and we got a full day o
 ![Up to Cascade Pass](/images/2022-05-peru-great-divide/peru-great-divide-3.jpg)
 _Sam pauses to allow the locals to cross the road._
 
+In retrospect, for a trip of the duration of Peru Divide I should have organized photos and journal entries more  during the trip. I didn't, so we are going to close this entry out with the second half of the trip largely undocumented. 
+
+![Up to Cascade Pass](/images/2022-05-peru-great-divide/DSC00864-edited.JPG)
+_One of our few group photos. We ultimately made it to Abancay after 26 days of riding._
+
 

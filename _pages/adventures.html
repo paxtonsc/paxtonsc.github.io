@@ -5,6 +5,6 @@ title: "Fun & Hobbies"
 ---
 
 {% include base_path %}
-{% for post in site.adventures %}
+{% for post in site.adventures reversed %}
   {% include archive-single.html %}
 {% endfor %}
