@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-## [Control of Inverted Pendulum](https://github.com/paxtonsc/inverted-pendulum-project/blob/main/inverted_pendulm.ipynb)
+## [Control of Inverted Pendulum](/files/inverted_pendulum/inverted_pendulm.html)
 
 After departing SpaceX in December of 2024, I wanted to work more on GNC software (mechanics, state estimation, control, etc) rather than the more pure software problems I was working on at SpaceX. I had not touched a partial derivative since graduating Stanford in the spring of 2023, so I decided to brush up on some kinematics and controls by working my way through the inverted pendulum control problem.
 
@@ -27,7 +27,6 @@ My partner and I retrained the final layers of a 3D convolutional neural network
 ## [Rubin Observatory Deblending Emulator](/files/LSSTpresentation.pdf)
 
 The summer of my freshmen year, I worked on summer research project with Pat Burchat to use PyTorch to develop different neural network architecture to emulate the Large Synoptic Survey Telescope (LSST) deblending pipeline in order to better understand systemic bias in weak lensing probes as a result of unrecognized galaxy-galaxy blends.
-
 
 ## [2D plotter robot from scratch](/images/projects/cs107e.mp4)
 
