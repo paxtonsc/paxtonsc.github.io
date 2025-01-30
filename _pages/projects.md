@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 
-## [Control of Inverted Pendulum](/files/inverted_pendulum/inverted_pendulm.html)
+## [Inverted Pendulum Kinematics, Control, and Estimation](/files/inverted_pendulum/inverted_pendulm.html)
 
-After departing SpaceX in December of 2024, I wanted to work more on GNC software (mechanics, state estimation, control, etc) rather than the more pure software problems I was working on at SpaceX. I had not touched a partial derivative since graduating Stanford in the spring of 2023, so I decided to brush up on some kinematics and controls by working my way through the inverted pendulum control problem.
+During my time at SpaceX, I realized my favorite problems involved physics rather than just pure software. This was a small project to refresh myself on kinematics, control laws, and Kalaman filters. 
 
 ## [Starling Mission Distributed System Control Analysis](https://drive.google.com/file/d/1IZp61ES1jcYmPNGCX5coH_GLsXfdG6Gs/view)
 
