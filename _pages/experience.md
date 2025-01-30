@@ -7,8 +7,8 @@ redirect_from:
 ---
 
 ## Education 
-* MS, **Computer Science** (AI Specialization)  \|  *Stanford University*  \|  2022-2023
-* BS, **Engineering-Physics** (Computational focus)  \|  *Stanford University*  \|  2018 - 2022
+* MS, **Computer Science**   \|  *Stanford University*  \|  2022-2023
+* BS, **Engineering-Physics**  \|  *Stanford University*  \|  2018 - 2022
 
 
 
