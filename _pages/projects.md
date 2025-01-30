@@ -7,7 +7,6 @@ redirect_from:
   - /projects.html
 ---
 
-
 ## [Inverted Pendulum Kinematics, Control, and Estimation](/files/inverted_pendulum/inverted_pendulm.html)
 
 During my time at SpaceX, I realized my favorite problems involved physics rather than pure software. This was a small project to refresh myself on kinematics, control laws, and Kalaman filters. 
