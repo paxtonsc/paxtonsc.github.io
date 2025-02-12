@@ -6,14 +6,14 @@ permalink: /adventures/2025/02/tahoe-west-short-ridgeline/
 
 ![2025-2-tahoe5317](/images/2025-02-tahoe-west-shore/2025-2-tahoe5317.JPG)  
 
-Over the weekend of February 8th, Charlie flew in from Seattle and Ben from Chicago to come see the Lake Tahoe backcountry scene. Although we had planned the trip months in advance, the timing was fortunate. After a very dry January, Tahoe finally started getting some snow at the end of January and into the start of February. As a result, we had reasonably good conditions. 
+Over the weekend of February 8th, Charlie flew in from Seattle and Ben from Chicago to see the Lake Tahoe backcountry scene. Although we had planned the trip months in advance, the timing was fortunate. After a very dry January, Tahoe started to get some snow at the end of January and into the start of February. As a result, we had reasonably good conditions. 
 
-We drove up Thursday morning and spent one somewhat underwhelming day at Palisades. After skiing, we dove to Meeks Bay where I was a member of a winter ski lease. 
+We drove up Thursday morning and spent a somewhat underwhelming day at Palisades. We then drove to Meeks Bay where I was a member of a winter ski lease and spent the rest of the weekend along the west shore. 
 
 ![2025-2-tahoe5361](/images/2025-02-tahoe-west-shore/2025-2-tahoe5361.jpg)  
 *We were lucky to show up early to the ski lease and claim two singles for the three of us.*
 
-## Jakes
+## Jake's Peak
 
 On Friday, we joined Deirdre and Sam on Jake’s peak after an unsuccessful attempt to get the Prius up to the Rubicon parking lot. Despite donning chains the Prius was unable to make uphill progress through 4 inches of fresh snow on top of a bit of ice. So instead, we drove to Jake's parking lot which is right on 89.
 
@@ -34,7 +34,7 @@ It turns out that while I was skiing another lap, Ben and Charlie had been strug
 ![2025-2-tahoe5436](/images/2025-02-tahoe-west-shore/2025-2-tahoe5436.jpeg)
 *Parking lot shenanigans.*
 
-##  Rubicon
+##  Rubicon Peak
 
 ![2025-2-tahoe5299](/images/2025-02-tahoe-west-shore/2025-2-tahoe5299.JPG)  
 *And Ben making a turn down the northeast side of Rubicon.*
@@ -47,8 +47,8 @@ On Saturday, we were joined by George and Quinn (and caught a ride in their AWD 
 ![2025-2-tahoe5343](/images/2025-02-tahoe-west-shore/2025-2-tahoe5343.JPG)  
 *Connecting with Jackie and Friedman for our final lap on Rubicon*.
 
-#  Hidden 
+#  Hidden Peak 
 
-On Sunday, we got an early start up towards Hidden Peak. I wanted to be back at the car by 9:30 to guarantee we dropped Ben off at the airport in time for his 4:50PM flight. We were skinning by 7:00 and made it to the summit by about 8:45. Compared to Jake’s and Rubicon, the lower altitudes of Hidden had very little coverage. On the climb up we skinned over logs and rocks, and on the ski down we took our skis off and walked the final 300 vertical feet. 
+On Sunday, we got an early start up towards Hidden Peak. I wanted to be back at the car by 9:30 to guarantee we could drop Ben off at SFO in time for his 4:50PM flight. We were skinning by 7:00 and made it to the summit by about 8:45. Compared to Jake’s and Rubicon, the lower altitudes of Hidden had very little coverage. On the climb up we skinned over logs and rocks, and on the ski down we took our skis off and walked the final 300 vertical feet. 
 
 On the drive back we stopped shortly at Bagel Works in Placerville and made it back on schedule with minimal traffic. 
