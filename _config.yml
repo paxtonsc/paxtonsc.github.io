@@ -291,6 +291,13 @@ permalink: /:categories/:title/
 # paginate_path: /page:num/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  collection: adventures
+  sort_reverse: true
+
 
 # Plugins
 plugins:
@@ -299,6 +306,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-paginate-v2
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -307,6 +315,8 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-paginate-v2
+
 
 
 # Archives

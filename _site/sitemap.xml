@@ -72,9 +72,6 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/adventures/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/archive-layout-with-content/</loc>
 </url>
 <url>
@@ -118,6 +115,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/year-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/adventures/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/adventures/page/2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/files/CS213n_project_final.pdf</loc>

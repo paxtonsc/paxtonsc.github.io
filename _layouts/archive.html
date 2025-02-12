@@ -12,12 +12,18 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% if paginator.page < 2 %}
+  {% assign base_title = page.title %}
+{% else %}
+  {% assign base_title = "Fun & Hobbies" %}
+{% endif %}
+p
 <div id="main" role="main">
   {% include sidebar.html %}
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
+      <h1 class="page__title">{{ base_title }}</h1>
     {% endunless %}
     {{ content }}
   </div>
