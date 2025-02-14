@@ -2,6 +2,7 @@
 title: 'Bow Yoho Traverse'
 date: 2024-04-15
 permalink: /adventures/2024/04/bow-yoho-traverse/
+image: /images/2024-04-bow-yo-ho/Bow-Yoho-55.jpg
 ---
 
 ![A late start at Bow Lake.](/images/2024-04-bow-yo-ho/Bow-Yoho-75.jpg)

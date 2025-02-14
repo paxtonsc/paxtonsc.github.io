@@ -2,51 +2,51 @@
 title: 'Ptarmigan Traverse'
 date: 2024-07-04
 permalink: /adventures/2024/07/ptarmigan-traverse/
+image: /images/2024-07-ptarmigan/2024-07-ptarmigan4641.JPG
 ---
-
-![Up to Cascade Pass](/images/2024-07-ptarmigan/2024-07-ptarmigan4533.JPG)
 
 With two days off work for July 4th, Mary and I decided to backpack the Ptarmigan traverse, a route our friend Wyatt Mullen [recommended](https://wyattmullen.com/adventures/20220819-ptarmigan-traverse).
 
 We departed at 5:30 AM on Thursday morning from our house in Seattle and drove two hours to drop bikes at the Downey Creek Trailhead (the route is a point-to-point, and it was my brilliant idea to turn it into a loop with our bikes). Then we drove another 2 hours to the El Dorado Trailhead which is currently as far as the Cascade Pass Road is open due to spring mud slides. 
 
-![Less easy walking.](/images/2024-07-ptarmigan/2024-07-ptarmigan4534.JPG){:width="100%"}
+![Up to Cascade Pass](/images/2024-07-ptarmigan/2024-07-ptarmigan4533.JPG)
 
 The first couple of miles up to Cascade Pass was easy walking. Once we departed from the trail the travel became a little more exciting. Mary hasn't spend a ton of time walking on steep snow, and was a little nervous about the traverses across slopes ranging from 30-35 degrees. 
 
-![Camp night 1.](/images/2024-07-ptarmigan/2024-07-ptarmigan4592.JPG)
+![Less easy walking.](/images/2024-07-ptarmigan/2024-07-ptarmigan4534.JPG){:width="100%"}
 
 But we kept moving and made it over the top of Kache Glacier, and dropped down to Kool Aid lake where we camped.
 
-![Middle Cascade Glacier](/images/2024-07-ptarmigan/2024-07-ptarmigan4641.JPG)
+![Camp night 1.](/images/2024-07-ptarmigan/2024-07-ptarmigan4592.JPG)
 
 The next morning we began moving at about 5:30 and spent about 3.5 hours traversing and climbing up to the top of Middle Cascade Glacier. The glacier was very filled in with no visible crevasses, but we roped up for practice. 
 
-![Ken and the boys](/images/2024-07-ptarmigan/2024-07-ptarmigan4644.JPG)
+![Middle Cascade Glacier](/images/2024-07-ptarmigan/2024-07-ptarmigan4641.JPG)
 
 It was as we approached our high point on Middle Cascade Glacier that we saw four people behind us, moving very well. It turned out the we knew two of them from [Cowgill](https://cowgilltrailcollective.com). They were doing the Ptarmigan Traverse in a day. They offered to drive our car back to Rockport, which I rejected out of concern for the added logistics hassle of figuring out where they parked the Prius and stashed the keys. Ken offered us homemade chocolate chip cookies which we did accept and were very good. I later regretted not taking them up on the car moving offer. We descended the steep chute on the other side of Middle Cascade Glacier, and the boys quickly got ahead of us. 
 
-![](/images/2024-07-ptarmigan/2024-07-ptarmigan4680.JPG)
+![Ken and the boys](/images/2024-07-ptarmigan/2024-07-ptarmigan4644.JPG)
 
-There were many nice tarns along the route.
 
-![](/images/2024-07-ptarmigan/2024-07-ptarmigan4670.JPG)
+
 
 We continued on down to Yang Yang Lakes. The sun was very strong on this trip and there was not a cloud in the sky. We found a spot in the shade of one of the trees near the lake and ate breakfast. Mary’s spirits improved with the oat consumption. Wyatt recommended against camping at Yang Yang Lakes as the views are not as good and there may (at times) be bad bugs.
 
-![](/images/2024-07-ptarmigan/2024-07-ptarmigan4735.JPG)
+![](/images/2024-07-ptarmigan/2024-07-ptarmigan4670.JPG)
 
 After breakfast/lunch we continued on to the La Conte glacier. The glacier made for very nice low angle walking and the snow bridges were still (apparently) quite solid.
 
 
-![](/images/2024-07-ptarmigan/2024-07-ptarmigan4746.JPG)
-_Mary applying the classic butt slide to descend down towards the South Cascade glacier._
+![](/images/2024-07-ptarmigan/2024-07-ptarmigan4735.JPG)
 
 After traversing the top of South Cascade Glacier,  we descended down towards towards White Rocks Lake. 
 
-![](/images/2024-07-ptarmigan/2024-07-ptarmigan4805.JPG)
+![](/images/2024-07-ptarmigan/2024-07-ptarmigan4746.JPG)
+_Mary applying the classic butt slide to descend down towards the South Cascade glacier._
 
-White Rocks Lake provides a very nice view towards Dome Peak.
+
+![](/images/2024-07-ptarmigan/2024-07-ptarmigan4805.JPG)
+_White Rocks Lake provides a very nice view towards Dome Peak._
 
 ![](/images/2024-07-ptarmigan/2024-07-ptarmigan4814.JPG)
 

@@ -2,10 +2,8 @@
 title: 'Peru Great Divide'
 date: 2022-05-01
 permalink: /adventures/2022/05/peru-great-divide-p1/
+image: /images/2022-05-peru-great-divide/peru-great-divide-4.jpg
 ---
-
-![Huscaran](/images/2022-05-peru-great-divide/peru-great-divide-4.jpg)
-_Our first night camp on the Peru Great Divide route. We camped on the outskirts of Huscaran national park._
 
 The concept behind bikepacking the Peru Great Divide route originated on a much shorter backpacking trip around the San Francisco Bay. I was biking with Sam Abernathy, who I had met through the Stanford triathlon team a couple weeks prior, Margret Antonio, and Brian Ly. On that trip, we had a somewhat ridiculous first day that included 94 miles, 10k of climbing, and a very silly hike-a-bike at 10 pm after attempting a shortcut to our planned campsite Mt. Tam. That trip was my first exposure to bikepacking, and I was somewhat ill prepared with only a spare jacket and tarp in a handle bar bag, a little food in a frame bag, and my sleeping back strapped haphazardly with NRS river strap to rack on my gravel bike. At some point on the trip Sam mentioned that he was interested in bikepacking the Peru Great Divide – a route composed of 1000 miles of dirt riding in the Andes of Peru  – in the spring. I was sold.
 
@@ -16,6 +14,9 @@ We went on one acclimatization ride to Laguna Lacha at 15,000 feet biking from t
 
 Laguna Lacha lies in Huascaran national park; a park ranger charged use 25 soles a person at the park entrance and another man further down the road who’s affiliation with the park was less clear told us we would owe him an additional 5 soles if we were not back at the gate by 3 pm. By mid afternoon we made it up to Laguna Lacca and celebrated with a swim in the glacial lake. We made it back to the gate at 3:05 and paid the additional five soles for our tardiness. 
 Everyone’s legs and lungs worked reasonably well and so the subsequent day we shipped our empty bike bags to Abancay with the Cruz Del Sur “encomiendas” service where they would be held for somewhere between 25-30 days. Then on May 8th, we started pedaling. The gravel route initially imagined by Harriet and Neil Pike goes from Conocha to about 40 miles short of Abancay. The ride from Huaraz to Conococha is 40 miles or so on a reasonably busy paved road. We decided to make a small addition through Huascaran National Park and by Pastori Glacier. Our first night we camped on the Park boundaries at about 13,500. There were three dogs running around the park entrance next to our camp, we mostly discouraged their company by aggressive “NO” when they got too close and occasional feigned kicks. However, one reasonably small and very cute dog failed to take the hint, and we eventually gave up trying to scare him away and began referring to him as “Noah” derived from our original shouts of “No”. 
+
+![Huscaran](/images/2022-05-peru-great-divide/peru-great-divide-4.jpg)
+_Our first night camp on the Peru Great Divide route. We camped on the outskirts of Huscaran national park._
 
 The next day, after shaking the frost off our tents, we climbed up to about 15k and then rolled up and down at that altitude for the rest of the day. Noah accompanied us for the first 30 miles. By late afternoon, Sam’s stomach was giving him significant discomfort and it started to rain. We eventually made it to the final high point and joined a paved road for the descent in the rain down to Patapaqui. In Papaqui, we had our first experience in finding logingings in small towns. The model was pretty consistent town to town. We would ask everyone and go in circles for a while and generally eventually something. In this case, we found a single room with four beds and, more importantly, an adjoining toilet. We also got our first taste of a classic small town Peruvian fair: rice, fried potatoes, and fried eggs. Brian was able to buy more oreos, which as vegan, were a significant source of his calories if not nutrition for the entire trip.
 

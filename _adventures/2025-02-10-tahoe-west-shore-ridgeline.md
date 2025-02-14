@@ -2,9 +2,13 @@
 title: 'Tahoe West Shore Ridgeline'
 date: 2025-02-12
 permalink: /adventures/2025/02/tahoe-west-short-ridgeline/
+image: /images/2025-02-tahoe-west-shore/2025-2-tahoe5317.JPG
+excerpt: test
 ---
 
-![2025-2-tahoe5317](/images/2025-02-tahoe-west-shore/2025-2-tahoe5317.JPG)  
+1. [Jake's Peak](#jakes-peak)
+2. [Rubicon Peak](#rubicon-peak)
+3. [Hidden Peak](#hidden-peak)
 
 Over the weekend of February 8th, Charlie flew in from Seattle and Ben from Chicago to see the Lake Tahoe backcountry scene. Although we had planned the trip months in advance, the timing was fortunate. After a very dry January, Tahoe started to get some snow at the end of January and into the start of February. As a result, we had reasonably good conditions. 
 

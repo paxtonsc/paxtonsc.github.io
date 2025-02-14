@@ -2,10 +2,8 @@
 title: 'Napeequa Traverse'
 date: 2024-09-29
 permalink: /adventures/2024/09/napeequa-traverse/
+image: /images/2024-09-napeequa/2024-09-27-Napeequa4964.JPG
 ---
-
-
-![Looking towards Glacier Peak.](/images/2024-09-napeequa/2024-09-27-Napeequa4964.JPG)
 
 Friday evening, Wyatt and I departed Seattle at roughly 8:20 PM and made it to the White River Trailhead at 11PM where we had a very comfortable night in the back of the Prius which is surprisingly well suited for trailhead camping. With the front seats pushed forward, both Wyatt and I who are about 6ft can stretch out comfortably. 
 
