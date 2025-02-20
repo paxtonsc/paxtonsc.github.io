@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Files"
+permalink: /files/
+---
+
+<h1>Files List</h1>
+
+{% assign files_by_folder = site.static_files | where_exp: "file", "file.path contains '/files/'" | group_by_exp: "file", "file.path | split: '/' | slice: 1, 2 | join: '/'" %}
+
+{% for folder in files_by_folder %}
+  <h3>{{ folder.name }}</h3>
+  <ul>
+    {% for file in folder.items %}
+      <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
