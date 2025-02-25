@@ -7517,7 +7517,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Week-of-2025.2.23">Week of 2025.2.23<a class="anchor-link" href="#Week-of-2025.2.23">¶</a></h1><p>Last week we split the domain in half. Half of the domain (-100, -500) is the liquid melt which viscous frictional force is applied to. The other half of the domain is the plug which shear frictional force is applied. The crystal content is the only difference in the makeup between the two regions. In the plug portion of domain, the crystal partial density is 100 while the melt currently has no crystals.</p>
+<h1 id="Week-of-2025.2.23">Week of 2025.2.23<a class="anchor-link" href="#Week-of-2025.2.23">¶</a></h1><p>Last week we split the domain in half. Half of the domain (-1000, -500) is the liquid melt which viscous frictional force is applied to. The other half of the domain is the plug which shear frictional force is applied. The crystal content is the only difference in the makeup between the two regions. In the plug portion of domain, the crystal partial density is 50 while the melt currently has no crystals.</p>
 <p>To verify the numerical solution lets consider the analytical solution</p>
 <h2 id="1.0-Analytical-solution">1.0 Analytical solution<a class="anchor-link" href="#1.0-Analytical-solution">¶</a></h2><p>Let's first consider the analytical problem. First the force balance for the plug can be written like so</p>
 <p>$$
@@ -7546,7 +7546,7 @@ P_{-500} = p_{atm} + \frac{2 L \tau_p}{R} \\
 P_{-500} = 1e5 [Pa] + \frac{2 * 500 [m] * 2e5 [Pa]}{50 * [m]} \\ 
 P_{-500} = 4.1e6 [Pa]
 $$</p>
-<p>To verify the stead state I am going to run the simulation with the $P_r = 1e5$ and $P_l = 4.1e6$. Based on our calculations that should result in a static solution.</p>
+<p>To verify the steady state I am going to run the simulation with the $P_r = 1e5$ and $P_l = 4.1e6$. Based on our calculations that should result in a static solution.</p>
 </div>
 </div>
 </div>
@@ -7626,7 +7626,7 @@ $$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.2-Numerical-static,-steady-state-solution">1.2 Numerical static, steady state solution<a class="anchor-link" href="#1.2-Numerical-static,-steady-state-solution">¶</a></h2><p>I used a SlipWall boundary condition on the left side. The slip does go slightly negative with the current way I am simulating this.</p>
+<h2 id="1.2-Numerical-static,-steady-state-solution">1.2 Numerical static, steady state solution<a class="anchor-link" href="#1.2-Numerical-static,-steady-state-solution">¶</a></h2><p>I used a SlipWall boundary condition on the left side. The plug slip does go slightly negative as a result of slight waves in the pressure gradient. The crystal boundary (used to distinguish between plug and melt) is also not perfect.</p>
 </div>
 </div>
 </div>
@@ -13598,6 +13598,7 @@ LjcuMTAw
 <h2 id="Open-questions">Open questions<a class="anchor-link" href="#Open-questions">¶</a></h2><ol>
 <li>My current mapping from pressure to melt partial density is $\rho = \frac{\rho_0}{1 - \frac{p-p_0}{K}}$. It appears to me that the mapping breaks down for pressure less than 2e6. Is there a better function?</li>
 <li>Because of my slightly incorrect ICs, we do see negative velocity (and therefore negative slip) at times which is not so ideal.</li>
+<li>The crystal boundary is not a perfect boundary for the plug. Should we worry about that?</li>
 </ol>
 </div>
 </div>
