@@ -5,9 +5,13 @@ permalink: /adventures/2024/04/bow-yoho-traverse/
 image: /images/2024-04-bow-yo-ho/Bow-Yoho-55.jpg
 ---
 
+The Bow Yoho ski traverse is a sister traverse of the much more famous Wapta Traverse. Both traverses lie on the border of Alberta and British Columiba in the Canadian Rockies. The Bow Yoho tarverse begins at Bow Lake and ends in Yoho National Park. A large part of what makes both traverses so well known is the impressive network of huts build and maintained by the [Alpine Club of Canada](https://alpineclubofcanada.ca/). 
+
+In the fall, of 2023 I made plans with Sam Abarnethy, Celia Keany, and Wyatt Mullen to make a five day traverse of Bow Yoho in early April of 2024. Sam and Celia flew in from San Fransisco, while Wyatt and I were coming from Seattle. 
+
 ![A late start at Bow Lake.](/images/2024-04-bow-yo-ho/Bow-Yoho-75.jpg)
 
-We started skinning across Bow Lake and up towards Bow Hut at about 5 PM after spending most of the day in Calgary waiting for Sam's skies to arrive from Vancouver. Our start was further delayed by other afternoon shenanigans including getting our rental car briefly stuck in a snowbank. Fortunately, Bow Hut is not very far from Bow Lake and we made it to the hut as the light was fading.
+We began skinning across Bow Lake and up towards Bow Hut at about 5 PM Saturday March 30th after spending most of the day in Calgary waiting for Sam's skies to arrive from Vancouver. Our start was further delayed by other afternoon shenanigans including getting our rental car briefly stuck in a snowbank. Fortunately, Bow Hut is not very far from Bow Lake and we made it to the hut as the light was fading.
 
 ![A late start at Bow Lake.](/images/2024-04-bow-yo-ho/Bow-Yoho-74.jpg)
 
@@ -27,7 +31,7 @@ The next morning, we eat a slow breakfast of Celia constructed gluten free panca
 
 ![The hut had a nice view.](/images/2024-04-bow-yo-ho/Bow-Yoho-1.jpeg)
 
-The view from Des Poilus was much better than the south facing skiing off the summit. After a brief inspection and run down the smaller Yoho peak, we return to the Guy Hut for lunch, snow cream (condensed milk and snow), and many rounds of hearts. 
+The view from Des Poilus was much better than the south facing breakable crust skiing off the summit. After a brief inspection and lap on the smaller Yoho peak, we return to the Guy Hut for lunch, snow cream (condensed milk and snow), and many rounds of the card game hearts. 
 
 ![And there was a nice view of the Guy hut in the evening light..](/images/2024-04-bow-yo-ho/Bow-Yoho-58.jpg)
 
