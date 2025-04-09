@@ -86,7 +86,7 @@ That evening, once the rest of my group had returned we were joined by 11 dudes 
 
 ## Exit 
 
-After a Sunday breakfast of oats at about 7 AM, we began packing our gear and watched the guiding California boys chow down on bacon, eggs, and potatoes with some jealousy. The exit itself took a little under four hours. The technical crux was the icy steep track that we skied down to the Yoho Valley. Once in the Valley we all used some combination of pole pushing and skating to make it down the road.
+After a Sunday breakfast of oats at about 7 AM, we began packing our gear and watched the guided California boys chow down on bacon, eggs, and potatoes with some jealousy. The exit itself took a little under four hours. The technical crux was the icy steep track that we skied down to the Yoho Valley. Once in the Valley we all used some combination of pole pushing and skating to make it down the road.
 
 All in all, this traverse was excellent for meeting new people and getting to know old friends better. After two consecutive years on the Bow Yoho, I am not in a huge rush to do the same route again although the Wapta traverse still intrigues me. 
 
