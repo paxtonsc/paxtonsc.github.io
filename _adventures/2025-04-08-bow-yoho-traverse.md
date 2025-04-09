@@ -86,7 +86,7 @@ That evening, once the rest of my group had returned we were joined by 11 dudes 
 
 ## Exit 
 
-After a Sunday breakfast of oats at about 7 AM, we began packing our gear and watched the guided California boys chow down on bacon, eggs, and potatoes with some jealousy. The exit itself took a little under four hours. The technical crux was the icy steep track that we skied down to the Yoho Valley. Once in the Valley we all used some combination of pole pushing and skating to make it down the road.
+After a Sunday breakfast of oats at about 7 AM, we began packing our gear and watched the guided California boys chow down on bacon, eggs, and potatoes with some jealousy. The exit itself took a little under four hours. The technical crux was the icy steep track that we skied down to the Yoho Valley. Once in the valley we all used some combination of pole pushing and skating to make it down the road.
 
 All in all, this traverse was excellent for meeting new people and getting to know old friends better. After two consecutive years on the Bow Yoho, I am not in a huge rush to do the same route again although the Wapta traverse still intrigues me. 
 
@@ -96,9 +96,10 @@ All in all, this traverse was excellent for meeting new people and getting to kn
 - Bow hut had slightly damp wood, and it would have been helpful to have some kind of fire starter. 
 - Bow Hut has USB chargers. Guy and Stanely Mitchell do not.
 - A climbing helmet rather than a ski helmet is nice from a weight perspective. 
-- Warm liquids are nice in the evenings, consider bringing hot chocolate and bone broth. 
 - Eating oats every day does start to get old. For the days we didn't move huts it might have been tasty to have some egg/bacon/potato breakfast. 
-- When we did eat oats, about 180g of oat mix per person would have been correct. I packed about 230g per person for this trip. 
+- When we did eat oats, about 180g of oat mix per person would have been correct. I packed about 230g per person for this trip.
+- Warm liquids are nice in the evenings, consider bringing hot chocolate and bone broth. 
+- Overall, I packed about 1250 grams of food per day. In retrospect, 950 grams per day would have been sufficient.
 - A lightweight ~60L backpack is about correct for a trip like this. I was carrying a 85L Osprey, but if I did the traverse over I would purchase something like this [55L Headwall](https://hyperlitemountaingear.com/products/headwall-55?variant=41197454000173&utm_source=google&utm_medium=cpc&utm_campaign=18667390244&utm_source=&tw_source=google&tw_adid=&tw_campaign=18667390244&gad_source=1&gclid=CjwKCAjwktO_BhBrEiwAV70jXuCdT3H2l61DKxMwhQD3guYMeB3OsuuoglGrWQzH_vmuOgGoMR1IZBoCDaUQAvD_BwE) pack. 
 - The huts are warm enough food can turn moldy. I brought Trader Joes tortillas and regretted not bringing Mission tortillals with all their tasty preservatives. 
 
@@ -108,7 +109,7 @@ As an aside on Lidar resolution, In the US we are fortunate to have most of the 
 
 ### Maps
 
-I put together this [caltopo](https://caltopo.com/m/NNKK6FM) file for our traverse and added our tracks from both April 2024 and April 2025. 
+I put together this [Caltopo](https://caltopo.com/m/NNKK6FM) file for our traverse and added our tracks from both April 2024 and April 2025. I tried also to add helpful comments regarding ideal places to rip skins on the exit. 
 
 
 
