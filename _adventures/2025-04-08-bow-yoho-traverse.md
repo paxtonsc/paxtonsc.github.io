@@ -7,11 +7,11 @@ image: /images/2025-04-bow-yoho/20250402-BowYoho-16.jpg
 
 ##  Preparation
 
-In late February, I got a surprise invite from Ben to join him and five others on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out. I had skied the traverse just a year before, and it had been an excellent trip. Initially, I had some reveservations about joining (I’ve seen the traverse already! What if the snow isn’t any good?) but ultimately I decided life was too short to say no to such opportunities.
+In late February, I got a surprise invite from Ben to join him and five others on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out. I had skied the traverse just a year before, and it had been an excellent trip. Initially, I had some reservations about joining (I’ve seen the traverse already! What if the snow isn’t any good?) but ultimately I decided life was too short to say no to such opportunities.
 
 I flew to Calgary on March 30th and met Catherine and Blaire at the airport. We drove slightly over an hour to Canmore, where we stayed at the Lamphouse Hotel in an apartment that could fit all seven of us. 
 
-We had originally planned to ski into Peyto Hut Monday morning, but with considerable avalanche risk and Ben’s 30th birthday on Monday we decided to go in a day late, directly from Bow Lake to Bow Hut. Sam had talked with the Alpine Club of Canada folks who assessed the Bow Lake approach as slightly less complicated and perhaps less risky thann the Peyto approach.
+We had originally planned to ski into Peyto Hut Monday morning, but with considerable avalanche risk and Ben’s 30th birthday on Monday we decided to go in a day late, directly from Bow Lake to Bow Hut. Sam had talked with the Alpine Club of Canada folks who assessed the Bow Lake approach as slightly less complicated and perhaps less risky than the Peyto approach.
 
 Because we pushed the trip back a day, we were able to go for a low angle tour near Lake O’Hara, practice our crevasse rescue skills, and drop a car at the base of Yoho Valley. The parking lot at the base has a large sign that says “no overnight parking” but our understanding is that sign is routinely ignored by folks doing the Bow to Yoho route. 
 
@@ -33,7 +33,7 @@ On Wednesday, after a breakfast of oats we headed generally in the direction of 
 
 ![20250402-BowYoho-16.jpg](/images/2025-04-bow-yoho/20250402-BowYoho-16.jpg) *Powder and sun!*
 
-After those two laps we lost all visibility, so we skinned towards Gordon, navigating with caltopo. We were roped and felt reasonably safe given that we were not aware of any open crevasses on the low angle flank of Gordon. We were ultimately turned around just shy of the summit by a small windlip that seemed imprudent to ski over in the low visability conditions. Instead of skiing the more poopular Northeast face, we just glided back along our tracks and made small turns when the gradient allowed it. Fortunately, the sun came out and it was very scenic. On our way back we did another handful of nice laps on the slope near Bow hut. 
+After those two laps we lost all visibility, so we skinned towards Gordon, navigating with caltopo. We were roped and felt reasonably safe given that we were not aware of any open crevasses on the low angle flank of Gordon. We were ultimately turned around just shy of the summit by a small windlip that seemed imprudent to ski over in the low visibility conditions. Instead of skiing the more popular Northeast face, we just glided back along our tracks and made small turns when the gradient allowed it. Fortunately, the sun came out and it was very scenic. On our way back we did another handful of nice laps on the slope near Bow hut. 
 
 ![20250402-BowYoho-24.jpg](/images/2025-04-bow-yoho/20250402-BowYoho-24.jpg) *A partially farmed hill.*
 
@@ -63,7 +63,7 @@ We ate lunch in the hut, played a round of hearts, and then went back out to cli
 
 ![20250403-BowYoho-58.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-58.jpg) *Nahla makes the windcrusted snow looked deceptively good.*
 
-Friday morning, we decided to make an ascent of the North Summit of De Pollius (which apparently translates to ‘the hairy people’). The North summit is much chiller than the main south summit with both lower avalanche and crevase risk. It was a bright blue day and we had a reasonably easy ski tour over to the summit. 
+Friday morning, we decided to make an ascent of the North Summit of De Pollius (which apparently translates to ‘the hairy people’). The North summit is much chiller than the main south summit with both lower avalanche and crevasse risk. It was a bright blue day and we had a reasonably easy ski tour over to the summit. 
 
 ![20250404-BowYoho-22.jpg](/images/2025-04-bow-yoho/20250404-BowYoho-22.jpg) *Catherine and Nahla setting the skin track.* 
 
@@ -74,7 +74,7 @@ Back at the hut I was starting to get sick and lose my voice, so napped all afte
 
 ##  Stanley Mitchell Hut 
 
-Due to the considerable avalanche risk and warming temperatures, we decided to take the more conservative Whaleback route to Stanley Mitchell rather than Isolated Col. The traverse over to the Whaleback was quite pleasant. The subsequent climb was up a low angle north facing slope straightforward and the descent down a south facing 35+ degree slope towards the valley that the Stanly Mitchell Hut was less heinous than I would have guessed. The south face still had a firm crust and we were able to sideslip all the way down into the valley. 
+Due to the considerable avalanche risk and warming temperatures, we decided to take the more conservative Whaleback route to Stanley Mitchell rather than Isolated Col. The traverse over to the Whaleback was quite pleasant. The subsequent climb was up a low angle north facing slope straightforward and the descent down a south facing 35+ degree slope towards the valley that the Stanley Mitchell Hut was less heinous than I would have guessed. The south face still had a firm crust and we were able to sideslip all the way down into the valley. 
 
 ![20250405-BowYoho-6.jpg](/images/2025-04-bow-yoho/20250405-BowYoho-6.jpg) *Sliding down towards the back of the whale.*
 
@@ -92,7 +92,7 @@ All in all, this traverse was excellent for meeting new people and getting to kn
 
 
 ## General notes
-### Serious takeways
+### Serious takeaways
 - Bow hut had slightly damp wood, and it would have been helpful to have some kind of fire starter. 
 - Bow Hut has USB chargers. Guy and Stanely Mitchell do not.
 - A climbing helmet rather than a ski helmet is nice from a weight perspective. 
@@ -100,7 +100,7 @@ All in all, this traverse was excellent for meeting new people and getting to kn
 - Eating oats every day does start to get old. For the days we didn't move huts it might have been tasty to have some egg/bacon/potato breakfast. 
 - When we did eat oats, about 180g of oat mix per person would have been correct. I packed about 230g per person for this trip. 
 - A lightweight ~60L backpack is about correct for a trip like this. I was carrying a 85L Osprey, but if I did the traverse over I would purchase something like this [55L Headwall](https://hyperlitemountaingear.com/products/headwall-55?variant=41197454000173&utm_source=google&utm_medium=cpc&utm_campaign=18667390244&utm_source=&tw_source=google&tw_adid=&tw_campaign=18667390244&gad_source=1&gclid=CjwKCAjwktO_BhBrEiwAV70jXuCdT3H2l61DKxMwhQD3guYMeB3OsuuoglGrWQzH_vmuOgGoMR1IZBoCDaUQAvD_BwE) pack. 
-- The huts are warm enough food can turn moldy. I brought Trader Joes toritillas and regreted not bringing Mission tortillals with all their tasty perservatives. 
+- The huts are warm enough food can turn moldy. I brought Trader Joes tortillas and regretted not bringing Mission tortillals with all their tasty preservatives. 
 
 ### LIDAR resolution
 
