@@ -76,7 +76,7 @@ Back at the hut I was starting to get sick and lose my voice, so napped all afte
 
 Due to the considerable avalanche risk and warming temperatures, we decided to take the more conservative Whaleback route to Stanley Mitchell rather than Isolated Col. The traverse over to the Whaleback was quite pleasant. The subsequent climb was up a low angle north facing slope straightforward and the descent down a south facing 35+ degree slope towards the valley that the Stanley Mitchell Hut was less heinous than I would have guessed. The south face still had a firm crust and we were able to sideslip all the way down into the valley. 
 
-![20250405-BowYoho-6.jpg](/images/2025-04-bow-yoho/20250405-BowYoho-6.jpg) *Sliding down towards the back of the whale.*
+![20250405-BowYoho-6.jpg](/images/2025-04-bow-yoho/20250405-BowYoho-6.jpg) *Towards the back of the whale.*
 
 Stanley Mitchell is a very beautiful and classic looking hut. Unlike Bow and Guy, there are no solar panels or propane heating. But there is a very nice large fireplace, and after four nights above the treeline it felt good to be amidst plants again. 
 
