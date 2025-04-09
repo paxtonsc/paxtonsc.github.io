@@ -47,9 +47,9 @@ Thursday was traverse day! We briefly debated an early morning summit of Gordon 
 
 We started skinning from Bow at about 8:30 AM and despite setting the skin track we had a pretty easy traverse. 
 
-![20250403-BowYoho-35.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-35.jpg) *The crevasses below Mt. Collie were even more filled in than I remembered from the previous year.*
+![20250403-BowYoho-35.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-35.jpg) *Ideal conditions for skinning across a large flat glacier.* 
 
-![20250403-BowYoho-37.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-37.jpg) *Setting a skin track up towards Mt. Collie*
+![20250403-BowYoho-37.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-37.jpg) *The crevasses below Mt. Collie were even more filled in than I remembered from the previous year.*
 
 The only notable hiccup was a local terrain feature that does not even show up on Caltop with its 10-30m resolution in Canada. Right before the track gains the ridge above Guy Hut there is a steep slope that the route traverses. Below the slope is the edge of the glacier with depression at the edge looking like a nasty terrain trap. Last year we had just skied across the steep slope, but this year as I approached the steep slope I decided it seemed like a bad idea to cross. The slope looked windloaded and I was nervous about the persistent weak layer. So I turned around and walked back towards the group and suggested we loop back down the glacier and then back up a lower angle portion of the ridge. From where we were conversing the steep slope was not visible, but the other six agreed to my suggestion and did not complain as we made a big loop to avoid the 10m of cutting across the steeper slope. After we gained the ridge, the group was even kind enough to agree that the slope I had avoided did look pretty steep and did look somewhat windloaded.
 
