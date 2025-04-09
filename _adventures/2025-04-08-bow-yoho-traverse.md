@@ -59,9 +59,9 @@ Built in 2015, Guy hut is the most modern on the traverse and always bordering o
 
 ![20250403-BowYoho-55.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-55.jpg) *Guy hut with both Isolated Col and the Presidents in the background.*
 
-We ate lunch in the hut, played a round of hearts, and then went back out to climb the short distance up to the summit of Yoho peak. After a single lap on wind-crusted snow we returned to the hut and chatted with three folks from Quebec who had skinned in from Bow Lake that morning and were planning to ski Mount Collie the next day.
+We ate lunch in the hut, played a round of hearts, and then went back out to climb the short distance up to the summit of Yoho peak. After a single lap on wind crusted snow we returned to the hut and chatted with three folks from Quebec who had skinned in from Bow Lake that morning and were planning to ski Mount Collie the next day.
 
-![20250403-BowYoho-58.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-58.jpg) *Nahla makes the windcrusted snow looked deceptively good.*
+![20250403-BowYoho-58.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-58.jpg) *Nahla makes the wind crusted snow looked deceptively good.*
 
 Friday morning, we decided to make an ascent of the North Summit of De Pollius (which apparently translates to ‘the hairy people’). The North summit is much chiller than the main south summit with both lower avalanche and crevasse risk. It was a bright blue day and we had a reasonably easy ski tour over to the summit. 
 
