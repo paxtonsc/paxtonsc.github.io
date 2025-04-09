@@ -10,11 +10,11 @@ image: /images/2025-04-bow-yoho/20250402-BowYoho-16.jpg
 
 ##  Preparation
 
-In late February, I got a surprise invite from Ben to join his group of six on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out. I had skied the traverse just a year before, and it had been an excellent trip. Initially, I had some reveservations about joining (I’ve seen the traverse already! What if the snow isn’t any good?) but ultimately I decided life was too short to say no to such opportunities.
+In late February, I got a surprise invite from Ben to join him and five others on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out. I had skied the traverse just a year before, and it had been an excellent trip. Initially, I had some reveservations about joining (I’ve seen the traverse already! What if the snow isn’t any good?) but ultimately I decided life was too short to say no to such opportunities.
 
 I flew to Calgary on March 30th and met Catherine and Blaire at the airport. We drove slightly over an hour to Canmore, where we stayed at the Lamphouse Hotel in an apartment that could fit all seven of us. 
 
-We had originally planned to ski into Peyto Hut Monday morning, but with considerable avalanche risk and Ben’s 30th birthday on Monday we decided to go in a day late, directly from Bow Lake to Bow Hut. Sam had talked with the Alpine Club of Canada folks who assessed the Bow Lake approach as slightly less complicated and perhaps less risky.
+We had originally planned to ski into Peyto Hut Monday morning, but with considerable avalanche risk and Ben’s 30th birthday on Monday we decided to go in a day late, directly from Bow Lake to Bow Hut. Sam had talked with the Alpine Club of Canada folks who assessed the Bow Lake approach as slightly less complicated and perhaps less risky thann the Peyto approach.
 
 Because we pushed the trip back a day, we were able to go for a low angle tour near Lake O’Hara, practice our crevasse rescue skills, and drop a car at the base of Yoho Valley. The parking lot at the base has a large sign that says “no overnight parking” but our understanding is that sign is routinely ignored by folks doing the Bow to Yoho route. 
 
@@ -32,11 +32,11 @@ Bow Hut itself is very comfortable. We arrived just as three Italians were start
 
 After lunch we got out for an afternoon lap. We had a brief clearing of weather before losing all visibility for the ski down.
 
-On Wednesday, learning from our mistake the previous day we dedicated ourselves to setting out visibility or no visibility and rip skins as soon as we got a clearing. We headed generally in the direction of Mt. Gordon. The morning started out reasonably clear, and not wanting to squander our good luck we took two laps on the 500ft hill near Bow hut.
+On Wednesday, after a breakfast of oats we headed generally in the direction of Mt. Gordon. The morning started out reasonably clear, and not wanting to squander our good luck we took two laps on the 500ft hill near Bow hut.
 
 ![20250402-BowYoho-16.jpg](/images/2025-04-bow-yoho/20250402-BowYoho-16.jpg) *Powder and sun!*
 
-After those two laps we again lost all visibility, so we skinned towards Gordon, navigating with caltopo. We were roped and felt reasonably safe given that we were not aware of any open crevasses on the low angle flank of Gordon. We were ultimately turned around by a small windlip just below the summit. Instead of skiing the more poopular Northeast face, we just glided back along our tracks and made small turns when the gradient allowed it. Fortunately, the sun came out and it was very scenic. On our way back we did another handful of nice laps on the slope near Bow hut. 
+After those two laps we lost all visibility, so we skinned towards Gordon, navigating with caltopo. We were roped and felt reasonably safe given that we were not aware of any open crevasses on the low angle flank of Gordon. We were ultimately turned around just shy of the summit by a small windlip that seemed imprudent to ski over in the low visability conditions. Instead of skiing the more poopular Northeast face, we just glided back along our tracks and made small turns when the gradient allowed it. Fortunately, the sun came out and it was very scenic. On our way back we did another handful of nice laps on the slope near Bow hut. 
 
 ![20250402-BowYoho-24.jpg](/images/2025-04-bow-yoho/20250402-BowYoho-24.jpg) *A partially farmed hill.*
 
@@ -50,14 +50,11 @@ Thursday was traverse day! We briefly debated an early morning summit of Gordon 
 
 We started skinning from Bow at about 8:30 AM and despite setting the skin track we had a pretty easy traverse. 
 
-![20250403-BowYoho-35.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-35.jpg)
-
-The crevasses below Mt. Collie were even more filled in than I remembered from the previous year. 
+![20250403-BowYoho-35.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-35.jpg) *The crevasses below Mt. Collie were even more filled in than I remembered from the previous year.*
 
 ![20250403-BowYoho-37.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-37.jpg) *Setting a skin track up towards Mt. Collie*
 
-
-The only notable hiccup was with a local terrain feature that does not even show up on Caltop with its 10-30m resolution in Canada. Right before we gained the ridge above Guy Hut there is a steep slope that the route traverse. Below the slope is the edge of the glacier with depression at the edge looking like a nasty terrain trap. Last year we had just skied across the steep slope, but this year as I approached the steep slope I decided it seemed like a bad idea to cross. The slope looked windloaded and I was nervous about the persistent weak layer. So I turned around and walked back towards the group and suggested we loop back down the glacier and then back up a lower angle portion of the ridge. From where we were conversing the steep slope was not visible, but the other six agreed to my suggestion and did not complain as we made a big loop to avoid the 10m of cutting across the steeper slope. After we gained the ridge, the group was even kind enough to agree that the slope I had avoided did look pretty steep and windloaded.
+The only notable hiccup was a local terrain feature that does not even show up on Caltop with its 10-30m resolution in Canada. Right before the track gains the ridge above Guy Hut there is a steep slope that the route traverses. Below the slope is the edge of the glacier with depression at the edge looking like a nasty terrain trap. Last year we had just skied across the steep slope, but this year as I approached the steep slope I decided it seemed like a bad idea to cross. The slope looked windloaded and I was nervous about the persistent weak layer. So I turned around and walked back towards the group and suggested we loop back down the glacier and then back up a lower angle portion of the ridge. From where we were conversing the steep slope was not visible, but the other six agreed to my suggestion and did not complain as we made a big loop to avoid the 10m of cutting across the steeper slope. After we gained the ridge, the group was even kind enough to agree that the slope I had avoided did look pretty steep and did look somewhat windloaded.
 
 ![20250403-BowYoho-45.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-45.jpg) *If you look closely, you can see where I started to traverse before backtracking below the exposed rock face.*
 
@@ -67,32 +64,32 @@ Built in 2015, Guy hut is the most modern on the traverse and always bordering o
 
 We ate lunch in the hut, played a round of hearts, and then went back out to climb the short distance up to the summit of Yoho peak. After a single lap on wind-crusted snow we returned to the hut and chatted with three folks from Quebec who had skinned in from Bow Lake that morning and were planning to ski Mount Collie the next day.
 
-![20250403-BowYoho-58.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-58.jpg) *Cool shade line on crusty snow.*
+![20250403-BowYoho-58.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-58.jpg) *Nahla makes the windcrusted snow looked deceptively good.*
 
 Friday morning, we decided to make an ascent of the North Summit of De Pollius (which apparently translates to ‘the hairy people’). The North summit is much chiller than the main south summit with both lower avalanche and crevase risk. It was a bright blue day and we had a reasonably easy ski tour over to the summit. 
 
 ![20250404-BowYoho-22.jpg](/images/2025-04-bow-yoho/20250404-BowYoho-22.jpg) *Catherine and Nahla setting the skin track.* 
 
-![20250404-BowYoho-38.jpg](/images/2025-04-bow-yoho/20250404-BowYoho-38.jpg) *Long angle glacier pow.*
+![20250404-BowYoho-38.jpg](/images/2025-04-bow-yoho/20250404-BowYoho-38.jpg) *Low angle glacier pow.*
 
 Back at the hut I was starting to get sick and lose my voice, so napped all afternoon in the warm hut which was very pleasant. 
 
 
 ##  Stanley Mitchell Hut 
 
-Due to the considerable avalanche risk and warming temperatures, we decided to take the more conservative Whaleback route to Stanley Mitchell rather than Isolated Col. The traverse over to the Whaleback was quite pleasant: the climb was up a low angle north facing slope straightforward and the descent down a south facing 35+ degree slope towards the valley that the Stanly Mitchell Hut was less heinous than I would have guessed. The south face still had a firm crust and we were able to sideslip all the way down into the valley. 
+Due to the considerable avalanche risk and warming temperatures, we decided to take the more conservative Whaleback route to Stanley Mitchell rather than Isolated Col. The traverse over to the Whaleback was quite pleasant. The subsequent climb was up a low angle north facing slope straightforward and the descent down a south facing 35+ degree slope towards the valley that the Stanly Mitchell Hut was less heinous than I would have guessed. The south face still had a firm crust and we were able to sideslip all the way down into the valley. 
 
 ![20250405-BowYoho-6.jpg](/images/2025-04-bow-yoho/20250405-BowYoho-6.jpg) *Sliding down towards the back of the whale.*
 
 Stanley Mitchell is a very beautiful and classic looking hut. Unlike Bow and Guy, there are no solar panels or propane heating. But there is a very nice large fireplace, and after four nights above the treeline it felt good to be amidst plants again. 
 
-When we arrived at Stanely Mitchell I was hitting peak sickness, so while the rest of the group went to inspect the Presidents, I put on all my clothes and got in my sleeping bag and napped, only waking to periodically add wood to the fire. 
+When we arrived at Stanely Mitchell I was hitting peak sickness, so while the rest of the group went to inspect the toe of the Presidents glacier, I put on all my clothes and got in my sleeping bag and napped, only waking to periodically add wood to the fire. 
 
 That evening, once the rest of my group had returned we were joined by 11 dudes from SF and two Canadian guides. They were in high spirits, and although our group was initially a little leery about sharing the hut with this hooligan fraternity they ultimately were very pleasant folks to share the hut with and endeared themselves to us with comments like “wow, you all are a very studious group. No one in our group can read!”. It helped that we were able to occupy the sleeping area adjacent to the fireplace on the ground level while they got the entire upstairs. It also helped that their Canadian guides did all the cooking and cleaning which reduced the kitchen congestion substantially. 
 
 ## Exit 
 
-After a Sunday breakfast of oats at about 7 AM, we began packing our gear and watched the guiding California boys chow down on bacon, eggs, and potatoes with some small jealousy. The exit itself took a little under four hours. The technical crux was the icy steep track that we skied down to the Yoho Valley. Once in the Valley we all used some combination of pole pushing and skating to make it down the road.
+After a Sunday breakfast of oats at about 7 AM, we began packing our gear and watched the guiding California boys chow down on bacon, eggs, and potatoes with some jealousy. The exit itself took a little under four hours. The technical crux was the icy steep track that we skied down to the Yoho Valley. Once in the Valley we all used some combination of pole pushing and skating to make it down the road.
 
 All in all, this traverse was excellent for meeting new people and getting to know old friends better. After two consecutive years on the Bow Yoho, I am not in a huge rush to do the same route again although the Wapta traverse still intrigues me. 
 
