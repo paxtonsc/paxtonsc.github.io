@@ -5,9 +5,6 @@ permalink: /adventures/2025/04/bow-yoho-traverse/
 image: /images/2025-04-bow-yoho/20250402-BowYoho-16.jpg
 ---
 
-[Caltopo](https://caltopo.com/m/NNKK6FM)
-
-
 ##  Preparation
 
 In late February, I got a surprise invite from Ben to join him and five others on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out. I had skied the traverse just a year before, and it had been an excellent trip. Initially, I had some reveservations about joining (I’ve seen the traverse already! What if the snow isn’t any good?) but ultimately I decided life was too short to say no to such opportunities.
@@ -108,6 +105,10 @@ All in all, this traverse was excellent for meeting new people and getting to kn
 ### LIDAR resolution
 
 As an aside on Lidar resolution, In the US we are fortunate to have most of the country mapped with high resolution LIDAR data that provides ~1m resolution. Here is an  [interactive map](https://caltopo.com/map.html#ll=37.09024,-95.71289&z=4&b=mbt&o=cl_%257B%2522template%2522%253A%2522https%253A%252F%252Fcaltopo.com%252Ftile%252Fdem2coverage%252F%257BZ%257D%252F%257BX%257D%252F%257BY%257D.png%2522%252C%2522type%2522%253A%2522TILE%2522%252C%2522maxzoom%2522%253A%252216%2522%257D&n=1&cl=%7B%22custom%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22id%22%3A%22e3a1b868-6ad1-4f2d-9af9-6a7328b98219%22%2C%22geometry%22%3Anull%2C%22properties%22%3A%7B%22title%22%3A%22High%20Res%20Coverage%22%2C%22template%22%3A%22https%3A%2F%2Fcaltopo.com%2Ftile%2Fdem2coverage%2F%7BZ%7D%2F%7BX%7D%2F%7BY%7D.png%22%2C%22type%22%3A%22TILE%22%2C%22maxzoom%22%3A%2216%22%2C%22alphaOverlay%22%3Afalse%2C%22class%22%3A%22CustomLayer%22%7D%7D%5D%7D) to show where that high resolution LIDAR data is available. Along the traverse, our resolution was 10-30m which means slope angle shading is not helpful for local terrain decisions.
+
+### Maps
+
+I put together this [caltopo](https://caltopo.com/m/NNKK6FM) file for our traverse and added our tracks from both April 2024 and April 2025. 
 
 
 
