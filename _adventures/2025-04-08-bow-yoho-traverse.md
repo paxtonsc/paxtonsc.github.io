@@ -2,14 +2,10 @@
 title: '2025 Bow Yoho Traverse'
 date: 2025-04-01
 permalink: /adventures/2025/04/bow-yoho-traverse/
-images:
+image: /images/2025-04-bow-yoho/20250402-BowYoho-16.jpg
 ---
 
 [Caltopo](https://caltopo.com/m/NNKK6FM)
-
-
-
-
 
 
 ##  Preparation
