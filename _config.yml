@@ -94,7 +94,7 @@ staticman:
   endpoint               : "https://paxton-staticman-app-d030d7c71328.herokuapp.com"
   repository             : "paxtonsc/paxtonsc.github.io"
   branch: "main"
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
