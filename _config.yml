@@ -90,6 +90,10 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
+  enabled                : true
+  endpoint               : "https://paxton-staticman-app-d030d7c71328.herokuapp.com"
+  repository             : "paxtonsc/paxtonsc.github.io"
+  branch: "main"
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
@@ -119,7 +123,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : #&twitter
 facebook:
   username               :
   app_id                 :
