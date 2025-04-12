@@ -91,11 +91,11 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   enabled                : true
-  endpoint               : "https://staticman-comments-e1bj.onrender.com/"
+  endpoint               : "https://staticman-comments-e1bj.onrender.com"
   repository             : "paxtonsc/paxtonsc.github.io"
   branch: "main"
   allowedFields          : ['name', 'email', 'message']
-  branch                 : "main" # "master", "gh-pages"
+  branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
