@@ -91,7 +91,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   enabled                : true
-  endpoint               : "https://paxton-staticman-app-d030d7c71328.herokuapp.com"
+  endpoint               : "https://staticman-comments-e1bj.onrender.com/"
   repository             : "paxtonsc/paxtonsc.github.io"
   branch: "main"
   allowedFields          : ['name', 'email', 'message']
