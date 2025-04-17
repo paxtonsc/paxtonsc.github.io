@@ -5,9 +5,15 @@ permalink: /adventures/2024/04/bow-yoho-traverse/
 image: /images/2024-04-bow-yo-ho/Bow-Yoho-55.jpg
 ---
 
-The Bow Yoho ski traverse is a sister traverse of the much more famous Wapta Traverse. Both traverses lie on the border of Alberta and British Columiba in the Canadian Rockies. The Bow Yoho tarverse begins at Bow Lake and ends in Yoho National Park. A large part of what makes both traverses so well known is the impressive network of huts build and maintained by the [Alpine Club of Canada](https://alpineclubofcanada.ca/). 
+The Bow Yoho ski traverse is a sister traverse of the much more famous Wapta Traverse. Both traverses lie on the border of Alberta and British Columiba in the Canadian Rockies. The Bow Yoho traverse begins at Bow Lake, crosses the Wapta Icefield, and ends in Yoho National Park. A large part of what makes both traverses so well known is the impressive network of huts built and maintained by the [Alpine Club of Canada](https://alpineclubofcanada.ca/). For 50 CAD per night, any Alpine Club of Canada member can book a spot in one of the six huts on the Wapta Icefield and in Yoho National Park.
 
-In the fall, of 2023 I made plans with Sam Abarnethy, Celia Keany, and Wyatt Mullen to make a five day traverse of Bow Yoho in early April of 2024. Sam and Celia flew in from San Fransisco, while Wyatt and I were coming from Seattle. 
+In the fall of 2023 I made plans with Sam Abernethy, Celia Keany, and Wyatt Mullen to make a five day traverse of Bow Yoho in early April of 2024. Sam had originally proposed the route. The hut to hut nature of the route appealed to us, as did the reasonably economical nightly fee and the absence of an expensive mandatory helicopter bump that many Canadian huts require. 
+
+Sam and Celia flew in from San Francisco, while Wyatt and I were coming from Seattle. 
+
+We began skinning across Bow Lake and up towards Bow Hut at about 5 PM Saturday March 30th after spending most of the day in Calgary waiting for Sam's skies to arrive from Vancouver. Our start was further delayed by other afternoon shenanigans including getting our rental car briefly stuck in a snowbank. Fortunately, Bow Hut is not very far from Bow Lake and we made it to the hut as the light was fading.
+
+
 
 ![A late start at Bow Lake.](/images/2024-04-bow-yo-ho/Bow-Yoho-75.jpg)
 
@@ -23,7 +29,7 @@ We skin across the Wapta Icefield from the Bow Hut towards the Richard Guy Hut. 
 
 ![Traversing towards Richard Guy Hut.](/images/2024-04-bow-yo-ho/Bow-Yoho-63.jpg)
 
-Approaching the Richard Guy Hut. 
+Approaching the Richard Guy Hut. The Richard Guy hut is the newest ACC hut. It opened in 2016 and includes amenities of a modern hut including propane heating and electric lighting from the solar panels and wind turbines on the roof. 
 
 ![Skiing above Richard Guy Hut.](/images/2024-04-bow-yo-ho/Bow-Yoho-55.jpg)
 
@@ -43,7 +49,7 @@ As we head towards the Stanley Mitchel Hut we pause in the grey morning light to
 
 ![Skiing above the Stanley Mitchell Hut.](/images/2024-04-bow-yo-ho/Bow-Yoho-2.jpeg)
 
-The Stanley Mitchell is the oldest hut on the traverse and we have the entire hut to ourselves. Unlike the Bow and Guy hut, the Mitchell hut is below treeline without more modern features like propane heating and attached bathrooms present in the other huts.
+The Stanley Mitchell is the oldest hut on the traverse and we have the entire hut to ourselves. Unlike the Bow and Guy hut, the Mitchell hut is below treeline without propane heating and electric lighting. That said, the large fireplace and solid wood construction give the Stanely Mitchell hut its own charm. 
 
 ![Skiing above the Stanley Mitchell Hut.](/images/2024-04-bow-yo-ho/Bow-Yoho-34.jpg)
 We got about 8 centimeters of fresh snow the first night we stayed at Stanley Mitchell which made for excellent turns the subsequent day. We summited Mount Kerr and had a sublime ski down the Northwest face.
@@ -58,5 +64,5 @@ Out skin track as we ski back towards Stanley Mitchell.
 
 ![Back at the car.](/images/2024-04-bow-yo-ho/Bow-Yoho-car.jpeg)
 
-For our final day, we ski up towards the Presidents for a final lap and then skin and slide the long flat road down the Yoho valley back to the car.
+For our final day, we ski up towards the Presidents for a final lap and then skin and slide the long flat road down the Yoho valley back to the car. From Stantely Mitchell back to the car is about 14 miles. First, to ski down the road requires some challenging skiing along the summer trail through reasonably thick trees. Then the road is mostly downhill, but there are a handful of small hills that keep things exciting.
 
