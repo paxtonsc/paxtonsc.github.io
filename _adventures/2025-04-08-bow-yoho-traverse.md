@@ -1,5 +1,5 @@
 ---
-title: '2025 Bow Yoho Traverse'
+title: 'Bow Yoho Traverse'
 date: 2025-04-01
 permalink: /adventures/2025/04/bow-yoho-traverse/
 image: /images/2025-04-bow-yoho/20250402-BowYoho-16.jpg
