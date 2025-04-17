@@ -14,7 +14,6 @@ Sam and Celia flew in from San Francisco, while Wyatt and I were coming from Sea
 We began skinning across Bow Lake and up towards Bow Hut at about 5 PM Saturday March 30th after spending most of the day in Calgary waiting for Sam's skies to arrive from Vancouver. Our start was further delayed by other afternoon shenanigans including getting our rental car briefly stuck in a snowbank. Fortunately, Bow Hut is not very far from Bow Lake and we made it to the hut as the light was fading.
 
 
-
 ![A late start at Bow Lake.](/images/2024-04-bow-yo-ho/Bow-Yoho-75.jpg)
 
 We began skinning across Bow Lake and up towards Bow Hut at about 5 PM Saturday March 30th after spending most of the day in Calgary waiting for Sam's skies to arrive from Vancouver. Our start was further delayed by other afternoon shenanigans including getting our rental car briefly stuck in a snowbank. Fortunately, Bow Hut is not very far from Bow Lake and we made it to the hut as the light was fading.
