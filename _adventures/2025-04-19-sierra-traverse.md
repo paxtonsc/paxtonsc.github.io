@@ -122,7 +122,7 @@ We paused briefly at Return creek to fill up bottles, and then put skins on to c
 
 The three of us recently returned from the [Bow Yoho Traverse](https://paxtonsc.github.io/adventures/2025/04/bow-yoho-traverse/) in Canada which we all agreed could have been twice as long and still enjoyable. That was not the case on this traverse. As the last day dawned I lay in my sleep bag thinking how nice it would be to sit in a car with the ability to regulate the environment with buttons, to eat a burger at Mammoth Brewing, and to be out of the damn sun that comes from all angles during the day. 
 
-But first, we had to get across Stanton Pass, which looked, based on the purple streaks in the slope shading on Caltopo, to be the crux of the trip. We were worried that the pass might be melted out, or corniced, or otherwise challenging. 
+But first, we had to get across Stanton Pass, which looked, based on the purple streaks in the slope angle shading on Caltopo, to be the crux of the trip. We were worried that the pass might be melted out, or corniced, or otherwise challenging. 
 
 The climb turned out to be a reasonable straightforward boot, no crampons needed. 
 
@@ -151,7 +151,7 @@ We were able to keep skis on until 8,000ft. From there it was a very pleasant st
 - Vert ascended: 19k feet
 - Number of times ski crampon used: 1
 - Number of times boot crampon used: 0
-- Number of times ice axe used: (plus as tent stakes)
+- Number of times ice axe used: 1 (plus as tent stakes)
 
 ### Maps
 - [Caltopo](https://caltopo.com/m/1310JA5)
