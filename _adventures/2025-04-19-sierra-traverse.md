@@ -6,17 +6,15 @@ image: /images/2025-04-sierra-traverse/20250421-sierra-traverse6183.jpg
 ---
 
 ## Preparation
-Sam and I started scheming the possibility of a Sierra traverse in the fall of 2024 after deciding Bugs to Rogers was too committing an objective for the spring of 2025. Our basic idea was a 7-day North/South traverse along the crest of the Sierra. We were inspired by the Redline route, although we knew that specific route would require a significantly above-average snowpack. 
+Sam and I started scheming the possibility of a Sierra traverse in the fall of 2024 after deciding Bugs to Rogers was too committing an objective for the spring of 2025. Our basic idea was a 7-day North/South traverse along the crest of the Sierra. 
 
-We ultimately decided to loosely follow the northern section of the summertime Roper’s Sierra High Route, starting at the Twin Lakes trailhead in Mammoth and ending at the Twin Lakes trailhead near Bridgeport. The route would take us near some really cool zones: The Minarets, Banner/Ritter, Thousand Island Lakes, Tuolumne Meadows, North Peak/Conness, Shepard’s Crest, and the Matterhorn. 
+We ultimately decided to loosely follow the northern section of the summertime Roper’s Sierra High Route, starting at the Twin Lakes Vista trailhead in Mammoth and ending at the Twin Lakes trailhead near Bridgeport. The route would take us near some really cool zones: The Minarets, Banner/Ritter, Thousand Island Lakes, Tuolumne Meadows, North Peak/Conness, Shepard’s Crest, and the Matterhorn. 
 
 We ultimately reduced the length of the trip to four nights to limit the number of calories we had to carry and also to make the trip fit into our mutual life constraints. About a week prior to departure, Nahla decided to join, which was excellent news as Nahla has spent more time in the Sierras than Sam and I combined, including a couple of summer Sierra High Route permutations. 
 
 ## Day 1: Mammoth <kbd>&rarr;</kbd> Minaret Lake
 
-On Friday, April 18th, I left Palo Alto at 4 AM and drove up to meet Sam and Nahla, who were both coming from South Lake Tahoe, at the Bridgeport Shell at 9:30. We then left Nahla’s car 1/4 mile east of Twin Lakes Resort (to avoid paying for parking) and drove my Prius to the Twin Lakes Vista trailhead in Mammoth. On the drive south, we decided to carry our avalanche transceivers and two shovels between the three of us. In retrospect, leaving the transceivers in the car would have been a reasonable choice given that we saw very little evidence of wet loose slides over the next five days. Sam also persuaded me to leave my trail runners. Nahla decided to carry hers. 
-
-We were skinning by about 12:30. 
+On Friday, April 18th, I left Palo Alto at 4 AM and drove up to meet Sam and Nahla, who were both coming from South Lake Tahoe, at the Bridgeport Shell at 9:30 AM. We then left Nahla’s car 1/4 mile east of Twin Lakes Resort (to avoid paying for parking) and drove my Prius to the Twin Lakes Vista trailhead in Mammoth. On the drive south, we decided to carry our avalanche transceivers and two shovels between the three of us. In retrospect, leaving the transceivers in the car would have been a reasonable choice given that we saw very little evidence of wet loose slides over the next five days. Sam also persuaded me to leave my trail runners. Nahla decided to carry hers. We were skinning by about 12:30. 
 
 ![20250418-sierra-traverse5942.jpg](/images/2025-04-sierra-traverse/20250418-sierra-traverse5942.jpg)
 *Road signs and railings made route finding straightforward.*
@@ -29,8 +27,6 @@ After a brief stop for lunch at the partially melted-out Reds Meadow Campground 
 ## Day 2: Minaret Lake <kbd>&rarr;</kbd> Lyell Fork
 
 The next morning we woke up around 7, and after eating a breakfast of oats and letting our gear dry a little bit, we were moving by about 8:45. 
-
-For the first couple of days of the trip, I was a proponent of breaking camp, starting to move, and then eating breakfast mid-morning once the temperature had increased and the sun had risen more fully. This is the model I adopted while backpacking with my dad. However, after the first couple of days on this ski traverse, I realized that with a group of three on a multi-day ski trip, it really makes more sense to eat breakfast at camp, which allows the people who pack their bags slightly faster to start the water and generally achieve a higher group efficiency score. 
 
 ![20250419-sierra-traverse5970.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse5970.jpg)
 *Skin skiing down towards Cecile Lake.*
@@ -46,7 +42,7 @@ We ate lunch at Garnet Pass and had a nice ski down to Thousand Island Lakes bef
 *Are we even going up?*
 
 ![20250419-sierra-traverse6020.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse6020.jpg)
-*Donohue Pass with the JMT descending the Lyell Valley behind Sam.*
+*Donohue Pass; the JMT descends the Lyell Valley behind Sam.*
 
 From Donohue, we skied down and made camp at 10,600 ft with a view of Lyell outside our tent door. We got into camp at the slightly earlier hour of 5 PM or so, and we had a nice rock to lounge on. It was a needed break. 
 
@@ -56,9 +52,7 @@ From Donohue, we skied down and made camp at 10,600 ft with a view of Lyell outs
 ![20250419-sierra-traverse6058.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse6058.jpg)
 *Nahla's ergonomic bed.*
 
-Once the sun set, Sam and I got in the tent. It was a reasonably chilly night, and at 1:30 I woke up and ate a couple of fig bars in an attempt to warm up. It was about that time that Nahla joined us in the tent for similar reasons. 
-
-We vacillated on our precise plans for the subsequent day but ultimately decided to fully pack the tent and skin up about 500 ft, where we would drop our overnight gear and eat breakfast. Then we would skin up to the Lyell-Maclure Col. 
+Once the sun set, Sam and I got in the tent. It was a reasonably chilly night, and at 1:30 I woke up and ate a couple of fig bars in an attempt to warm up. It was about that time that Nahla joined us in the tent for the same reason. 
 
 ## Day 3: Lyell Fork <kbd>&rarr;</kbd> Toulomne Meadows
 
@@ -67,7 +61,7 @@ We vacillated on our precise plans for the day but ultimately fully packed the t
 ![20250420-sierra-traverse6065.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6065.jpg)
 *Sam escapes the shade line.*
 
-With our packs much reduced in weight and volume we skinned up towards the Lyell-Maclure Col. As we neared the Col, the route up to the sub-peak of Lyell looked very attractive so climbed up to it. The last pitch to the sub-summit was a little sketchy with snow on top of rock. The sub-summit was around 12,900 and was our highest point of the trip. From the top we had a nice view back towards Banner and Ritter.
+With our packs much reduced in weight and volume we skinned up towards the Lyell-Maclure Col. As we neared the Col, the route up to the sub-peak of Lyell looked very attractive so we decided to climb it. The last pitch to the sub-summit was a little sketchy with snow on top of rock. The sub-summit was around 12,900 and was our highest point of the trip. From the top we had a nice view back towards Banner and Ritter.
 
 ![20250420-sierra-traverse6085.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6085.jpg)
 *A veritable mountaineer.* 
@@ -79,12 +73,12 @@ The ski down from the sub-summit was a north aspect that became increasing east 
 
 We recovered our stashed overnight gear, and with full packs and traversed towards Amelia Earhart Pass. From there we were able to ski almost continuously to Rafferty creek. Descending Rafferty creek the best method (in my opinion) was to rip skins but leave one’s heel unlocked. The low elevation spring snow was sufficiently sticky that even without skins one could walk slightly uphill in this mode, and the descents were much faster without skins. 
 
-We paused for a break at the bridge crossing Rafferty creek and Nahla even went for a quick swim. We were then struck by doubt. Was the Tuolumne Meadow Ski Cabin indeed where I had marked it on the map? Worried that we would be unable to find the hut, we Inreach messaged to a couple friends to ask them to clarify the latitude and longitude of the hut. We soon got confirmation that the hut was indeed on the Tioga Pass road, adjacent to the bridge crossing the Tuolumne. 
+We paused for a break at the bridge crossing Rafferty creek and Nahla even went for a quick swim. We were then struck by doubt. Was the Tuolumne Meadow Ski Cabin indeed where I had marked it on the map? Worried that we would be unable to find the hut, we Inreach messaged a couple friends to ask them to clarify the latitude and longitude of the hut. We soon got confirmation that the hut was indeed on the Tioga Pass road, adjacent to the bridge crossing the Tuolumne. 
 
 ![20250420-sierra-traverse6127.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6127.jpg)
 *A bridge across Rafferty Creek.*
 
-We put skins back on and slowly skinned along the JMT for about 1.5 miles. It had been a long day and we were ready to shed our packs, but the winter views of the Tuolumne where beautiful. It was slightly surreal to see all of the summer time infrastructure without a human in sight. 
+We put skins back on and slowly skinned along the JMT for about 1.5 miles. It had been a long day and we were ready to shed our packs, but the winter views of the Tuolumne where beautiful. It was slightly surreal to see all of the summer infrastructure without a human in sight. 
 
 ![20250420-sierra-traverse6137.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6137.jpg)
 *Ah that looks like Yosemite!*
@@ -92,20 +86,19 @@ We put skins back on and slowly skinned along the JMT for about 1.5 miles. It ha
 ![20250420-sierra-traverse6139.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6139.jpg)
 *A proper [ski hut](https://nps.gov/yose/planyourvisit/tmwinter.htm).*
 
-Arriving at the hut we were stoked to find a wood stove with kindling and paper already prepped to start a fire. The hut was also empty, and apparently had been since Thursday. After our cold night the night before and the long day in the sun, the hut was a very welcome comfort. 
+Arriving at the hut we were stoked to find a wood stove with kindling and paper already prepped to start a fire. The hut was also empty, and apparently had been since Thursday. After our cold previous night and the long day in the sun, the hut was a very welcome comfort. 
 
 ![20250420-hut.jpg](/images/2025-04-sierra-traverse/20250420-hut.jpg)
 
-Once the fire was going, we heated up dinner water on the electric hot plate in the hut, played a couple rounds of hearts, and read guest book entries. There where many entertaining stories including a group who skied a full day near Amelia Earhart only to return to their camp and find that it had blown away — they concluded the best plan was to ‘boogie’ to the Tuolumne Ski Hut which they did, arriving in the early hours of the AM. 
+Once the fire was going, we heated up dinner water with the electric kettle in the hut, played a couple rounds of hearts, and read guest book entries. There where many entertaining stories including a group who skied a full day near Amelia Earhart only to return to their camp and find that it had blown away — they concluded the best plan was to ‘boogie’ to the Tuolumne Ski Hut which they did, arriving in the early hours of the AM. 
 
-## Day 4: Tuolomne Meadows <kbd>&rarr;</kbd> Return Creek
+## Day 4: Tuolumne Meadows <kbd>&rarr;</kbd> Return Creek
 
-Courtesy of the hut, we were able to get an early start. We were moving by 6:30, and had a two mile pleasant low angle skin up the Tiago Pass road.
+Courtesy of the hut, we were able to get an early start. We were skinning by 6:30, and had a two mile pleasant low angle skin up the Tioga Pass road.
 
 ![20250421-sierra-traverse6143.jpg](/images/2025-04-sierra-traverse/20250421-sierra-traverse6143.jpg)
 
 And then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Conness Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
-
 
 Courtesy of the hut, we were able to get an early start. We were moving by 6:30, and had a two mile pleasant low angle skin up the Tioga Pass road and then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Conness Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
 
@@ -154,22 +147,23 @@ We were able to keep skis on until 8,000ft. From there it was a very pleasant st
 
 ## General Notes
 ### Stats 
-- 74 miles
-- 19k feet of elevation gain
-- 1x ski crampon usage 
-- 0x boot crampon usage 
-- 1x ice axe usage (plus as tent stakes)
+- Distance: 74 miles
+- Vert ascended: 19k feet
+- Number of times ski crampon used: 1
+- Number of times boot crampon used: 0
+- Number of times ice axe used: (plus as tent stakes)
 
 ### Maps
 - [Caltopo](https://caltopo.com/m/1310JA5)
 
 ### Serious Takeaways 
-- Don’t bring a Jetboil stabilizer. In fact, throw away the Jetboil stabilizer. Propane cans are plenty stable. 
 - Cut toenails before the trip.
+- Don’t bring a Jetboil stabilizer. In fact, throw away the Jetboil stabilizer. Propane cans are plenty stable. 
 - 180g of oats is all Sam can eat (packed 210g for this trip).
 - 2L water capacity is good, with at least 1L in a Nalgene for hot liquids.
 - South -> North is nice because it means the sun is at your back.
-- The Sierras are high enough that a single acclimation day (at least for me) before the trip would have been helpful. 
+- The Sierras are high enough that a single acclimation day (at least for me) before the trip would have been helpful.
+- Breaking camp quickly moving before breakfast does not make a lot of sense in a group of three on a ski traverse. Better to eat breakfast in camp and have the faster bag packers prepare the boiling water. 
 
 ### Open Questions:
 - What is the best place to rehydrate meals? (We concluded Stasher bags are a workable but not ideal solution.)
