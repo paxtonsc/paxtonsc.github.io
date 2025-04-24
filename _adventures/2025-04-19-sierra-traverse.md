@@ -1,49 +1,54 @@
 ---
-title: 'Mamouth to Twin Lakes Sierra Traverse'
+title: 'Mammoth to Twin Lakes Sierra Traverse'
 date: 2025-04-19
 permalink: /adventures/2025/04/sierra-traverse/
 image: /images/2025-04-sierra-traverse/20250421-sierra-traverse6183.jpg
 ---
+
 ## Preparation
-Sam and I started scheming the possibility of a Sierra traverse in the fall of 2024 after deciding Bugs to Rogers was too committing an objective for the spring of 2025. Our basic idea was a 7 day North/South traverse along the crest of the Sierra. We were inspired by the Redline route although we knew that specific route would require a significantly above average snowpack. 
+Sam and I started scheming the possibility of a Sierra traverse in the fall of 2024 after deciding Bugs to Rogers was too committing an objective for the spring of 2025. Our basic idea was a 7-day North/South traverse along the crest of the Sierra. We were inspired by the Redline route, although we knew that specific route would require a significantly above-average snowpack. 
 
-We ultimately decided to loosely follow the northern section of the summer time Roper’s Sierra High Route, starting at the Twin Lakes trailhead in Mamouth and ending at the Twin Lakes trailhead near Bridgeport. The route would take us near some really cool zones: The Minarets, Banner/Ritter, Thousand Island Lakes, Tuolumne Meadows, North Peak/Connes, Shepard’s Crest, and the Matterhorn. 
+We ultimately decided to loosely follow the northern section of the summertime Roper’s Sierra High Route, starting at the Twin Lakes trailhead in Mammoth and ending at the Twin Lakes trailhead near Bridgeport. The route would take us near some really cool zones: The Minarets, Banner/Ritter, Thousand Island Lakes, Tuolumne Meadows, North Peak/Conness, Shepard’s Crest, and the Matterhorn. 
 
-We ultimately reduced the length of the trip to four nights to limit the number of calories we had to carry and also to make the trip fit into our mutual life constraints. About a week prior to departure, Nahla decided to join which was excellents news as Nahla has spent more time in the Sierras than  Sam and I combined, including a couple summer Sierra high route permutations. 
+We ultimately reduced the length of the trip to four nights to limit the number of calories we had to carry and also to make the trip fit into our mutual life constraints. About a week prior to departure, Nahla decided to join, which was excellent news as Nahla has spent more time in the Sierras than Sam and I combined, including a couple of summer Sierra High Route permutations. 
 
-## Day 1: Mamouth <kbd>&rarr;</kbd> Minaret Lake
+## Day 1: Mammoth <kbd>&rarr;</kbd> Minaret Lake
 
-On Friday, April 18th I left Palo Alto at 4 AM and drove up to meet Sam and Nahla, who were both coming from South Lake Tahoe, at the Bridgeport Shell at 9:30. We then left Nahla’s car 1/4 mile east of Twin Lakes Resort (to avoid paying for parking) and drove my Prius to the Twin Lakes Vista trailhead in Mamouth. On the drive south, we decided to carry our avalanche transceivers and two shovels between the three of us. In retrospect, leaving the transceivers in the car would have been a reasonable choice given that we saw very little evidence of wet loose slides over the next five days. Sam also persuaded me to leave my trailrunners. Nahla decided to carry hers. 
+On Friday, April 18th, I left Palo Alto at 4 AM and drove up to meet Sam and Nahla, who were both coming from South Lake Tahoe, at the Bridgeport Shell at 9:30. We then left Nahla’s car 1/4 mile east of Twin Lakes Resort (to avoid paying for parking) and drove my Prius to the Twin Lakes Vista trailhead in Mammoth. On the drive south, we decided to carry our avalanche transceivers and two shovels between the three of us. In retrospect, leaving the transceivers in the car would have been a reasonable choice given that we saw very little evidence of wet loose slides over the next five days. Sam also persuaded me to leave my trail runners. Nahla decided to carry hers. 
 
 We were skinning by about 12:30. 
 
-![20250418-sierra-traverse5942.jpg](/images/2025-04-sierra-traverse/20250418-sierra-traverse5942.jpg)*Road signs and railings made route finding straightforward.*
+![20250418-sierra-traverse5942.jpg](/images/2025-04-sierra-traverse/20250418-sierra-traverse5942.jpg)
+*Road signs and railings made route finding straightforward.*
 
-After a brief stop for lunch at the partially melted out Reds Meadow Campground and about 6 hours of skinning we made it to Minaret Lake at about 7PM where we pitched our tent, boiled water for dinner, and fell asleep. 
+After a brief stop for lunch at the partially melted-out Reds Meadow Campground and about 6 hours of skinning, we made it to Minaret Lake at about 7 PM where we pitched our tent, boiled water for dinner, and fell asleep. 
 
-![20250418-MinaretCampShot.jpg](/images/2025-04-sierra-traverse/20250418-MinaretCampShot.jpg)*Home sweet home.*
+![20250418-MinaretCampShot.jpg](/images/2025-04-sierra-traverse/20250418-MinaretCampShot.jpg)
+*Home sweet home.*
 
 ## Day 2: Minaret Lake <kbd>&rarr;</kbd> Lyell Fork
 
-The next morning we woke up around 7 and after eating a breakfast of oats and letting our gear dry a little bit we were moving by about 8:45. 
+The next morning we woke up around 7, and after eating a breakfast of oats and letting our gear dry a little bit, we were moving by about 8:45. 
 
-For the first couple days of the trip I was a proponent of the breaking camp, starting to move, and then eating breakfast midmorning once the temperature had increased and the sun had risen more fully, This is the model I adopted while backpacking with my dad. However, after the first couple of days on this ski traversed I realized that with a group of three on a multi-day ski trip it really makes more sense to eat breakfast at camp which allows the people who pack their bags slightly faster to start the water and generally a higher group efficiency score. 
+For the first couple of days of the trip, I was a proponent of breaking camp, starting to move, and then eating breakfast mid-morning once the temperature had increased and the sun had risen more fully. This is the model I adopted while backpacking with my dad. However, after the first couple of days on this ski traverse, I realized that with a group of three on a multi-day ski trip, it really makes more sense to eat breakfast at camp, which allows the people who pack their bags slightly faster to start the water and generally achieve a higher group efficiency score. 
 
-![20250419-sierra-traverse5970.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse5970.jpg)*Skin skiing down towards Cecile Lake.*
+![20250419-sierra-traverse5970.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse5970.jpg)
+*Skin skiing down towards Cecile Lake.*
 
-![20250419-sierra-traverse5975.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse5975.jpg)*Sam makes a high traverse around Iceberg Lake.*
+![20250419-sierra-traverse5975.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse5975.jpg)
+*Sam makes a high traverse around Iceberg Lake.*
 
-We were able to cut high and right and glide all the way to the drainage above Ediza lake. At one point, we had entertained climbing Ritter or Banner on route, but the previous night Nahla had pointed out we had a fair number of miles to cover to get to the Tuolumne Ski Hut in two days and it might be worth making today our big traverse day the first one and then if we had spare time we could do a side mission up Lyell Sunday morning.
+We were able to cut high and right and glide all the way to the drainage above Ediza Lake. At one point, we had entertained climbing Ritter or Banner en route, but the previous night Nahla had pointed out we had a fair number of miles to cover to get to the Tuolumne Ski Hut in two days, and it might be worth making today our big traverse day. Then, if we had spare time, we could do a side mission up Lyell Sunday morning.
 
-We ate lunch at Garnet pass and had a nice ski down to Thousand Island Lakes before commencing the long, low angle climb to Donohue Pass. 
+We ate lunch at Garnet Pass and had a nice ski down to Thousand Island Lakes before commencing the long, low-angle climb to Donohue Pass. 
 
 ![20250419-sierra-traverse6009.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse6009.jpg)
 *Are we even going up?*
 
 ![20250419-sierra-traverse6020.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse6020.jpg)
-*Donohue pass with the JMT descending the Lyell valley behind Sam.*
+*Donohue Pass with the JMT descending the Lyell Valley behind Sam.*
 
-From Donohue we skied down and made camp at 10,600 with a view of Lyell outside our tent door. We got into camp at the slightly earlier hour of 5 PM or so, and we had a nice rock to lounge on. It was a needed break. 
+From Donohue, we skied down and made camp at 10,600 ft with a view of Lyell outside our tent door. We got into camp at the slightly earlier hour of 5 PM or so, and we had a nice rock to lounge on. It was a needed break. 
 
 ![20250419-sierra-traverse6042.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse6042.jpg)
 *A scenic camp spot.*
@@ -51,9 +56,9 @@ From Donohue we skied down and made camp at 10,600 with a view of Lyell outside 
 ![20250419-sierra-traverse6058.jpg](/images/2025-04-sierra-traverse/20250419-sierra-traverse6058.jpg)
 *Nahla's ergonomic bed.*
 
-Once the sun set Sam and I got in the tent. It was a reasonably chilly night and at 1:30 I woke up and ate a couple fig bars in an attempt to warm up. It was about that time that Nahla joined us in the tent for similar reasons. 
+Once the sun set, Sam and I got in the tent. It was a reasonably chilly night, and at 1:30 I woke up and ate a couple of fig bars in an attempt to warm up. It was about that time that Nahla joined us in the tent for similar reasons. 
 
-We vacillated on our precise plans for the subsequent day but ultimately decided to fully pack the tent and skin up about 500ft where we would drop our overnight gear and eat breakfast, then we would skin up to the Lyell-Maclure Col. 
+We vacillated on our precise plans for the subsequent day but ultimately decided to fully pack the tent and skin up about 500 ft, where we would drop our overnight gear and eat breakfast. Then we would skin up to the Lyell-Maclure Col. 
 
 ## Day 3: Lyell Fork <kbd>&rarr;</kbd> Toulomne Meadows
 
@@ -150,22 +155,22 @@ We were able to keep skis on until 8,000ft. From there it was a very pleasant st
 ## General Notes
 ### Stats 
 - 74 miles
-- 19k
-- 1x of ski crampon usage 
-- 0x of boot crampon usage 
-- 1x of ice ax usage (plus as tent stakes)
+- 19k feet of elevation gain
+- 1x ski crampon usage 
+- 0x boot crampon usage 
+- 1x ice axe usage (plus as tent stakes)
 
 ### Maps
 - [Caltopo](https://caltopo.com/m/1310JA5)
 
 ### Serious Takeaways 
-- Don’t bring Jetboil stabilizer, in fact throw away Jetboil stabilizer. Propane cans are plenty stable. 
-- Cut toenails before trip.
-- 180g of Oats is all Sam can eat (packed 210g for this trip)
-- 2L water capacity is good, at least 1L in a nalgene for hot liquids.
+- Don’t bring a Jetboil stabilizer. In fact, throw away the Jetboil stabilizer. Propane cans are plenty stable. 
+- Cut toenails before the trip.
+- 180g of oats is all Sam can eat (packed 210g for this trip).
+- 2L water capacity is good, with at least 1L in a Nalgene for hot liquids.
 - South -> North is nice because it means the sun is at your back.
-- Sierras are high enough a single acclimation day (at least for me) before the trip would have been helpful. 
+- The Sierras are high enough that a single acclimation day (at least for me) before the trip would have been helpful. 
 
-### Open questions:
-- What is the best place to rehydrate meals? (We concluded Stasher's is a workable but not ideal solution)
+### Open Questions:
+- What is the best place to rehydrate meals? (We concluded Stasher bags are a workable but not ideal solution.)
 - Better sunscreen for the face?
