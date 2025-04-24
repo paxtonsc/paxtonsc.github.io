@@ -1,5 +1,5 @@
 ---
-title: 'Mammoth to Twin Lakes Sierra Traverse'
+title: 'Sierra Traverse: Mammoth <kbd>&rarr;</kbd> Twin Lakes'
 date: 2025-04-19
 permalink: /adventures/2025/04/sierra-traverse/
 image: /images/2025-04-sierra-traverse/20250421-sierra-traverse6183.jpg
@@ -75,16 +75,16 @@ With our packs much reduced in weight and volume we skinned up towards the Lyell
 ![20250420-sierra-traverse6091.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6091.jpg)
 *Rogers Peak directly in the background with Banner and Ritter to the left of Sam.*
 
-The ski down from the subsummited was a north aspect that became increasing east as we got lower. It skied surprisingly well. The north aspect was nicely windbuffed and 1,500 feet lower the east facing slope was corning nicely. 
+The ski down from the sub-summit was a north aspect that became increasing east as we got lower. It skied surprisingly well. The north aspect was nicely wind-buffed and 1,500 feet lower the east facing slope was corning nicely. 
 
-We recovered our stashed overnight gear, and with full packs and traversed towards Ameilia Earheart Pass. From there we were able to ski almost continuously to Rafferty creek. Descending Rafferty creek the best method (in my opinion) was to rip skins but leave one’s heel unlocked. The low elevation spring snow was sufficiently sticky that even without skins one could walk slightly uphill in this mode, and the descents were much faster without skins. 
+We recovered our stashed overnight gear, and with full packs and traversed towards Amelia Earhart Pass. From there we were able to ski almost continuously to Rafferty creek. Descending Rafferty creek the best method (in my opinion) was to rip skins but leave one’s heel unlocked. The low elevation spring snow was sufficiently sticky that even without skins one could walk slightly uphill in this mode, and the descents were much faster without skins. 
 
-We paused for a break at the bridge crossing Rafferty creek and Nahla even went for a quick swim. We were then struck by doubt. Was the Tuolome Meadow Ski Cabin indeed where I had marked it on the map? Worried that we would be unable to find the hut, we Inreach messaged to a couple friends to ask them to clarify the latitude and longitude of the hut. We soon got confirmation that the hut was indeed on the Tiago Pass road, adjacent to the bridge crossing the Toulomne. 
+We paused for a break at the bridge crossing Rafferty creek and Nahla even went for a quick swim. We were then struck by doubt. Was the Tuolumne Meadow Ski Cabin indeed where I had marked it on the map? Worried that we would be unable to find the hut, we Inreach messaged to a couple friends to ask them to clarify the latitude and longitude of the hut. We soon got confirmation that the hut was indeed on the Tioga Pass road, adjacent to the bridge crossing the Tuolumne. 
 
 ![20250420-sierra-traverse6127.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6127.jpg)
 *A bridge across Rafferty Creek.*
 
-We put skins back on and slowly skinned along the JMT for about 1.5 miles. It had been a long day and we were ready to shed our packs, but the winter views of the Tuolomne where beautiful. It was slightly surreal to see all of the summer time infrastructure without a human in sight. 
+We put skins back on and slowly skinned along the JMT for about 1.5 miles. It had been a long day and we were ready to shed our packs, but the winter views of the Tuolumne where beautiful. It was slightly surreal to see all of the summer time infrastructure without a human in sight. 
 
 ![20250420-sierra-traverse6137.jpg](/images/2025-04-sierra-traverse/20250420-sierra-traverse6137.jpg)
 *Ah that looks like Yosemite!*
@@ -96,7 +96,7 @@ Arriving at the hut we were stoked to find a wood stove with kindling and paper 
 
 ![20250420-hut.jpg](/images/2025-04-sierra-traverse/20250420-hut.jpg)
 
-Once the fire was going, we heated up dinner water on the electric hot plate in the hut, played a couple rounds of hearts, and read guest book entries. There where many entertaining stories including a group who skied a full day near Amelia Airheart only to return to their camp and find that it had blown away — they concluded the best plan was to ‘boogie’ to the Tuolomne Ski Hut which they did, arriving in the early hours of the AM. 
+Once the fire was going, we heated up dinner water on the electric hot plate in the hut, played a couple rounds of hearts, and read guest book entries. There where many entertaining stories including a group who skied a full day near Amelia Earhart only to return to their camp and find that it had blown away — they concluded the best plan was to ‘boogie’ to the Tuolumne Ski Hut which they did, arriving in the early hours of the AM. 
 
 ## Day 4: Tuolomne Meadows <kbd>&rarr;</kbd> Return Creek
 
@@ -104,10 +104,10 @@ Courtesy of the hut, we were able to get an early start. We were moving by 6:30,
 
 ![20250421-sierra-traverse6143.jpg](/images/2025-04-sierra-traverse/20250421-sierra-traverse6143.jpg)
 
-And then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Connes Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
+And then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Conness Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
 
 
-Courtesy of the hut, we were able to get an early start. We were moving by 6:30, and had a two mile pleasant low angle skin up the Tiago Pass road and then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Connes Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
+Courtesy of the hut, we were able to get an early start. We were moving by 6:30, and had a two mile pleasant low angle skin up the Tioga Pass road and then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Conness Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
 
 Of the entire trip, the two passes we were most concerned about were Sky Pilot Col and Stanton Pass. 
 
@@ -127,7 +127,7 @@ We paused briefly at Return creek to fill up bottles, and then put skins on to c
 
 ## Day 5: Return Creek <kbd>&rarr;</kbd> Twin Lakes Resort
 
-The three of us recently returned from the [Bow Yoho Traverse](https://paxtonsc.github.io/adventures/2025/04/bow-yoho-traverse/) in Canada which we all agreed could have been twice as long and still enjoyable. That was not the case on this traverse. As the last day dawned I lay in my sleep bag thinking how nice it would be to sit in a car with the ability to regulate the environment with buttons, to eat a burger at Mamouth Brewing, and to be out of the damn sun that comes from all angles during the day. 
+The three of us recently returned from the [Bow Yoho Traverse](https://paxtonsc.github.io/adventures/2025/04/bow-yoho-traverse/) in Canada which we all agreed could have been twice as long and still enjoyable. That was not the case on this traverse. As the last day dawned I lay in my sleep bag thinking how nice it would be to sit in a car with the ability to regulate the environment with buttons, to eat a burger at Mammoth Brewing, and to be out of the damn sun that comes from all angles during the day. 
 
 But first, we had to get across Stanton Pass, which looked, based on the purple streaks in the slope shading on Caltopo, to be the crux of the trip. We were worried that the pass might be melted out, or corniced, or otherwise challenging. 
 
@@ -135,7 +135,7 @@ The climb turned out to be a reasonable straightforward boot, no crampons needed
 
 ![20250422-sierra-traverse6215.jpg](/images/2025-04-sierra-traverse/20250422-sierra-traverse6215.jpg)
 
-The descent was indeed partially melted out. We were able to scramble down the first part with packs, and then for the last pitch above the snow decided to pass packs and skis down seperately. It was a good plan but we made the error of not quite positioning ourselves correctly and as a result after I passed Nahla her pack she was unable to quite downclimb while holding on to the pack and it slipped through her grasp. We all watched as it cartwheeled for about 500ft until it came to rest. 
+The descent was indeed partially melted out. We were able to scramble down the first part with packs, and then for the last pitch above the snow decided to pass packs and skis down separately. It was a good plan but we made the error of not quite positioning ourselves correctly and as a result after I passed Nahla her pack she was unable to quite downclimb while holding on to the pack and it slipped through her grasp. We all watched as it cartwheeled for about 500ft until it came to rest. 
 
 ![Stanton Pass](/images/2025-04-sierra-traverse/20250422-down-stanton-pass.jpeg)
 *Moments before disaster.*
@@ -145,7 +145,7 @@ We were more careful with the rest of our gear, and after a bit of faffing we al
 Once over the pass, Sam and Nahla decided to rip a BN for the last descent of the trip. I decided to do my part and take photos. 
 
 ![20250422-sierra-traverse6232.jpg](/images/2025-04-sierra-traverse/20250422-sierra-traverse6232.jpg)
-*About to harvest corn and 5000 GNAR points.*
+*About to harvest corn and 5000 G.N.A.R. points.*
 
 We were able to keep skis on until 8,000ft. From there it was a very pleasant stroll out on the Horse Creek Trail. 
 
