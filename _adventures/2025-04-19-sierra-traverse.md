@@ -54,7 +54,7 @@ From Donohue, we skied down and made camp at 10,600 ft with a view of Lyell outs
 
 Once the sun set, Sam and I got in the tent. It was a reasonably chilly night, and at 1:30 I woke up and ate a couple of fig bars in an attempt to warm up. It was about that time that Nahla joined us in the tent for the same reason. 
 
-## Day 3: Lyell Fork <kbd>&rarr;</kbd> Toulomne Meadows
+## Day 3: Lyell Fork <kbd>&rarr;</kbd> Tuolumne Meadows
 
 We vacillated on our precise plans for the day but ultimately fully packed the tent and skinned up about 500ft and dropped out overnight gear and ate breakfast. 
 
