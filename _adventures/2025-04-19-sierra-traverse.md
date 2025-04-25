@@ -100,8 +100,6 @@ Courtesy of the hut, we were able to get an early start. We were skinning by 6:3
 
 And then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Conness Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
 
-Courtesy of the hut, we were able to get an early start. We were moving by 6:30, and had a two mile pleasant low angle skin up the Tioga Pass road and then more low angle skinning up towards an unlabeled pass in the vicinity of Mine Shaft Pass. We ate lunch at another unlabeled pass in the vicinity of Conness Pass and saw (from a distance) the only other person we would see all trip —  a skier descending across Greenstone Lake below us, presumably having skied Conness or North Peak that morning. 
-
 Of the entire trip, the two passes we were most concerned about were Sky Pilot Col and Stanton Pass. 
 
 Aerobically, I was starting to slow down as we ascended Sky Pilot Col, but conditions were prime for both the ascent and descent. The south-east facing climb had corned nicely but still had a firm base that prevented post holing and indicated a wet loose slide would be unlikely. Nahla and I booted up to the Col while Sam skinned the whole thing. 
