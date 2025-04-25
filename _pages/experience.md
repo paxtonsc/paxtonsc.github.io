@@ -13,7 +13,7 @@ redirect_from:
 
 
 ## Professional Experience
-* **Software Developer** \| Stanford, CA | *Stanford Doerr School of Sustainability* \| Jan 2025 - Present
+* **Software Developer** \| Stanford, CA \| *Stanford Doerr School of Sustainability* \| Jan 2025 - Present
     * Work closely with Prof. Eric Dunham to add feature to [python library](https://github.com/fredriclam/quail_volcano) to more accurately model Vulcanian eruptions. 
 
 
