@@ -167,4 +167,4 @@ We were able to keep skis on until 8,000ft. From there it was a very pleasant st
 
 ### Open Questions:
 - What is the best place to rehydrate meals? (We concluded Stasher bags are a workable but not ideal solution.)
-- Better sunscreen for the face?
+- Better sunscreen for the face? *Sam suggests Hero Force Shield Mineral Sunscreen.*
