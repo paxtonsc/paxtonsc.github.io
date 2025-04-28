@@ -220,6 +220,9 @@ collections:
   adventures:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -281,6 +284,13 @@ defaults:
     values:
       layout: single
       comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      comments: true
 
 
 # Sass/SCSS
@@ -297,10 +307,6 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 pagination:
   enabled: true
-  per_page: 5
-  permalink: "/page/:num/"
-  collection: adventures
-  sort_reverse: true
 
 
 # Plugins

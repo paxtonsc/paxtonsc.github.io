@@ -4,9 +4,11 @@ permalink: /adventures/
 title: "Fun & Hobbies"
 pagination: 
   enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  collection: adventures
+  sort_reverse: true
 ---
-
-
 
 {% include base_path %}
 {% for post in paginator.posts %}
