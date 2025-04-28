@@ -2,6 +2,7 @@
 title: 'AA 279D: Starling Formation-Flying Project'
 date: 2023-06-13
 permalink: /projects/2023/06/formation-flying/
+show_excerpt: true
 ---
 
 As part of *AA279D: Control of Distributed Space Systems*, my partner and I wrote a report on NASA's Starling mission analyzing the Keplerian orbital mechanics, relative motion, linear formation flying dynamics, control perturbation-invariant formations, and nonlinear formation control.

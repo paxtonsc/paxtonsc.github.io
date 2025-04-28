@@ -3,7 +3,7 @@ title: 'Tahoe West Shore Ridgeline'
 date: 2025-02-12
 permalink: /adventures/2025/02/tahoe-west-short-ridgeline/
 image: /images/2025-02-tahoe-west-shore/2025-2-tahoe5317.JPG
-excerpt: test
+excerpt: false
 ---
 
 1. [Jake's Peak](#jakes-peak)
