@@ -1,7 +1,7 @@
 ---
 title: 'CS107e: 2D Plotter Robot'
-date: 2020-03-25
-permalink: /projects/2020/03/cs107e-2d-plotter-robot/
+date: 2019-03-25
+permalink: /projects/2019/03/cs107e-2D-plotter-robot/
 show_excerpt: true
 ---
 
