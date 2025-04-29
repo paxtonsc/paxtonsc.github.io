@@ -42,6 +42,33 @@ And `NODE_ENV: production`.
 
 ## Step 3: Integrating with Jekyll Minimal Mistakes
 
+Some of the leg work was already in place. Because I ended up using Staticman V2, I had to create a `staticman.yml` which I defined as follows:
+
+```
+allowedFields: 
+  - name
+  - email
+  - message
+branch: main
+commitMessage: "New comment in {options.slug}"
+filename: "comment-{@timestamp}"
+format: yaml
+generatedFields: 
+  date: 
+    options: 
+      format: iso8601
+    type: date
+moderation: false
+path: "_data/comments/{options.slug}"
+requiredFields: 
+  - name
+  - email
+  - message
+transforms: 
+  email: md5
+```
+
+And I also slightly modified the html form, drawing inspiration from [this blog](https://mademistakes.com/mastering-jekyll/static-comments/).
 
 
 
