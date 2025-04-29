@@ -1,18 +1,24 @@
-staticman:
-  allowedFields: ["name", "email", "message"]
-  branch: "main"
-  commitMessage: "New comment in {options.slug} by {fields.name}"
-  filename: "entry{@timestamp}"
-  format: "yml"
+--- 
+comments: 
+  allowedFields: 
+    - name
+    - email
+    - website
+    - comment
+  branch: master
+  commitMessage: "New comment in {options.slug}"
+  filename: "comment-{@timestamp}"
+  format: yaml
+  generatedFields: 
+    date: 
+      options: 
+        format: iso8601
+      type: date
   moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ["name", "message"]
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-  reCaptcha:
-    enabled: false
+  path: "data/comments/{options.slug}"
+  requiredFields: 
+    - name
+    - email
+    - comment
+  transforms: 
+    email: md5
