@@ -12,7 +12,7 @@ comments:
   branch: "main"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "Add Staticman data"
+  commitMessage: "New comment in {options.slug} by {fields.name}"
 
   # (*) REQUIRED
   #
@@ -37,9 +37,6 @@ comments:
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
   moderation: true
-
-  # Name of the site. Used in notification emails.
-  name: "paxtonsc.github.io"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
