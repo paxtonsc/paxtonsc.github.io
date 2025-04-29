@@ -1,8 +1,7 @@
 allowedFields: 
   - name
   - email
-  - website
-  - comment
+  - message
 branch: main
 commitMessage: "New comment in {options.slug}"
 filename: "comment-{@timestamp}"
@@ -17,6 +16,6 @@ path: "data/comments/{options.slug}"
 requiredFields: 
   - name
   - email
-  - comment
+  - message
 transforms: 
   email: md5
