@@ -214,13 +214,35 @@
 
 <p>Here is a brief description of how I set it up.</p>
 
-<h2 id="step-1-hosting-staticman">Step 1: Hosting staticman</h2>
+<h2 id="step-1-creating-a-new-github-account">Step 1: Creating a new Github account</h2>
+
+<p>Staticman works by submitting a pull request for each comment submitted. There are different routes for enabling Staticman to make a PR, but the one I ultimately was able to make work was creating a new github account <code class="language-plaintext highlighter-rouge">paxton-bot-account</code> and creating a personal access token for that new account under <code class="language-plaintext highlighter-rouge">Settings&gt;Developer Settings</code>.</p>
+
+<p><img src="/images/2025-04-static-comments/classic_token.png" alt="" /></p>
+
+<p>Then I was able to invite the new account as a contributor to my static website repository <code class="language-plaintext highlighter-rouge">paxtonsc.github.io</code> and copy down the <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> produced in the previous step.</p>
+
+<h2 id="step-2-hosting-staticman">Step 2: Hosting Staticman</h2>
 
 <p>The Staticman api works by processing comments and merging pull requests in the static website repository. The Staticman <a href="https://staticman.net/docs/getting-started">documentation</a> suggests hosting with Heroku, but the free tier that apparently existed when the Staticman documentation was written no longer exists in 2025. Instead, I choose to host an instance with Render.</p>
 
-<p>I was able to create a new <code class="language-plaintext highlighter-rouge">Web Service</code> and select the <code class="language-plaintext highlighter-rouge">hobby project</code> tier which was $0 per month.</p>
+<p>I first cloned the <a href="https://github.com/eduardoboucas/staticman">staticman repo</a> and deployed the the local clone as a a new <code class="language-plaintext highlighter-rouge">Web Service</code> with Render. I selected the <code class="language-plaintext highlighter-rouge">hobby project</code> service tier which was $0 per month.</p>
 
 <p><img src="/images/2025-04-static-comments/render.png" alt="" /></p>
+
+<p>I set the following environment variables:</p>
+
+<p><img src="/images/2025-04-static-comments/env_variables.png" alt="" /></p>
+
+<p>The <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> is from the previous step.</p>
+
+<p>To generate the <code class="language-plaintext highlighter-rouge">PRIVATE_RSA_KEY</code> I used the command:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl genrsa
+</code></pre></div></div>
+
+<p>And <code class="language-plaintext highlighter-rouge">NODE_ENV: production</code>.</p>
+
+<h2 id="step-3-integrating-with-jekyll-minimal-mistakes">Step 3: Integrating with Jekyll Minimal Mistakes</h2>
 
 
 
@@ -290,10 +312,6 @@
           <fieldset>
             <label for="comment-form-email">Email address <small class="required">*</small></label>
             <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
-          </fieldset>
-          <fieldset>
-            <label for="comment-form-url">Website (optional)</label>
-            <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
           </fieldset>
           <fieldset class="hidden">
             <input type="hidden" name="options[slug]" value="adding-comments">

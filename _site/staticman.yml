@@ -1,9 +1,8 @@
 allowedFields: 
   - name
   - email
-  - website
-  - comment
-branch: master
+  - message
+branch: main
 commitMessage: "New comment in {options.slug}"
 filename: "comment-{@timestamp}"
 format: yaml
@@ -17,6 +16,6 @@ path: "data/comments/{options.slug}"
 requiredFields: 
   - name
   - email
-  - comment
+  - message
 transforms: 
   email: md5

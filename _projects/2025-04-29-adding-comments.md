@@ -12,15 +12,39 @@ Here is a brief description of how I set it up.
 
 ## Step 1: Creating a new Github account
 
-![](/images/2025-04-static-comments/new_github_account_with_classic_token.png)
+Staticman works by submitting a pull request for each comment submitted. There are different routes for enabling Staticman to make a PR, but the one I ultimately was able to make work was creating a new github account `paxton-bot-account` and creating a personal access token for that new account under `Settings>Developer Settings`.
 
-## Step 2: Hosting staticman
+![](/images/2025-04-static-comments/classic_token.png)
+
+Then I was able to invite the new account as a contributor to my static website repository `paxtonsc.github.io` and copy down the `GITHUB_TOKEN` produced in the previous step. 
+
+## Step 2: Hosting Staticman
 
 The Staticman api works by processing comments and merging pull requests in the static website repository. The Staticman [documentation](https://staticman.net/docs/getting-started) suggests hosting with Heroku, but the free tier that apparently existed when the Staticman documentation was written no longer exists in 2025. Instead, I choose to host an instance with Render.
 
-I was able to create a new `Web Service` and select the `hobby project` tier which was $0 per month. 
+I first cloned the [staticman repo](https://github.com/eduardoboucas/staticman) and deployed the the local clone as a a new `Web Service` with Render. I selected the `hobby project` service tier which was $0 per month. 
 
 ![](/images/2025-04-static-comments/render.png)
+
+I set the following environment variables:
+
+![](/images/2025-04-static-comments/env_variables.png)
+
+The `GITHUB_TOKEN` is from the previous step. 
+
+To generate the `PRIVATE_RSA_KEY` I used the command:
+```
+openssl genrsa
+```
+
+And `NODE_ENV: production`. 
+
+
+## Step 3: Integrating with Jekyll Minimal Mistakes
+
+
+
+
 
 
 
