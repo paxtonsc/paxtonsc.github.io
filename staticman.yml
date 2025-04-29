@@ -3,7 +3,7 @@ allowedFields:
   - email
   - website
   - comment
-branch: master
+branch: main
 commitMessage: "New comment in {options.slug}"
 filename: "comment-{@timestamp}"
 format: yaml
