@@ -19,7 +19,7 @@
 
 
 
-<title>Page not in menu - Paxton Scott</title>
+<title>Adding comments with Staticman to my Jekyll website - Paxton Scott</title>
 
 
 
@@ -29,13 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Paxton Scott ">
-<meta property="og:title" content="Page not in menu">
+<meta property="og:title" content="Adding comments with Staticman to my Jekyll website">
 
 
-  <link rel="canonical" href="http://localhost:4000/non-menu-page/">
-  <meta property="og:url" content="http://localhost:4000/non-menu-page/">
+  <link rel="canonical" href="http://localhost:4000/projects/2025/04/adding-comments-to-my-static-website/">
+  <meta property="og:url" content="http://localhost:4000/projects/2025/04/adding-comments-to-my-static-website/">
 
 
+
+  <meta property="og:description" content="I recently decided to add comments to my static personal Jekyll website. There are a couple options based on my reading online, but I decided to use Staticman because it was opensource and in theory totally free.">
 
 
 
@@ -48,6 +50,9 @@
 
 
 
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2025-04-29T00:00:00+00:00">
 
 
 
@@ -183,118 +188,40 @@
   
 
 
-  <div class="sidebar sticky">
-  
-
-
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <div class="author__avatar">
-    
-    	<img src="http://localhost:4000/images/profile.jpeg" class="author__avatar" alt="Paxton Scott">
-    
-  </div>
-
-  <div class="author__content">
-    <h3 class="author__name">Paxton Scott</h3>
-    
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      <!-- Font Awesome icons / Biographic information  -->
-      
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Palo Alto, CA</li>
-      
-      
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>Doerr School of Sustainability</li>
-      
-      
-      
-        <li><a href="mailto:paxton125@gmail.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
-      
-
-      <!-- Font Awesome and Academicons icons / Academic websites -->
-            
-      
-      
-      
-      
-                              
-      
-
-      <!-- Font Awesome icons / Repositories and software development -->
-      
-            
-            
-      
-        <li><a href="https://github.com/paxtonsc"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
-      
-            
-            
-
-      <!-- Font Awesome icons / Social media -->
-      
-      
-            
-      
-                  
-                  
-      
-            
-            
-      
-        <li><a href="https://www.linkedin.com/in/paxton-cecil-scott"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
-            
-      
-            
-                  
-            
-      
-            
-            
-      
-              
-      
-                      
-      
-      
-            
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Page not in menu">
-    
-    
+    <meta itemprop="headline" content="Adding comments with Staticman to my Jekyll website">
+    <meta itemprop="description" content="I recently decided to add comments to my static personal Jekyll website. There are a couple options based on my reading online, but I decided to use Staticman because it was opensource and in theory totally free.">
+    <meta itemprop="datePublished" content="April 29, 2025">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Page not in menu
+          <h1 class="page__title" itemprop="headline">Adding comments with Staticman to my Jekyll website
 </h1>
           
         
         
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-04-29T00:00:00+00:00">April 29, 2025</time></p>
             
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>This is a page not in the menu. You can use markdown in this page.</p>
+        <p>I recently decided to add comments to my static personal Jekyll website. There are a couple options based on my reading online, but I decided to use <a href="https://staticman.net/">Staticman</a> because it was opensource and in theory totally free.</p>
 
-<h1 id="heading-1">Heading 1</h1>
+<p>Here is a brief description of how I set it up.</p>
 
-<h1 id="heading-2">Heading 2</h1>
+<h2 id="step-1-hosting-staticman">Step 1: Hosting staticman</h2>
+
+<p>The Staticman api works by processing comments and merging pull requests in the static website repository. The Staticman <a href="https://staticman.net/docs/getting-started">documentation</a> suggests hosting with Heroku, but the free tier that apparently existed when the Staticman documentation was written no longer exists in 2025. Instead, I choose to host an instance with Render.</p>
+
+<p>I was able to create a new <code class="language-plaintext highlighter-rouge">Web Service</code> and select the <code class="language-plaintext highlighter-rouge">hobby project</code> tier which was $0 per month.</p>
+
+<p><img src="/images/2025-04-static-comments/render.png" alt="" /></p>
+
 
 
         
@@ -316,8 +243,76 @@
       
 
 
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/projects/2025/01/inverted-pendulum/" class="pagination--pager" title="Inverted Pendulum Kinematics, Control, and Estimation
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
     </div>
 
+    
+      
+
+<div class="page__comments">
+  
+  
+    <section id="comments">
+      
+        <!-- Start static comments -->
+        <div class="js-comments">
+          
+        </div>
+        <!-- End static comments -->
+
+        <!-- Start new comment form -->
+        <h4 class="page__comments-title">Leave a Comment</h4>
+        <p class="small">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://staticman-comments-e1bj.onrender.com/v2/entry/paxtonsc/paxtonsc.github.io/main">
+          <div class="form__spinner">
+            <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+          </div>
+
+          <fieldset>
+            <label for="comment-form-message">Comment <small class="required">*</small></label>
+            <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+            <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown is supported.</a></div>
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-name">Name <small class="required">*</small></label>
+            <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-email">Email address <small class="required">*</small></label>
+            <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-url">Website (optional)</label>
+            <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+          </fieldset>
+          <fieldset class="hidden">
+            <input type="hidden" name="options[slug]" value="adding-comments">
+            <input type="hidden" name="fields[hidden]"/>
+          </fieldset>
+          <!-- Start comment form alert messaging -->
+          <p class="hidden js-notice">
+            <strong class="js-notice-text"></strong>
+          </p>
+          <!-- End comment form alert messaging -->
+          <fieldset>
+            <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">Submit Comment</button>
+          </fieldset>
+        </form>
+        <!-- End new comment form -->
+      
+    </section>
+  
+</div>
     
   </article>
 

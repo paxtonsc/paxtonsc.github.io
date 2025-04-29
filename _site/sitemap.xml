@@ -65,6 +65,10 @@
 <lastmod>2025-01-05T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/projects/2025/04/adding-comments-to-my-static-website/</loc>
+<lastmod>2025-04-29T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/publication/2009-10-01-paper-title-number-1</loc>
 <lastmod>2009-10-01T00:00:00+00:00</lastmod>
 </url>
@@ -230,7 +234,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/files/geophysics/volcano_project/2025.04.28.experiments.html</loc>
-<lastmod>2025-04-28T21:20:40+00:00</lastmod>
+<lastmod>2025-04-29T16:08:20+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/files/inverted_pendulum/inverted_pendulm.html</loc>
