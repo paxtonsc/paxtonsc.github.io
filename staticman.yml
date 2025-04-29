@@ -11,7 +11,7 @@ generatedFields:
     options: 
       format: iso8601
     type: date
-moderation: true
+moderation: false
 path: "data/comments/{options.slug}"
 requiredFields: 
   - name
