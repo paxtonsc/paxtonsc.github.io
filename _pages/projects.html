@@ -12,7 +12,9 @@ pagination:
 
 {% include base_path %}
 {% for post in paginator.posts %}
-  {% include archive-single.html %}
+  {% if post.draft == false %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 <div class="pagination">
