@@ -1,5 +1,5 @@
 ---
-title: 'Sierra Traverse: Mammoth <kbd>&rarr;</kbd> Twin Lakes'
+title: 'Sierra Ski Traverse: Mammoth <kbd>&rarr;</kbd> Twin Lakes'
 date: 2025-04-19
 permalink: /adventures/2025/04/sierra-traverse/
 image: /images/2025-04-sierra-traverse/20250421-sierra-traverse6183.jpg
