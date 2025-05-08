@@ -26584,8 +26584,7 @@ Element ID for point (2000, -800): 380
 <blockquote>
 <p>If we wanted to get really ambitious, then what we could do is implement the Lighthill acoustic analogy theory. See section 3.6.2 in Fred's thesis, specifically equations (3.129) and (3.130). Fred has code to calculate the Lighthill stress tensor, which is a source term. We would then take that source term and convolve it with the linear acoustics Green's function. In fact, that could later be replaced with a fully coupled acoustic-elastic Green's function from another code (SPECFEM) that Mario has used. There are many reasons to do this: first, it only requires using Fred's code to get the flow field around the vent correctly, and it doesn't matter if there is too much damping in the numerics to accurately model acoustic propagation beyond a few hundred meters. Second, we know that the ground is not rigid, but elastic, as Fred's code assumes. The acoustic-elastic Green's functions will allow us to use all parts of the seismograms (right now we ignore the displacements caused by the strong infrasound blast). Mario and I have discussed this as a possible extension of his work.</p>
 </blockquote>
-<p><strong>Notes on Lighthill Accoustic Analogy,  <a href="https://drive.google.com/drive/folders/1xwnqopoice-zy-8HfxhxLIeNJFAgZX5L">Fred's thesis </a> section 3.6.2</strong></p>
-<ul>
+<h3 id="Notes-on-Lighthill-Accoustic-Analogy,--Fred's-thesis--section-3.6.2">Notes on Lighthill Accoustic Analogy,  <a href="https://drive.google.com/drive/folders/1xwnqopoice-zy-8HfxhxLIeNJFAgZX5L">Fred's thesis </a> section 3.6.2<a class="anchor-link" href="#Notes-on-Lighthill-Accoustic-Analogy,--Fred's-thesis--section-3.6.2">¶</a></h3><ul>
 <li>Fred models 2150m conduit with 50m radius</li>
 <li>Model the top 150m of the conduit as part of a axissymmetric 2d domain.</li>
 </ul>
@@ -26612,12 +26611,26 @@ $$</p>
 <p>$$
 T_{ij} = \rho u_i u_j
 $$</p>
-<p><strong>Notes from talking with Eric</strong></p>
-<ol>
-<li>What is source</li>
-<li>Compute Green's function</li>
-<li>How do we evaluate the convolution numerically. We would probably work in the frequency domain. Tends to be easier. We can get rid of the time convolution.</li>
-</ol>
+<h3 id="Notes-from-talking-with-Eric-05/07">Notes from talking with Eric 05/07<a class="anchor-link" href="#Notes-from-talking-with-Eric-05/07">¶</a></h3><p><strong>1. Define the source</strong></p>
+<p>$$ \frac{1}{c_0^2} \frac{\partial^2p}{\partial t^2} - \nabla^2 p = S(\bf{x}, t) $$</p>
+<p><strong>2. Compute Green's function</strong></p>
+<p>First, let's review what a <a href="https://en.wikipedia.org/wiki/Green%27s_function">Green's function</a> is. A Green's function allows us to rewrite the problem as a sum of source points.</p>
+<p>$$ 
+\frac{1}{c_0^2} \frac{\partial^2 G(\bf(x), \bf(y), t)}{\partial t^2} + \nabla^2 G = \delta^{(3)}(\bf{x} - \bf{y})\delta(t)
+$$</p>
+<p>The Green's function, written for all space looks something like</p>
+<p>$$
+G(\bf{x}, \bf{y}, t) = \frac{\delta(t - \frac{|\bf{x} - \bf{y}|}{c_0})}{2 \pi | \bf{x} - \bf{y}|}
+$$</p>
+<p>So the pressure at any given point can be expressed as</p>
+<p>$$
+p(\bf{x}, t) = \int \int_V G(\bf{x}, \bf{y}, t-\tau) S(\bf{y}, \tau) d^3y d \tau
+$$</p>
+<p><strong>3. How do we evaluate the convolution numerically.</strong></p>
+<p>We would probably work in the frequency domain. Tends to be easier. So</p>
+<p>$$
+p(\bf{x}, \omega) = \int_V G(\bf{x}, \bf{y}, \omega) S(\bf{y}, \tau) d^3y d
+$$</p>
 <p>Consider using reciprocity. Specfem.</p>
 <p>Fred has code to get the source term. Talk to him about using that. Then you just need to compute the Green's function and evaluate the convolution numerically.</p>
 </div>
