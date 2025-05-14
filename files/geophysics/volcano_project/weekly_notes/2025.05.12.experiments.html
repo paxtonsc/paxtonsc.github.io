@@ -7527,10 +7527,7 @@ a.anchor-link {
 <li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"/>Then implement the more efficient surface integral. Figure out what this looks like.</li>
 </ul>
 </li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="" type="checkbox"/>Inspect steady state solution, try to better understand discrepancy.</p>
-<ul>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"/>Steady state and dynamic both take into account the same variable? Water mass fraction?</li>
-</ul>
+<li class="task-list-item"><p><input checked="" class="task-list-item-checkbox" disabled="" type="checkbox"/>Inspect steady state solution, try to better understand discrepancy. Results are in <a href="https://paxtonsc.github.io/files/geophysics/volcano_project/steady_state.html">this notebook</a></p>
 </li>
 </ul>
 <h2 id="Questions">Questions<a class="anchor-link" href="#Questions">¶</a></h2><ol>
@@ -16218,10 +16215,6 @@ $$</p>
 <p>$$
 p(\bf{x}, t) = \int \int_V G(\bf{x}, \bf{y}, t-\tau) S(\bf{y}, \tau) d^3y d \tau
 $$</p>
-<p>OR</p>
-<p>$$
-p(x, t) = \frac{1}{4 \pi} \int \int_V \frac{1}{|x - y|} T(y, \tau) dV d \tau
-$$</p>
 <p><strong>3. How do we evaluate the convolution numerically.</strong></p>
 <p>We would probably work in the frequency domain. Tends to be easier. So</p>
 <p>$$
@@ -16649,7 +16642,7 @@ $$</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>As a quick sanity check, let's just plot the sum of the two terms that make up the lighthill stress tensor.</p>
-<h3 id="Plot-of-full-lighthill-stress-tensor">Plot of full lighthill stress tensor<a class="anchor-link" href="#Plot-of-full-lighthill-stress-tensor">¶</a></h3>
+<h3 id="Plot-double-divergence-of-lighthill-stress-tensor">Plot double divergence of lighthill stress tensor<a class="anchor-link" href="#Plot-double-divergence-of-lighthill-stress-tensor">¶</a></h3>
 </div>
 </div>
 </div>
@@ -16721,7 +16714,16 @@ $$</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="5.2-Solving-a-volume-integral-to-calculate-the-acoustic-pressure-at-the-observer-location-(2000,0)">5.2 Solving a volume integral to calculate the acoustic pressure at the observer location (2000,0)<a class="anchor-link" href="#5.2-Solving-a-volume-integral-to-calculate-the-acoustic-pressure-at-the-observer-location-(2000,0)">¶</a></h2><p>Some notes, I am calculating the volume integral over the half-cylindrical region bounded by $r &lt; 400$ and $y &gt; -100$ and $y&lt;500$.</p>
-<p>As we can see in the above graphics, the value of the lighthill stress tensor falls off outside those bounds.</p>
+<p>As we can see in the above graphics, the value of the double divergence of the  lighthill stress tensor falls off outside those bounds.</p>
+<p>The equation we solve below is:</p>
+<p>$$
+p'(x,t) = \frac{1}{4\pi} \int_v \frac{1}{|x - y|} \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j} (y, t - \frac{|x-y|}{c_0}) dy^3
+$$</p>
+<p>To solve for pressure as a time series, we can just iterate over the integral for all time steps. We need only calculate the value of $\frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}$ when $t - \frac{|x-y|}{c_0}$ is greater than 0 and less than the end of the simulation.</p>
+<ul>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"/>The $4 \pi$ in the denominator is technically incorrect for our geometry.</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"/>Once I feel confident about the soundness of my code, I should decrease the mesh size and time sampling size to get a more precise result.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -16730,7 +16732,7 @@ $$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [217]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">scipy.interpolate</span><span class="w"> </span><span class="kn">import</span> <span class="n">RegularGridInterpolator</span>
@@ -16778,7 +16780,7 @@ $$</p>
                     <span class="n">src_val</span> <span class="o">=</span> <span class="n">interpolator</span><span class="p">([</span><span class="n">t_ret</span><span class="p">,</span> <span class="n">Y</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">([</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">Z</span><span class="p">[</span><span class="n">k</span><span class="p">]])])</span>
 
                     <span class="k">if</span> <span class="ow">not</span> <span class="n">np</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="n">src_val</span><span class="p">):</span>
-                        <span class="n">p_t</span><span class="p">[</span><span class="n">t_idx</span><span class="p">]</span> <span class="o">+=</span> <span class="p">(</span><span class="n">src_val</span> <span class="o">/</span> <span class="p">(</span><span class="n">atmosphere_solid_angle</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span><span class="p">)</span> <span class="p">)</span> <span class="o">*</span> <span class="n">dv</span>
+                        <span class="n">p_t</span><span class="p">[</span><span class="n">t_idx</span><span class="p">]</span> <span class="o">+=</span> <span class="p">(</span><span class="n">src_val</span> <span class="o">/</span> <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span><span class="p">)</span> <span class="p">)</span> <span class="o">*</span> <span class="n">dv</span>
 
     <span class="k">if</span> <span class="n">t_idx</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Finished time index </span><span class="si">{</span><span class="n">t_idx</span><span class="si">}</span><span class="s2"> of </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">file_index_list</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
@@ -16937,7 +16939,8 @@ Finished time index 90 of 100
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Numerical-solution-as-a-surface-integral-rather-than-a-volume-integral">Numerical solution as a surface integral rather than a volume integral<a class="anchor-link" href="#Numerical-solution-as-a-surface-integral-rather-than-a-volume-integral">¶</a></h2><p>$$
+<h2 id="5.3-Numerical-solution-as-a-surface-integral-rather-than-a-volume-integral">5.3 Numerical solution as a surface integral rather than a volume integral<a class="anchor-link" href="#5.3-Numerical-solution-as-a-surface-integral-rather-than-a-volume-integral">¶</a></h2><p>Eric suggested I solved this problem as a surface integral. Doing so would allow us to remove one spatial dimension at the expense of slightly more complicated math.</p>
+<p>$$
 p(x, t) = \frac{1}{4 \pi} \int_S [ \frac{\rho_0 (v_n + u_n)}{r (1 - M_r)} + \frac{\dot{P_n}}{c_0 r (1 - M_r)} + \frac{P_n}{r^2 (1 - M_r)}]_{ret} dS
 $$</p>
 </div>
