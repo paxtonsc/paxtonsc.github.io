@@ -172,13 +172,13 @@ In addition to verification, we hoped the lumped parameter model would allow us 
 
 
 ## 3.0 Atmosphere coupling
-Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. Our goal was to couple atmosphere to our volcano model to create a second source--in addition to seismic data--to validate our model against. 
+Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. Our goal was to couple atmosphere to our volcano model to create a second source--in addition to seismic data--to validate our model against. I approached the atmospheric modeling problem from three methods, and my goal was to get comparable results from each method or at least understand output differences. 
 
-### Quail atmospheric model 
+### 3.1 Quail atmospheric model 
 
 Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail... 
 
-### Simple monopole source model
+### 3.2 Simple monopole source model
 
 In order to sanity check the output of the Quail atmosphere model, we decided to create a very simple atmosphere model where we assume the source term to be a single monopole at the outlet of the volcano from which pressure could be modeled with the relation:
 
@@ -198,7 +198,12 @@ where $Q(t) = \dot{s} \pi R^2$ is the volumetric flow in units $[\frac{m^3}{s}]$
 
 ### Lighthill Stress Tensor 
 
+One challenge with the quail atmosphere model is that the error term is fairly diffusive. One way of getting around the diffusive error is to use the [Lighthill Analogy](https://doc.comsol.com/6.1/doc/com.comsol.help.aco/aco_ug_pressure.05.151.html) where Lighthill rearranged the Navier-Stokes equation into an inhomogenous wave equation where the source term only exists in regions of turbulent flow.  
+
 **Volume Integral approach**
+The simplest approach for calculating pressure with the lighthill analogy is to integrate over the entire volume of turbulent flow and used that volume integral to predict the acoustic pressure of some distance location $x$. Here are [some notes](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.05.12.experiments.html) from a week in early May when I began working out this. 
+
+$$p'(x,t)=\frac{1}{4 \pi} \int_V \frac{1}{|x-y|} \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, t-\frac{|x-y|}{c_0})dy^3 $$
 
 **Surface Integral approach**
 
