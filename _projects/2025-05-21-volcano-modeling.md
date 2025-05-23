@@ -14,15 +14,15 @@ One of those emails was to Prof. Eric Dunham, and lo and behold he responded:
 
 We worked out the details, and after my last day at SpaceX in December of 2024 I began work with Prof. Dunham in January of 2025. In this writeup, I'll describe some of the projects I worked on while working with Prof. Dunham and his PhD student Mario. 
 
-0. [Context](#context)
-1. [Slip weakening for plug](#slip-weakening-for-plug)
-2. [Lumped parameter model](#lumped-parameter-model)
-3. [Atmosphere coupling](#atmosphere-coupling)
+0. [0.0 Context](#0.0-context)
+1. [1.0 Slip weakening for plug](#1.0-slip-weakening-for-plug)
+2. [2.0 Lumped parameter model](#2.0-lumped-parameter-model)
+3. [3.0 Atmosphere coupling](#3.0-atmosphere-coupling)
 
-## Context 
+## 0.0 Context 
 Prof. Dunham's PhD student, Mario, was working to accurately model eruptions of [Tungurahua](https://en.wikipedia.org/wiki/Tungurahua), an active Stratovolcano in Ecuedor. Mario was working with a modified version of [Quail](https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/wp-content/papercite-data/pdf/ching2022quail.pdf), an open-source PDE solver that one of Prof. Dunham's previous PhD student's, Fred, had already modified to support modeling flow in a quasi-1D volcano conduit. 
 
-## Slip weakening for plug 
+## 1.0 Slip weakening for plug 
 
 ### Background
 We were working to model [Vulcanian eruptions](https://en.wikipedia.org/wiki/Vulcanian_eruption). Vulcanian eruptions are typically charecterized by a solid plug forming in the conduit of the volcano, pressure building up beneath that plug, and ultimately a short, violent eruption after which a new plug forms in the conduit. 
@@ -152,23 +152,58 @@ In order to test, this result, I leave the initial conditions the same as the pr
 
 <iframe width="100%" height="500px" src="/images/2025-05-geophysics/small_controlled_eruption.mp4"></iframe>
 
-## Lumped parameter model
+## 2.0 Lumped parameter model
 
-Prof. Dunham suggested for further verification and understanding, it might be helpful to compare the results generated from Quail to the numerical solution of the ODE: 
+For further verification and understanding, we decided it might be helpful to compare the results generated from Quail to the numerical solution of the ODE: 
 
 $$
-M_{eff} \ddot{s} = A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - M_{eff} g - 4 \mu L_m \dot{s} \\
-\ddot{s} = \frac{A}{M_{eff}}(p_0 - p_{atm} - \frac{Ks}{L_m}) - \frac{2 \pi R L_p \tau(s)}{M_{eff}} - g - \frac{4 L_m \mu \dot{s}}{M_{eff}}
+\begin{align}
+M_{eff} \ddot{s} &= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - M_{eff} g - 4 \mu L_m \dot{s} \\
+\ddot{s} &= \frac{A}{M_{eff}}(p_0 - p_{atm} - \frac{Ks}{L_m}) - \frac{2 \pi R L_p \tau(s)}{M_{eff}} - g - \frac{4 L_m \mu \dot{s}}{M_{eff}}
+\end{align}
 $$
 
 To calculate the viscous drag term, we assume the velocity in the melt linearly increases zero velocity at the bottom of the conduit to $u_z$ at the top. See my [weekly notes](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.03.21.experiments.html) from March where I touch on this. 
 
 ![](/images/2025-05-geophysics/lumped_parameter_model.png)
+*Lumped parameter model compared to Quail for the "slip" eruption simulated in section 1.*
 
-In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations, 
+In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations--such as the $\tau_{peak} - \tau_r$ and R--a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the [2014 eruption](https://www.researchgate.net/publication/262563084_The_Vulcanian_eruption_of_February_1st_2014_at_Tungurahua_volcano_Ecuador). However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.  
 
 
-## Atmosphere coupling
+## 3.0 Atmosphere coupling
+Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. Our goal was to couple atmosphere to our volcano model to create a second source--in addition to seismic data--to validate our model against. 
+
+### Quail atmospheric model 
+
+Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail... 
+
+### Simple monopole source model
+
+In order to sanity check the output of the Quail atmosphere model, we decided to create a very simple atmosphere model where we assume the source term to be a single monopole at the outlet of the volcano from which pressure could be modeled with the relation:
+
+$$
+p(r,t) = \frac{\rho \dot{Q}(t-r/c)}{4 \pi} \\
+$$
+
+where $Q(t) = \dot{s} \pi R^2$ is the volumetric flow in units $[\frac{m^3}{s}]$. The derivation for this relation can be found [here](https://drive.google.com/file/d/1khrmHWfoOqrcBjE533TtZirvnp9IIAc3/view). The code for this simple model is in my [weekly notes from April](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.04.28.experiments.html).  
+
+
+<iframe width="100%" height="500px" src="/images/2025-05-geophysics/small_controlled_eruption.mp4"></iframe>
+
+*Monopole source model applied to the simple slip eruption in section 1.*
+
+![](/images/2025-05-geophysics/monopole_pressure_vs_time.png)
+*Pressure measured at various distances from the outlet for the above simulation.*
+
+### Lighthill Stress Tensor 
+
+**Volume Integral approach**
+
+**Surface Integral approach**
+
+
+
 
 
 
