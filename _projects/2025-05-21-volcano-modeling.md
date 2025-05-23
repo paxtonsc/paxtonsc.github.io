@@ -14,10 +14,11 @@ One of those emails was to Prof. Eric Dunham, and lo and behold he responded:
 
 We worked out the details, and after my last day at SpaceX in December of 2024 I began work with Prof. Dunham in January of 2025. In this writeup, I'll describe some of the projects I worked on while working with Prof. Dunham and his PhD student Mario. 
 
-0. [0.0 Context](#0.0-context)
-1. [1.0 Slip weakening for plug](#1.0-slip-weakening-for-plug)
-2. [2.0 Lumped parameter model](#2.0-lumped-parameter-model)
-3. [3.0 Atmosphere coupling](#3.0-atmosphere-coupling)
+0. [Context](#0.0-context)
+1. [Slip weakening for plug](#1.0-slip-weakening-for-plug)
+2. [Lumped parameter model](#2.0-lumped-parameter-model)
+3. [Atmosphere coupling](#3.0-atmosphere-coupling)
+4. [Conclusion](#4.0-conclusion)
 
 ## 0.0 Context 
 Prof. Dunham's PhD student, Mario, was working to accurately model eruptions of [Tungurahua](https://en.wikipedia.org/wiki/Tungurahua), an active Stratovolcano in Ecuedor. Mario was working with a modified version of [Quail](https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/wp-content/papercite-data/pdf/ching2022quail.pdf), an open-source PDE solver that one of Prof. Dunham's previous PhD student's, Fred, had already modified to support modeling flow in a quasi-1D volcano conduit. 
@@ -200,15 +201,74 @@ where $Q(t) = \dot{s} \pi R^2$ is the volumetric flow in units $[\frac{m^3}{s}]$
 
 One challenge with the quail atmosphere model is that the error term is fairly diffusive. One way of getting around the diffusive error is to use the [Lighthill Analogy](https://doc.comsol.com/6.1/doc/com.comsol.help.aco/aco_ug_pressure.05.151.html) where Lighthill rearranged the Navier-Stokes equation into an inhomogenous wave equation where the source term only exists in regions of turbulent flow.  
 
-**Volume Integral approach**
-The simplest approach for calculating pressure with the lighthill analogy is to integrate over the entire volume of turbulent flow and used that volume integral to predict the acoustic pressure of some distance location $x$. Here are [some notes](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.05.12.experiments.html) from a week in early May when I began working out this. 
+$$
+\begin{align}
+\frac{1}{c_0^2}\frac{\partial^2p}{\partial t^2} - \nabla^2 p = \nabla \cdot (\nabla \cdot T) \\
+\end{align}
+$$
 
-$$p'(x,t)=\frac{1}{4 \pi} \int_V \frac{1}{|x-y|} \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, t-\frac{|x-y|}{c_0})dy^3 $$
+The freespace Green's theorm satisfies the case
+
+$$
+\begin{align}
+\frac{1}{c_0^2}\frac{\partial^2 G}{\partial t^2} - \nabla^2 G = 0
+\end{align}
+$$
+
+where the freespace Green's theorm for three dimensions is given by 
+
+$$
+\begin{align}
+G(x, t; y, \tau) = \frac{\delta( t - \tau - \frac{|x-y|}{c0})}{4 \pi |x - y|}
+\end{align}
+$$
+
+
+**Volume Integral approach**
+The simplest approach for calculating pressure with the lighthill analogy is to integrate over the entire volume of turbulent flow and used that volume integral to predict the acoustic pressure of some distance location $x$. 
+
+$$
+\begin{align}
+p'(x,t) &= \int \int_V  G(x, t; y, \tau) \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, \tau)dy d\tau \\
+p'(x,t) &=\frac{1}{4 \pi} \int_V \frac{1}{|x-y|} \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, t-\frac{|x-y|}{c_0})dy^3 
+\end{align}
+$$
 
 **Surface Integral approach**
 
+It is also possible to translate the volume integral as a surface integral. 
+
+$$
+\begin{align}
+p'(x,t) = \frac{1}{4\pi} \int_v \frac{1}{|x - y|} \frac{\partial}{\partial y_i} \frac{\partial T_{ij}}{\partial y_j} (y, t - \frac{|x-y|}{c_0}) dy^3
+\end{align}
+$$
+
+Applying the divergence theorm, we are able to rewrite this volume integral as a surface intgral. 
 
 
+$$
+\begin{align}
+p'(x,t) = \frac{1}{4\pi} \int_S \frac{1}{|x - y|}  \frac{\partial T_{ij}}{\partial y_j} (y, t - \frac{|x-y|}{c_0}) \cdot \hat{n} dy^2
+\end{align}
+$$
+
+Let's integrate over the sphere with a radius $a=100m$. Let's review a couple aspects of spherical coordinates. 
+
+$$
+\begin{align}
+dS =& a^2 \sin \phi d \phi d \theta \\
+x =& a \sin \phi \cos \theta \\
+y =& a \sin \phi \sin \theta \\
+z =& a \cos \phi
+\end{align}
+$$
+
+So we should be able to rewrite the surface integral as follows: 
+
+$$
+p'(x, t) = \frac{1}{4 \pi} \int_0^{\pi/3} \int_0^{2\pi}  \frac{1}{|x - y|} \frac{\partial T_{ij}}{\partial y_j} n_j a^2 \sin \phi d \phi d \theta
+$$
 
 
-
+## 4.0 Conclusion
