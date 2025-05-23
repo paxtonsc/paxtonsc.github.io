@@ -74,7 +74,7 @@ To show the the slip weakening force is working as expected, let's consider a si
 
 $$
 \begin{align}
-M \ddot{s} &= A (p_0 ) - p_{atm}A - Mg - 2 \pi R \tau(s) - \frac{8 \mu}{R^2} \dot{s} \\
+M \ddot{s} &= A (p_0 + \Delta p(s)) - p_{atm}A - Mg - 2 \pi R \tau(s) - \frac{8 \mu}{R^2} \dot{s} \\
 \end{align}
 $$
 
@@ -152,10 +152,20 @@ In order to test, this result, I leave the initial conditions the same as the pr
 
 <iframe width="100%" height="500px" src="/images/2025-05-geophysics/small_controlled_eruption.mp4"></iframe>
 
-Sure enough! We got a small eruption. 
-
 ## Lumped parameter model
 
+Prof. Dunham suggested for further verification and understanding, it might be helpful to compare the results generated from Quail to the numerical solution of the ODE: 
+
+$$
+M_{eff} \ddot{s} = A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - M_{eff} g - 4 \mu L_m \dot{s} \\
+\ddot{s} = \frac{A}{M_{eff}}(p_0 - p_{atm} - \frac{Ks}{L_m}) - \frac{2 \pi R L_p \tau(s)}{M_{eff}} - g - \frac{4 L_m \mu \dot{s}}{M_{eff}}
+$$
+
+To calculate the viscous drag term, we assume the velocity in the melt linearly increases zero velocity at the bottom of the conduit to $u_z$ at the top. See my [weekly notes](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.03.21.experiments.html) from March where I touch on this. 
+
+![](/images/2025-05-geophysics/lumped_parameter_model.png)
+
+In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations, 
 
 
 ## Atmosphere coupling
