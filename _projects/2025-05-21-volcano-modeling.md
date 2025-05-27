@@ -3,7 +3,7 @@ title: 'Tungurahua Volcano Modeling & Simulation'
 date: 2025-05-21
 permalink: /projects/2025/05/geophysics-volcano-research/
 show_excerpt: true
-draft: true
+draft: false
 ---
 
 In the fall of 2025, I was living in Seattle, working as a software engineer at SpaceX, and looking for a way to join my girlfriend in Palo Alto. I sent a number of emails to friends, coworkers, and past professors to inquire if they had leads on work that would allow me to work with both physics and software near Palo Alto. 
@@ -21,7 +21,7 @@ We worked out the details, and after my last day at SpaceX in December of 2024 I
 4. [Conclusion](#conclusion)
 
 ## 0.0 Intro <a name="intro"></a>
-Prof. Dunham's PhD student, Mario, was working to accurately model eruptions of [Tungurahua](https://en.wikipedia.org/wiki/Tungurahua), an active Stratovolcano in Ecuedor. Mario was working with a modified version of [Quail](https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/wp-content/papercite-data/pdf/ching2022quail.pdf), an open-source PDE solver that one of Prof. Dunham's previous PhD student's, Fred, had already modified to support modeling flow in a quasi-1D volcano conduit. 
+Prof. Dunham's PhD student, Mario, was working to accurately model eruptions of [Tungurahua](https://en.wikipedia.org/wiki/Tungurahua), an active stratovolcano in Ecuador. Mario was working with a modified version of [Quail](https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/wp-content/papercite-data/pdf/ching2022quail.pdf), an open-source PDE solver that one of Prof. Dunham's previous PhD students, Fred, had already modified to support modeling flow in a quasi-1D volcano conduit. 
 
 ## 1.0 Slip weakening for plug <a name="slip"></a> 
 
@@ -36,7 +36,7 @@ My goal was to integrate the plug expulsion into the numerical model.
 
 <img align="left" width="50%" src="/images/2025-05-geophysics/simple_volcano_diagram.png">
 
-Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is just the area the plug contacts the conduit $\pi R L$ multiplied by the $\tau(s(t))$, the wall shear stress where $s(t)$ is 'slip' or displacement as a function of time. For the sheer stress, I added two functions based on slip: one linear and one exponential.
+Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is the area where the plug contacts the conduit $\pi R L$ multiplied by $\tau(s(t))$, the wall shear stress where $s(t)$ is 'slip' or displacement as a function of time. For the shear stress, I added two functions based on slip: one linear and one exponential.
 
 $$
 \begin{align}
@@ -49,15 +49,15 @@ $$
 \end{align}
 $$
 
-Where $\tau_{peak}$ and $\tau_{residual}$ are parameters to select based on observational data from past eruptions. 
+Where $\tau_{peak}$ and $\tau_{residual}$ are parameters selected based on observational data from past eruptions.
 
-Prof. Dunham had previously applied "slip-weakening" [with success](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JB004717) to earthquake models, and thought the mechanism was also applicable with the volcano plug. 
+Prof. Dunham had previously applied "slip-weakening" [with success](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JB004717) to earthquake models and thought the mechanism would also be applicable to the volcano plug.
 
-### Implemenation
+### Implementation
 
-In order to implement a distinct friction laws for the plug and the melt, it is necessary to know the slip value for specific position $x$ at a specific time $t$. Tracking slip as function of position and time allows us to distinguish between the plug and the melt, and also would provide an input for the slip weakening friction law. So the first step, is to add a new conserved variable that tracks slip.  
+To implement distinct friction laws for the plug and the melt, it is necessary to know the slip value for a specific position $x$ at a specific time $t$. Tracking slip as a function of position and time allows us to distinguish between the plug and the melt, and also provides an input for the slip weakening friction law. So the first step is to add a new conserved variable that tracks slip.
 
-The [quail code](https://github.com/fredriclam/quail_volcano) modeled the quasi-1D conduit by conserving eight state variables: 
+The [quail code](https://github.com/fredriclam/quail_volcano) models the quasi-1D conduit by conserving eight state variables: 
 - $y_a \rho$ - partial density air phase
 - $y_{wf} \rho$ - partial density exsolved water
 - $y_{cond} \rho$ - partial density condensed phase
@@ -67,19 +67,18 @@ The [quail code](https://github.com/fredriclam/quail_volcano) modeled the quasi-
 - $y_{crys} \rho$ - partial density crystals
 - $y_f \rho$ - Fragmented condensed phase
 
-Each of those variables, is conserved according to various conservation equations. For example, the partial melt density is conserved according to the equation:
+Each of these variables is conserved according to various conservation equations. For example, the partial melt density is conserved according to the equation:
 
 $$ \frac{\partial}{\partial t} (y_a \rho) + \frac{\partial}{\partial z}(y_a \rho u_z) = 0 $$
 
-The conservation equation for our new variable slip is:
+The conservation equation for our new slip variable is:
 
 $$\frac{\partial}{\partial t} \rho s + \frac{\partial}{\partial z} s \rho u = \rho u$$
 
-I match the implementation of other conserved state variables to add this new variable in this [PR](https://github.com/fredriclam/quail_volcano/commit/3f26ef12649b0b235c5e7d002606f54a50cae46a). With the new variable added, the next step was to implement the slip friction law. I added two variants; both the exponential law above and also a linear slip weakening model. 
+I matched the implementation of other conserved state variables to add this new variable in this [PR](https://github.com/fredriclam/quail_volcano/commit/3f26ef12649b0b235c5e7d002606f54a50cae46a). With the new variable added, the next step was to implement the slip friction law. I added two variants: both the exponential law above and a linear slip weakening model. 
 
 ### Validation
-#### Comparison of analytical ODE result to numerical PDE result in static case
-To show the the slip weakening force is working as expected, let's consider a simplified model where the only forces at play are pressure, gravity, slip-weakening friction, and viscous drag. The resulting ODE for the slip of the plug:
+To show that the slip-weakening force is working as expected, let's consider a simplified model where the only forces at play are pressure, gravity, slip-weakening friction, and viscous drag. The resulting ODE for the slip of the plug:
 
 $$
 \begin{align}
@@ -163,7 +162,7 @@ In order to test, this result, I leave the initial conditions the same as the pr
 
 ## 2.0 Lumped parameter model <a name="lumped"></a>
 
-For further verification and understanding, we decided it might be helpful to compare the results generated from Quail to the numerical solution of the ODE: 
+For further verification and understanding, we decided it might be helpful to compare the results generated by Quail to the numerical solution of the ODE:
 
 $$
 \begin{align}
@@ -172,7 +171,7 @@ M_{eff} \ddot{s} &= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - M_{e
 \end{align}
 $$
 
-To calculate the viscous drag term, we assume the velocity in the melt linearly increases zero velocity at the bottom of the conduit to $u_z$ at the top. See my [weekly notes](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.03.21.experiments.html) from March where I touch on this. 
+To calculate the viscous drag term, we assume the velocity in the melt increases linearly from zero at the bottom of the conduit to $u_z$ at the top. See my [weekly notes](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.03.21.experiments.html) from March where I discuss this.
 
 ![](/images/2025-05-geophysics/lumped_parameter_model.png)
 *Lumped parameter model compared to Quail for the "slip" eruption simulated in section 1.*
@@ -180,16 +179,16 @@ To calculate the viscous drag term, we assume the velocity in the melt linearly 
 In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations--such as the $\tau_{peak} - \tau_r$ and R--a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the 2014 eruption. However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.  
 
 
-# 3.0 Atmosphere coupling <a name="atmosphere></a>
-Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. During the 2014 eruption those infrasound sensors recorded this signal (band pass filtered between 1 and 20 Hz) at the "HIGH" stations about 2km from the conduit outlet.
+# 3.0 Atmosphere coupling <a name="atmosphere"></a>
+Coupled with the seismic sensors around Tungurahua are infrasound sensors that record atmospheric pressure. During the 2014 eruption, these sensors recorded this signal (band-pass filtered between 1 and 20 Hz) at the "HIGH" stations about 2 km from the conduit outlet.
 
 ![](/images/2025-05-geophysics/infrasound_validation.png)
 
-Our goal was to couple atmosphere to our volcano model to create a second source--in addition to seismic data--to validate our model against. I approached the atmospheric modeling problem from three methods, and my goal was to get comparable results from each method or at least understand output differences. 
+Our goal was to couple the atmosphere to our volcano model to create a second source—in addition to seismic data—to validate our model against. I approached the atmospheric modeling problem using three methods, aiming to get comparable results from each method or at least understand any differences in output.
 
 ## 3.1 Quail atmospheric model (in progress)
 
-Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail. Two challenges with the quail implementation are (1) It is very hard to validate and (2) adding the atmosphere actually affects the 1d volcano model in the conduit which is certainly incorrect. As of this writing, I am still working to better understand what is going on here. 
+Our first concept was to apply the axisymmetric atmospheric model that former PhD student Fred Lam had already implemented in Quail. Two challenges with the Quail implementation are: (1) it is very hard to validate, and (2) adding the atmosphere affects the 1D volcano model in the conduit, which is certainly incorrect. As of this writing, I am still working to better understand what is happening here. 
 
 ## 3.2 Simple monopole source model
 
@@ -219,7 +218,7 @@ $$
 \end{align}
 $$
 
-The freespace Green's theorm satisfies the case
+The free-space Green's theorem satisfies the case
 
 $$
 \begin{align}
@@ -227,7 +226,7 @@ $$
 \end{align}
 $$
 
-where the freespace Green's theorm for three dimensions is given by 
+where the free-space Green's theorem for three dimensions is given by 
 
 $$
 \begin{align}
@@ -236,9 +235,8 @@ G(x, t; y, \tau) = \frac{\delta( t - \tau - \frac{|x-y|}{c0})}{4 \pi |x - y|}
 $$
 
 
-### Volume Integral approach:
-
-The simplest approach for calculating pressure with the lighthill analogy is to integrate over the entire volume of turbulent flow and used that volume integral to predict the acoustic pressure of some distance location $x$. 
+### Volume Integral approach
+The simplest approach for calculating pressure with the Lighthill analogy is to integrate over the entire volume of turbulent flow and use that volume integral to predict the acoustic pressure at some distant location $x$.
 
 $$
 \begin{align}
@@ -283,7 +281,7 @@ p'(x,t) = \frac{1}{4\pi} \int_v \frac{1}{|x - y|} \frac{\partial}{\partial y_i} 
 \end{align}
 $$
 
-Applying the divergence theorm, we are able to rewrite this volume integral as a surface intgral. 
+Applying the divergence theorem, we can rewrite this volume integral as a surface integral. 
 
 
 $$
@@ -312,5 +310,4 @@ $$
 
 
 ## 4.0 Conclusion <a name="conclusion"></a>
-
-I have enjoyed working on this various projects related to Mario's work on accurately simulating the Tungurhua eruption. I will continue to update this page as additional developments occur.
+I have enjoyed working on these various projects related to Mario's work on accurately simulating the Tungurahua eruption. I will continue to update this page as additional developments occur.
