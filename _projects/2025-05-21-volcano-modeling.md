@@ -114,7 +114,7 @@ P_L &= 36.6 [Pa]
 \end{align}
 $$
 
-When we run the numerical model, we see that both analytical predicts are spot on! This implies that we have successfully implemented the slip-weakening friction, at least in the zero-slip case. 
+When we run the numerical model with those steady state values as our initial conditions, we see that no slip occurs and the numerical steady state lines up very closely with the analytical results. That suggests that we have correctly implemented the zero velocity case.
 
 <iframe width="100%" height="500px" src="/images/2025-05-geophysics/basic_simulation_with_slip.mp4"></iframe>
 
@@ -123,13 +123,13 @@ In the above example we appear to have a stable equilibrium. One question is: fo
 
 $$ \frac{|\frac{d F_{friction}}{d s}|}{|\frac{d F_{pressure}}{d s}|} < 1$$
 
-When the condition above is met, that means that the force due to friction decreases more rapidly than the force due to drag decreases. As a result, we would expect that once the system starts slipping it will at least slip until $s = D_c$. Assuming linear slip weakening and a compressible fluid that meets the requirement.
+When the condition above is met, that means that the force due to friction decreases more rapidly than the force due to drag decreases. As a result, we would expect that once the system starts slipping it will at least slip until $s = D_c$. For our analysis, lets assume a linear slip weakening law and assume that the compressible melt acts according to the law:
 
 $$
 K = - L \frac{dP}{dL}
 $$
 
-We are able to write out the derivatives
+Where K is the bulk modulus. We are able to write out the derivatives
 
 $$
 \begin{align}
