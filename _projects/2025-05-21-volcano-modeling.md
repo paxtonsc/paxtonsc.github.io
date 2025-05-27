@@ -36,26 +36,13 @@ My goal was to integrate the plug expulsion into the numerical model.
 
 <img align="left" width="50%" src="/images/2025-05-geophysics/simple_volcano_diagram.png">
 
-Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is the area where the plug contacts the conduit $\pi R L$ multiplied by $\tau(s(t))$, the wall shear stress where $s(t)$ is 'slip' or displacement as a function of time. For the shear stress, I added two functions based on slip: one linear and one exponential.
-
-$$
-\begin{align}
-\tau(s) &=
-\begin{cases}
-\tau_{peak} - (\tau_{peak} - \tau_{res})(\frac{s}{D_c}) & s < D_c \\
-\tau_{res} & s \geq D_c \\
-\end{cases} \\
-\tau(s) &= \tau_{res} + (\tau_{peak} - \tau_r) \exp{-\frac{s}{D_c}}
-\end{align}
-$$
-
-Where $\tau_{peak}$ and $\tau_{residual}$ are parameters selected based on observational data from past eruptions.
+Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is the area where the plug contacts the conduit $\pi R L$ multiplied by $\tau(s(t))$, the wall shear stress where $s(t)$ is 'slip' or displacement as a function of time. 
 
 Prof. Dunham had previously applied "slip-weakening" [with success](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006JB004717) to earthquake models and thought the mechanism would also be applicable to the volcano plug.
 
 ### Implementation
 
-To implement distinct friction laws for the plug and the melt, it is necessary to know the slip value for a specific position $x$ at a specific time $t$. Tracking slip as a function of position and time allows us to distinguish between the plug and the melt, and also provides an input for the slip weakening friction law. So the first step is to add a new conserved variable that tracks slip.
+To implement distinct friction laws for the plug and the melt, it is necessary to know the slip value for a specific position $x$ at a specific time $t$. Tracking slip as a function of position and time allows us to distinguish between the plug and the melt, and also provides an input for the slip weakening friction law.
 
 The [quail code](https://github.com/fredriclam/quail_volcano) models the quasi-1D conduit by conserving eight state variables: 
 - $y_a \rho$ - partial density air phase
@@ -67,7 +54,7 @@ The [quail code](https://github.com/fredriclam/quail_volcano) models the quasi-1
 - $y_{crys} \rho$ - partial density crystals
 - $y_f \rho$ - Fragmented condensed phase
 
-Each of these variables is conserved according to various conservation equations. For example, the partial melt density is conserved according to the equation:
+Each of these variables is conserved according to various conservation equations. For example, the partial air density is conserved according to the equation:
 
 $$ \frac{\partial}{\partial t} (y_a \rho) + \frac{\partial}{\partial z}(y_a \rho u_z) = 0 $$
 
@@ -76,6 +63,19 @@ The conservation equation for our new slip variable is:
 $$\frac{\partial}{\partial t} \rho s + \frac{\partial}{\partial z} s \rho u = \rho u$$
 
 I matched the implementation of other conserved state variables to add this new variable in this [PR](https://github.com/fredriclam/quail_volcano/commit/3f26ef12649b0b235c5e7d002606f54a50cae46a). With the new variable added, the next step was to implement the slip friction law. I added two variants: both the exponential law above and a linear slip weakening model. 
+
+$$
+\begin{align}
+\tau(s) &=
+\begin{cases}
+\tau_{peak} - (\tau_{peak} - \tau_{res})(\frac{s}{D_c}) & s < D_c \\
+\tau_{res} & s \geq D_c \\
+\end{cases} \\
+\tau(s) &= \tau_{res} + (\tau_{peak} - \tau_{res}) \exp{-\frac{s}{D_c}}
+\end{align}
+$$
+
+Where $\tau_{peak}$ and $\tau_{res}$ are parameters selected based on observational data from past eruptions. Then, I modified the slip friction source term to only apply friction in the "plug" region which could be deduced from our new 'slip' state variable. Similarly, I updated the viscous drag source term to only apply in the "melt" region.
 
 ### Validation
 To show that the slip-weakening force is working as expected, let's consider a simplified model where the only forces at play are pressure, gravity, slip-weakening friction, and viscous drag. The resulting ODE for the slip of the plug:
