@@ -3,7 +3,7 @@ title: 'Tungurahua Volcano Modeling & Simulation'
 date: 2025-05-21
 permalink: /projects/2025/05/geophysics-volcano-research/
 show_excerpt: true
-draft: false
+draft: true
 ---
 
 In the fall of 2025, I was living in Seattle, working as a software engineer at SpaceX, and looking for a way to join my girlfriend in Palo Alto. I sent a number of emails to friends, coworkers, and past professors to inquire if they had leads on work that would allow me to work with both physics and software near Palo Alto. 
