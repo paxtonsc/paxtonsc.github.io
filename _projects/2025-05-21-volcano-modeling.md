@@ -14,13 +14,13 @@ One of those emails was to Prof. Eric Dunham, and lo and behold he responded:
 
 We worked out the details, and after my last day at SpaceX in December of 2024 I began work with Prof. Dunham in January of 2025. In this writeup, I'll describe some of the projects I worked on while working with Prof. Dunham and his PhD student Mario. 
 
-0. [Context](#0.0-context)
+0. [Context](#0.0-intro)
 1. [Slip weakening for plug](#1.0-slip-weakening-for-plug)
 2. [Lumped parameter model](#2.0-lumped-parameter-model)
 3. [Atmosphere coupling](#3.0-atmosphere-coupling)
 4. [Conclusion](#4.0-conclusion)
 
-## 0.0 Context 
+## 0.0 Intro
 Prof. Dunham's PhD student, Mario, was working to accurately model eruptions of [Tungurahua](https://en.wikipedia.org/wiki/Tungurahua), an active Stratovolcano in Ecuedor. Mario was working with a modified version of [Quail](https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/wp-content/papercite-data/pdf/ching2022quail.pdf), an open-source PDE solver that one of Prof. Dunham's previous PhD student's, Fred, had already modified to support modeling flow in a quasi-1D volcano conduit. 
 
 ## 1.0 Slip weakening for plug 
@@ -34,12 +34,20 @@ The project I was hired for was to implement a slip-weakening friction law for t
 
 My goal was to integrate the plug explusion into the numerical model. 
 
-<img align="left" width="50%" src="/images/2025-05-geophysics/simple_volcano_model.png">
+<img align="left" width="50%" src="/images/2025-05-geophysics/simple_volcano_diagram.png">
 
-$test$
+Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is just the area the plug contacts the conduit $\pi R L$ multiplied by the $\tau(s(t))$, the wall shear stress where $s(t)$ is 'slip' or displacement as a function of time. For the sheer stress, I added two functions based on slip: one linear and one exponential.
 
-Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is just the area the plug contacts the conduit $\pi R L$ multiplied by the $\tau(s(t))$, the wall shear stress where $s(t)$ is 'slip' or displacement as a function of time. 
-$$\tau(s(t)) = \tau_{res} + (\tau_{peak} - \tau_r) \exp{-\frac{s(t)}{D_c}}$$
+$$
+\begin{align}
+\tau(s) &=
+\begin{cases}
+\tau_{peak} - (\tau_{peak} - \tau_{res})(\frac{s}{D_c}) & s < D_c \\
+\tau_{res} & s \geq D_c \\
+\end{cases} \\
+\tau(s) &= \tau_{res} + (\tau_{peak} - \tau_r) \exp{-\frac{s}{D_c}}
+\end{align}
+$$
 
 Where $\tau_{peak}$ and $\tau_{residual}$ are parameters to select based on observational data from past eruptions. 
 
@@ -169,15 +177,19 @@ To calculate the viscous drag term, we assume the velocity in the melt linearly 
 ![](/images/2025-05-geophysics/lumped_parameter_model.png)
 *Lumped parameter model compared to Quail for the "slip" eruption simulated in section 1.*
 
-In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations--such as the $\tau_{peak} - \tau_r$ and R--a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the [2014 eruption](https://www.researchgate.net/publication/262563084_The_Vulcanian_eruption_of_February_1st_2014_at_Tungurahua_volcano_Ecuador). However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.  
+In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations--such as the $\tau_{peak} - \tau_r$ and R--a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the 2014 eruption. However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.  
 
 
 ## 3.0 Atmosphere coupling
-Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. Our goal was to couple atmosphere to our volcano model to create a second source--in addition to seismic data--to validate our model against. I approached the atmospheric modeling problem from three methods, and my goal was to get comparable results from each method or at least understand output differences. 
+Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. During the 2014 eruption those infrasound sensors recorded this signal (band pass filtered between 1 and 20 Hz) at the "HIGH" stations about 2km from the conduit outlet.
 
-### 3.1 Quail atmospheric model 
+![](/images/2025-05-geophysics/infrasound_validation.png)
 
-Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail... 
+Our goal was to couple atmosphere to our volcano model to create a second source--in addition to seismic data--to validate our model against. I approached the atmospheric modeling problem from three methods, and my goal was to get comparable results from each method or at least understand output differences. 
+
+### 3.1 Quail atmospheric model (in progress)
+
+Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail. Two challenges with the quail implementation are (1) It is very hard to validate and (2) adding the atmosphere actually affects the 1d volcano model in the conduit which is certainly incorrect. As of this writing, I am still working to better understand what is going on here. 
 
 ### 3.2 Simple monopole source model
 
@@ -197,7 +209,7 @@ where $Q(t) = \dot{s} \pi R^2$ is the volumetric flow in units $[\frac{m^3}{s}]$
 ![](/images/2025-05-geophysics/monopole_pressure_vs_time.png)
 *Pressure measured at various distances from the outlet for the above simulation.*
 
-### Lighthill Stress Tensor 
+### 3.3 Lighthill Stress Tensor (in progress)
 
 One challenge with the quail atmosphere model is that the error term is fairly diffusive. One way of getting around the diffusive error is to use the [Lighthill Analogy](https://doc.comsol.com/6.1/doc/com.comsol.help.aco/aco_ug_pressure.05.151.html) where Lighthill rearranged the Navier-Stokes equation into an inhomogenous wave equation where the source term only exists in regions of turbulent flow.  
 
@@ -233,6 +245,34 @@ p'(x,t) &= \int \int_V  G(x, t; y, \tau) \frac{\partial^2 T_{ij}}{\partial y_i \
 p'(x,t) &=\frac{1}{4 \pi} \int_V \frac{1}{|x-y|} \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, t-\frac{|x-y|}{c_0})dy^3 
 \end{align}
 $$
+
+To verify that my code for solving the volume integral was indeed behaving as intended, I created a simple test with simple spatially constant temporarily gaussian standing in for the double divergence of the lighthill stress tensor.
+
+<iframe width="50%" height="250px" src="/images/2025-05-geophysics/uniform_gaussian_pulse.mp4"></iframe>
+
+In this case, because the source term is uniform across the volume $R < 100$ and $Y>0$ and $Y< 100$.
+
+To find the max pressure we would expect, we write the equation:
+
+$$
+p_{max} = \frac{1}{4 \pi} \int_V \frac{1}{|x_{obs} - y|} dy 
+$$
+
+That can roughly be approximated as
+
+$$
+\begin{align}
+p_{max} =& \frac{1}{4 \pi} \frac{V}{r_{avg}} \\
+p_{max} =& \frac{1}{4 \pi} \frac{\pi * 100^2 * 200}{2300} \\
+p_{max} =& 220 [Pa]
+\end{align}
+$$
+
+And sure enough! When I plot the numerical output from the volume integral at retarded time against the input pulse scaled by $220$ I get matching gaussian curves!
+
+![](/images/2025-05-geophysics/pressure_verification.png)
+
+The next step is to apply the volume integral approach to the double divergence of the lighthill stress tensor. I do that in my notes from the [week of 2025.05.19](https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.05.19.experiments.html). However, because I don't trust my input, I also don't trust my output.
 
 **Surface Integral approach**
 
@@ -271,4 +311,7 @@ p'(x, t) = \frac{1}{4 \pi} \int_0^{\pi/3} \int_0^{2\pi}  \frac{1}{|x - y|} \frac
 $$
 
 
+
 ## 4.0 Conclusion
+
+I have enjoyed working on this various projects related to Mario's work on accurately simulating the Tungurhua eruption. I will continue to update this page as additional developments occur.

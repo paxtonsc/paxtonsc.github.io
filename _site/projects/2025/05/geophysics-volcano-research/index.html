@@ -103,6 +103,7 @@
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-65XZXJ9G5E"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -110,6 +111,16 @@
 
   gtag('config', 'G-65XZXJ9G5E');
 </script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     
 
 <!-- start custom head snippets -->
@@ -221,13 +232,14 @@
 <p>We worked out the details, and after my last day at SpaceX in December of 2024 I began work with Prof. Dunham in January of 2025. In this writeup, I’ll describe some of the projects I worked on while working with Prof. Dunham and his PhD student Mario.</p>
 
 <ol>
-  <li><a href="#0.0-context">0.0 Context</a></li>
-  <li><a href="#1.0-slip-weakening-for-plug">1.0 Slip weakening for plug</a></li>
-  <li><a href="#2.0-lumped-parameter-model">2.0 Lumped parameter model</a></li>
-  <li><a href="#3.0-atmosphere-coupling">3.0 Atmosphere coupling</a></li>
+  <li><a href="#0.0-intro">Context</a></li>
+  <li><a href="#1.0-slip-weakening-for-plug">Slip weakening for plug</a></li>
+  <li><a href="#2.0-lumped-parameter-model">Lumped parameter model</a></li>
+  <li><a href="#3.0-atmosphere-coupling">Atmosphere coupling</a></li>
+  <li><a href="#4.0-conclusion">Conclusion</a></li>
 </ol>
 
-<h2 id="00-context">0.0 Context</h2>
+<h2 id="00-intro">0.0 Intro</h2>
 <p>Prof. Dunham’s PhD student, Mario, was working to accurately model eruptions of <a href="https://en.wikipedia.org/wiki/Tungurahua">Tungurahua</a>, an active Stratovolcano in Ecuedor. Mario was working with a modified version of <a href="https://web.stanford.edu/group/ihmegroup/cgi-bin/MatthiasIhme/wp-content/papercite-data/pdf/ching2022quail.pdf">Quail</a>, an open-source PDE solver that one of Prof. Dunham’s previous PhD student’s, Fred, had already modified to support modeling flow in a quasi-1D volcano conduit.</p>
 
 <h2 id="10-slip-weakening-for-plug">1.0 Slip weakening for plug</h2>
@@ -243,12 +255,18 @@
 
 <p>My goal was to integrate the plug explusion into the numerical model.</p>
 
-<p><img align="left" width="50%" src="/images/2025-05-geophysics/simple_volcano_model.png" /></p>
+<p><img align="left" width="50%" src="/images/2025-05-geophysics/simple_volcano_diagram.png" /></p>
 
-<p>$test$</p>
+<p>Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is just the area the plug contacts the conduit $\pi R L$ multiplied by the $\tau(s(t))$, the wall shear stress where $s(t)$ is ‘slip’ or displacement as a function of time. For the sheer stress, I added two functions based on slip: one linear and one exponential.</p>
 
-<p>Specifically, I would add a feature to the quail simulation library to apply different friction laws to the solid plug and the liquid melt. For the plug, we apply a slip friction law that is just the area the plug contacts the conduit $\pi R L$ multiplied by the $\tau(s(t))$, the wall shear stress where $s(t)$ is ‘slip’ or displacement as a function of time. 
-\(\tau(s(t)) = \tau_{res} + (\tau_{peak} - \tau_r) \exp{-\frac{s(t)}{D_c}}\)</p>
+\[\begin{align}
+\tau(s) &amp;=
+\begin{cases}
+\tau_{peak} - (\tau_{peak} - \tau_{res})(\frac{s}{D_c}) &amp; s &lt; D_c \\
+\tau_{res} &amp; s \geq D_c \\
+\end{cases} \\
+\tau(s) &amp;= \tau_{res} + (\tau_{peak} - \tau_r) \exp{-\frac{s}{D_c}}
+\end{align}\]
 
 <p>Where $\tau_{peak}$ and $\tau_{residual}$ are parameters to select based on observational data from past eruptions.</p>
 
@@ -362,16 +380,20 @@ M_{eff} \ddot{s} &amp;= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - 
 <p><img src="/images/2025-05-geophysics/lumped_parameter_model.png" alt="" />
 <em>Lumped parameter model compared to Quail for the “slip” eruption simulated in section 1.</em></p>
 
-<p>In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations–such as the $\tau_{peak} - \tau_r$ and R–a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the <a href="https://www.researchgate.net/publication/262563084_The_Vulcanian_eruption_of_February_1st_2014_at_Tungurahua_volcano_Ecuador">2014 eruption</a>. However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.</p>
+<p>In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations–such as the $\tau_{peak} - \tau_r$ and R–a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the 2014 eruption. However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.</p>
 
 <h2 id="30-atmosphere-coupling">3.0 Atmosphere coupling</h2>
-<p>Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. Our goal was to couple atmosphere to our volcano model to create a second source–in addition to seismic data–to validate our model against.</p>
+<p>Coupled with the seismic sensors around Tunagurhua are infrasound sensors that record atmospheric pressure. During the 2014 eruption those infrasound sensors recorded this signal (band pass filtered between 1 and 20 Hz) at the “HIGH” stations about 2km from the conduit outlet.</p>
 
-<h3 id="quail-atmospheric-model">Quail atmospheric model</h3>
+<p><img src="/images/2025-05-geophysics/infrasound_validation.png" alt="" /></p>
 
-<p>Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail…</p>
+<p>Our goal was to couple atmosphere to our volcano model to create a second source–in addition to seismic data–to validate our model against. I approached the atmospheric modeling problem from three methods, and my goal was to get comparable results from each method or at least understand output differences.</p>
 
-<h3 id="simple-monopole-source-model">Simple monopole source model</h3>
+<h3 id="31-quail-atmospheric-model-in-progress">3.1 Quail atmospheric model (in progress)</h3>
+
+<p>Our first concept was to apply the axissymetric atmosphere model that former PhD student Fred Lam had already implemented into Quail. Two challenges with the quail implementation are (1) It is very hard to validate and (2) adding the atmosphere actually affects the 1d volcano model in the conduit which is certainly incorrect. As of this writing, I am still working to better understand what is going on here.</p>
+
+<h3 id="32-simple-monopole-source-model">3.2 Simple monopole source model</h3>
 
 <p>In order to sanity check the output of the Quail atmosphere model, we decided to create a very simple atmosphere model where we assume the source term to be a single monopole at the outlet of the volcano from which pressure could be modeled with the relation:</p>
 
@@ -383,14 +405,91 @@ M_{eff} \ddot{s} &amp;= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - 
 
 <p><em>Monopole source model applied to the simple slip eruption in section 1.</em></p>
 
-<p><img src="/Users/paxton/git/volcano_sims/notebooks/charts/monopole_pressure_vs_time.png" alt="" /></p>
+<p><img src="/images/2025-05-geophysics/monopole_pressure_vs_time.png" alt="" />
+<em>Pressure measured at various distances from the outlet for the above simulation.</em></p>
 
-<h3 id="lighthill-stress-tensor">Lighthill Stress Tensor</h3>
+<h3 id="33-lighthill-stress-tensor-in-progress">3.3 Lighthill Stress Tensor (in progress)</h3>
 
-<p><strong>Volume Integral approach</strong></p>
+<p>One challenge with the quail atmosphere model is that the error term is fairly diffusive. One way of getting around the diffusive error is to use the <a href="https://doc.comsol.com/6.1/doc/com.comsol.help.aco/aco_ug_pressure.05.151.html">Lighthill Analogy</a> where Lighthill rearranged the Navier-Stokes equation into an inhomogenous wave equation where the source term only exists in regions of turbulent flow.</p>
+
+\[\begin{align}
+\frac{1}{c_0^2}\frac{\partial^2p}{\partial t^2} - \nabla^2 p = \nabla \cdot (\nabla \cdot T) \\
+\end{align}\]
+
+<p>The freespace Green’s theorm satisfies the case</p>
+
+\[\begin{align}
+\frac{1}{c_0^2}\frac{\partial^2 G}{\partial t^2} - \nabla^2 G = 0
+\end{align}\]
+
+<p>where the freespace Green’s theorm for three dimensions is given by</p>
+
+\[\begin{align}
+G(x, t; y, \tau) = \frac{\delta( t - \tau - \frac{|x-y|}{c0})}{4 \pi |x - y|}
+\end{align}\]
+
+<p><strong>Volume Integral approach</strong>
+The simplest approach for calculating pressure with the lighthill analogy is to integrate over the entire volume of turbulent flow and used that volume integral to predict the acoustic pressure of some distance location $x$.</p>
+
+\[\begin{align}
+p'(x,t) &amp;= \int \int_V  G(x, t; y, \tau) \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, \tau)dy d\tau \\
+p'(x,t) &amp;=\frac{1}{4 \pi} \int_V \frac{1}{|x-y|} \frac{\partial^2 T_{ij}}{\partial y_i \partial y_j}(y, t-\frac{|x-y|}{c_0})dy^3 
+\end{align}\]
+
+<p>To verify that my code for solving the volume integral was indeed behaving as intended, I created a simple test with simple spatially constant temporarily gaussian standing in for the double divergence of the lighthill stress tensor.</p>
+
+<iframe width="50%" height="250px" src="/images/2025-05-geophysics/uniform_gaussian_pulse.mp4"></iframe>
+
+<p>In this case, because the source term is uniform across the volume $R &lt; 100$ and $Y&gt;0$ and $Y&lt; 100$.</p>
+
+<p>To find the max pressure we would expect, we write the equation:</p>
+
+\[p_{max} = \frac{1}{4 \pi} \int_V \frac{1}{|x_{obs} - y|} dy\]
+
+<p>That can roughly be approximated as</p>
+
+\[\begin{align}
+p_{max} =&amp; \frac{1}{4 \pi} \frac{V}{r_{avg}} \\
+p_{max} =&amp; \frac{1}{4 \pi} \frac{\pi * 100^2 * 200}{2300} \\
+p_{max} =&amp; 220 [Pa]
+\end{align}\]
+
+<p>And sure enough! When I plot the numerical output from the volume integral at retarded time against the input pulse scaled by $220$ I get matching gaussian curves!</p>
+
+<p><img src="/images/2025-05-geophysics/pressure_verification.png" alt="" /></p>
+
+<p>The next step is to apply the volume integral approach to the double divergence of the lighthill stress tensor. I do that in my notes from the <a href="https://paxtonsc.github.io/files/geophysics/volcano_project/weekly_notes/2025.05.19.experiments.html">week of 2025.05.19</a>. However, because I don’t trust my input, I also don’t trust my output.</p>
 
 <p><strong>Surface Integral approach</strong></p>
 
+<p>It is also possible to translate the volume integral as a surface integral.</p>
+
+\[\begin{align}
+p'(x,t) = \frac{1}{4\pi} \int_v \frac{1}{|x - y|} \frac{\partial}{\partial y_i} \frac{\partial T_{ij}}{\partial y_j} (y, t - \frac{|x-y|}{c_0}) dy^3
+\end{align}\]
+
+<p>Applying the divergence theorm, we are able to rewrite this volume integral as a surface intgral.</p>
+
+\[\begin{align}
+p'(x,t) = \frac{1}{4\pi} \int_S \frac{1}{|x - y|}  \frac{\partial T_{ij}}{\partial y_j} (y, t - \frac{|x-y|}{c_0}) \cdot \hat{n} dy^2
+\end{align}\]
+
+<p>Let’s integrate over the sphere with a radius $a=100m$. Let’s review a couple aspects of spherical coordinates.</p>
+
+\[\begin{align}
+dS =&amp; a^2 \sin \phi d \phi d \theta \\
+x =&amp; a \sin \phi \cos \theta \\
+y =&amp; a \sin \phi \sin \theta \\
+z =&amp; a \cos \phi
+\end{align}\]
+
+<p>So we should be able to rewrite the surface integral as follows:</p>
+
+\[p'(x, t) = \frac{1}{4 \pi} \int_0^{\pi/3} \int_0^{2\pi}  \frac{1}{|x - y|} \frac{\partial T_{ij}}{\partial y_j} n_j a^2 \sin \phi d \phi d \theta\]
+
+<h2 id="40-conclusion">4.0 Conclusion</h2>
+
+<p>I have enjoyed working on this various projects related to Mario’s work on accurately simulating the Tungurhua eruption. I will continue to update this page as additional developments occur.</p>
 
 
         
@@ -494,7 +593,7 @@ M_{eff} \ddot{s} &amp;= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - 
 
 <div class="page__footer-copyright">
   &copy; 2025 Paxton Scott, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2025-05-23
+  Site last updated 2025-05-27
 </div>
 
       </footer>
