@@ -8,9 +8,9 @@ image: /images/2025-04-sierra-traverse/20250421-sierra-traverse6183.jpg
 ## Preparation
 Sam and I started scheming the possibility of a Sierra traverse in the fall of 2024 after deciding Bugs to Rogers was too committing an objective for the spring of 2025. Our basic idea was a 7-day North/South traverse along the crest of the Sierra. 
 
-We ultimately decided to loosely follow the northern section of the summertime Roper’s Sierra High Route, starting at the Twin Lakes Vista trailhead in Mammoth and ending at the Twin Lakes trailhead near Bridgeport. The route would take us near some really cool zones: The Minarets, Banner/Ritter, Thousand Island Lakes, Tuolumne Meadows, North Peak/Conness, Shepard’s Crest, and the Matterhorn. 
+We decided to loosely follow the northern section of the summertime Roper’s Sierra High Route, starting at the Twin Lakes Vista trailhead in Mammoth and ending at the Twin Lakes trailhead near Bridgeport. The route would take us near some really cool zones: The Minarets, Banner/Ritter, Thousand Island Lakes, Tuolumne Meadows, North Peak/Conness, Shepard’s Crest, and the Matterhorn. 
 
-We ultimately reduced the length of the trip to four nights to limit the number of calories we had to carry and also to make the trip fit into our mutual life constraints. About a week prior to departure, Nahla decided to join, which was excellent news as Nahla has spent more time in the Sierras than Sam and I combined, including a couple of summer Sierra High Route permutations. 
+We reduced the length of the trip to four nights to limit the number of calories we had to carry and also to make the trip fit into our mutual life constraints. About a week prior to departure, Nahla decided to join, which was excellent news as Nahla has spent more time in the Sierras than Sam and I combined, including a couple of summer Sierra High Route permutations. 
 
 ## Day 1: Mammoth <kbd>&rarr;</kbd> Minaret Lake
 
