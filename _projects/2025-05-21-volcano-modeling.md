@@ -68,21 +68,21 @@ $$
 \begin{align}
 \tau(s) &=
 \begin{cases}
-\tau_{peak} - (\tau_{peak} - \tau_{res})(\frac{s}{D_c}) & s < D_c \\
-\tau_{res} & s \geq D_c \\
+\tau_p - (\tau_p - \tau_r)(\frac{s}{D_c}) & s < D_c \\
+\tau_r & s \geq D_c \\
 \end{cases} \\
-\tau(s) &= \tau_{res} + (\tau_{peak} - \tau_{res}) \exp{-\frac{s}{D_c}}
+\tau(s) &= \tau_r + (\tau_p - \tau_r) \exp{-\frac{s}{D_c}}
 \end{align}
 $$
 
-Where $\tau_{peak}$ and $\tau_{res}$ are parameters selected based on observational data from past eruptions. Then, I modified the slip friction source term to only apply friction in the "plug" region which could be deduced from our new 'slip' state variable. Similarly, I updated the viscous drag source term to only apply in the "melt" region.
+Where $\tau_p$ and $\tau_r$ are parameters selected based on observational data from past eruptions. Then, I modified the slip friction source term to only apply friction in the "plug" region which could be deduced from our new 'slip' state variable. Similarly, I updated the viscous drag source term to only apply in the "melt" region.
 
 ### Validation
 To show that the slip-weakening force is working as expected, let's consider a simplified model where the only forces at play are pressure, gravity, slip-weakening friction, and viscous drag. The resulting ODE for the slip of the plug:
 
 $$
 \begin{align}
-M \ddot{s} &= A (p_0 + \Delta p(s)) - p_{atm}A - Mg - 2 \pi R \tau(s) - \frac{8 \mu}{R^2} \dot{s} \\
+M \ddot{s} &= A (p_0 + \Delta p(s)) - p_{atm}A - Mg - 2 \pi R L_p \tau(s) - \frac{8 \mu}{R^2} \dot{s} \\
 \end{align}
 $$
 
@@ -90,8 +90,8 @@ where $p_0$ is the pressure just below the plug and $\mu$ is viscosity. Solving 
 
 $$
 \begin{align}
-0 &= A p_0 - p_{atm}A - M g - 2 \pi R L \tau_{peak} \\
-p_0 &= p_{atm} + \rho g L + \frac{2 L \tau_{peak}}{R} 
+0 &= A p_0 - p_{atm}A - M g - 2 \pi R L_p \tau_p \\
+p_0 &= p_{atm} + \rho g L_p + \frac{2 L_p \tau_p}{R} 
 \end{align}
 $$
 
@@ -108,7 +108,7 @@ Further, if we wanted to calculate the expected pressure in steady state at the 
 
 $$
 \begin{align}
-p_L &= p_0 + \rho g * L_{melt} \\
+p_L &= p_0 + \rho g * L_{c} \\
 P_L &= 11.4e6 + 2.6e3 [kg/m^3] * 950 [m] * 9.8 [m/s^2] \\
 P_L &= 36.6 [Pa]
 \end{align}
@@ -121,9 +121,19 @@ When we run the numerical model with those steady state values as our initial co
 #### Stability analysis
 In the above example we appear to have a stable equilibrium. One question is: for what value of $D_c$ is the system unstable? That is to say, for what value of $D_c$ is: 
 
-$$ \frac{|\frac{d F_{friction}}{d s}|}{|\frac{d F_{pressure}}{d s}|} < 1$$
+$$ \frac{|\frac{d F_f}{d s}|}{|\frac{d F_p}{d s}|} < 1$$
 
-When the condition above is met, that means that the force due to friction decreases more rapidly than the force due to drag decreases. As a result, we would expect that once the system starts slipping it will at least slip until $s = D_c$. For our analysis, lets assume a linear slip weakening law and assume that the compressible melt acts according to the law:
+Where $F_f$ is the force due friction between the plug and conduit walls and $F_p$ is force due to pressure of the liquid melt. When the condition above is met, that means that the force due to friction decreases more rapidly than the force due to drag decreases. As a result, we would expect that once the system starts slipping it will at least slip until $s = D_c$. The two forces can be expressed as:
+
+$$
+\begin{align}
+F_f(s) &= 2 \pi R_{plug}\tau(s) \\
+F_p(s) &= A(p_0 - \Delta p(s)) \\
+\end{align}
+$$
+
+
+For our analysis, lets assume a linear slip weakening law and assume that the compressible melt acts according to the law:
 
 $$
 K = - L \frac{dP}{dL}
@@ -133,8 +143,8 @@ Where K is the bulk modulus. We are able to write out the derivatives
 
 $$
 \begin{align}
-\frac{d F_P}{ds} &= A * \frac{dP}{ds} = \frac{-A * K}{L_{conduit}}\\
-\frac{d F_f}{ds} &= 2 \pi R L_{plug} \frac{\tau_p - \tau_r}{D_c}
+\frac{d F_P}{ds} &= A * \frac{dP}{ds} = \frac{-A * K}{L_{c}}\\
+\frac{d F_f}{ds} &= 2 \pi R L_p \frac{\tau_p - \tau_r}{D_c}
 \end{align}
 $$
 
@@ -142,8 +152,8 @@ The instability condition above is met specifically when
 
 $$
 \begin{align}
-D_c < \frac{L_{conduit} 2 \pi R L_{plug} (\tau_p - \tau_r)}{A K } \\
-D_c < \frac{2 L_{conduit} L_{plug} (\tau_p - \tau_r)}{R K } \\
+D_c < \frac{L_{c} 2 \pi R L_p (\tau_p - \tau_r)}{A K } \\
+D_c < \frac{2 L_{c} L_p (\tau_p - \tau_r)}{R K } \\
 \end{align}
 $$
 
@@ -166,8 +176,8 @@ For further verification and understanding, we decided it might be helpful to co
 
 $$
 \begin{align}
-M_{eff} \ddot{s} &= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - M_{eff} g - 4 \mu L_m \dot{s} \\
-\ddot{s} &= \frac{A}{M_{eff}}(p_0 - p_{atm} - \frac{Ks}{L_m}) - \frac{2 \pi R L_p \tau(s)}{M_{eff}} - g - \frac{4 L_m \mu \dot{s}}{M_{eff}}
+M_{eff} \ddot{s} &= A (p_0 + \Delta p(s) - p_{atm}) - 2 \pi R L_p \tau(s) - M_{eff} g - 4 \mu L_{c} \dot{s} \\
+\ddot{s} &= \frac{A}{M_{eff}}(p_0 - p_{atm} - \frac{Ks}{L_{c}}) - \frac{2 \pi R L_p \tau(s)}{M_{eff}} - g - \frac{4 L_{c} \mu \dot{s}}{M_{eff}}
 \end{align}
 $$
 
@@ -176,7 +186,7 @@ To calculate the viscous drag term, we assume the velocity in the melt increases
 ![](/images/2025-05-geophysics/lumped_parameter_model.png)
 *Lumped parameter model compared to Quail for the "slip" eruption simulated in section 1.*
 
-In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_{peak}$, $\tau_{residual}$, $D_c$, $R$, etc. While some of the parameters were bounded by observations--such as the $\tau_{peak} - \tau_r$ and R--a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the 2014 eruption. However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.  
+In addition to verification, we hoped the lumped parameter model would allow us to quickly test out a variety of values of: $\tau_p$, $\tau_r$, $D_c$, $R$, etc. While some of the parameters were bounded by observations--such as the $\tau_p - \tau_r$ and R--a lumped parameter model that we could run quickly would be very helpful to quickly search a large parameter space and compare simulated seismic inversions with validation data from the 2014 eruption. However, as our eruption model grew more complicated with the addition of fragmentation and exsolution, it was sufficiently challenging to develop a simple model that would match the more complex Quail simulation. As a result, we temporarily abandoned the effort in interest of focusing on atmospheric coupling and infrasound data validation.  
 
 
 # 3.0 Atmosphere coupling <a name="atmosphere"></a>
