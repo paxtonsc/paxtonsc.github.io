@@ -127,7 +127,7 @@ Where $F_f$ is the force due friction between the plug and conduit walls and $F_
 
 $$
 \begin{align}
-F_f(s) &= 2 \pi R_{plug}\tau(s) \\
+F_f(s) &= 2 \pi R\tau(s) \\
 F_p(s) &= A(p_0 - \Delta p(s)) \\
 \end{align}
 $$
