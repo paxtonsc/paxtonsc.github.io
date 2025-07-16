@@ -193,6 +193,3 @@ It rained briefly and then the air was left with a pleasing scent that emerges a
 
 ## Maps:
 - [Caltopo](https://caltopo.com/m/CBU52K1)
-
-
-## Next Section: [Helena <kbd>&rarr;</kbd>Pinedale](https://paxtonsc.github.io/adventures/2025/06/tour-divide-2/)
