@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://paxtonsc.github.io/sitemap.xml
