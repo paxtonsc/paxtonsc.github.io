@@ -1,5 +1,5 @@
 ---
-title: 'Tour Divide: Banff <kbd>&rarr;</kbd> Helena'
+title: 'Tour Divide Part 1: Banff <kbd>&rarr;</kbd> Helena'
 date: 2025-06-12
 permalink: /adventures/2025/06/tour-divide-1/
 image: /images/2025-06-tour-divide/2025-Tour-Divide-023.jpg
@@ -19,7 +19,7 @@ As the trip approached we had one more join our group. Linn Rising decided to qu
 
 On June 7th, I caught a flight from SFO to Calgary where I met my dad in the Calgary airport. He was on a road trip from Colorado, and spent five days together in the Canadian Rockies before the start of the trip. 
 
-## Day 1: Banff -> Blue Lake (95 miles, 7000 feet) 
+## Day 1: Banff <kbd>&rarr;</kbd> Blue Lake (95 miles, 7000 feet) 
 
 We started cycling July 12th  at 7:43 AM — one day before the grand departure — from the Tunnel Mountain Campground where we had all congregated the night before. After a very dry and smokey week in Banff, a small storm moved in the previous afternoon and we woke up to wet ground and cloudy skies. 
 
@@ -54,7 +54,7 @@ As we descended down Elk Pass, the weather turned and hail the size of small mar
 Once we finished our dinner the rain had petered out, and we continued down the valley to Blue Lake where we camped. Heck of a first day! For the diversity of weather and scenery it was perhaps our most exciting day of the entire trip. 
 
 
-## Day 2: Blue Lake -> Fernie (64 miles, 4500 feet) 
+## Day 2: Blue Lake <kbd>&rarr;</kbd> Fernie (64 miles, 4500 feet) 
 
 We did not begin rolling until 8:45 AM this morning, which would be our latest departure of the entire trip save Day 11 when we intentionally took a half day due to bad weather and did not start rolling until 2 PM. The reason for the late start was a combination of wet gear, our group getting used to breaking camp, and perhaps a miscommunication about our planned 8 AM departure. Fortunately, however, we had already booked accommodations in Fernie at the Raging Elk Hostel so our day was shorter than the previous one. 
 
@@ -74,11 +74,12 @@ The previous night we had decided to descend down the Elk Valley single track ra
 
 We rolled into Fernie at about 5PM. We checked into our room at the Raging Elk Lodge, and then walked over to a Mexican restaurant right off the course in time to see the first place rider Robin stop at a gas station and guzzle chocolate milk. While we ate Mexican food, many other riders pedaled by. 
 
-## Day 3: Fernie -> Rabbit Creek (93 miles, 7800 feet)  
+## Day 3: Fernie <kbd>&rarr;</kbd> Rabbit Creek (93 miles, 7800 feet)  
 
 We rolled at 7:50 today and after a pleasant coffee stop in Fernie and a short wait at a red light for a trail we were on our way up the first climb. Our original plan was to camp at Wigwam campsite. The riding to Wigwam was pretty straight forward —  two passes and miles of very smooth and car free dirt roads. 
 
 ![2025-Tour-Divide-049](/images/2025-06-tour-divide/2025-Tour-Divide-049.jpg)
+*Lightly traveled double track.*
 
 We made it to Wigwam at about 4PM, and given the many hours of daylight remaining, decided to push on a bit further. 
 
@@ -94,13 +95,14 @@ Eventually we made it past the wall and camped on the side of the double track a
 ![2025-Tour-Divide-056](/images/2025-06-tour-divide/2025-Tour-Divide-056.jpg)
 *Front row seats for the Tour Divide Race.*
 
-## Day 4: Rabbit Creek -> Upper Whitefish Lake (100 miles, 7600 feet) 
+## Day 4: Rabbit Creek <kbd>&rarr;</kbd> Upper Whitefish Lake (100 miles, 7600 feet) 
 
 Today we were up by 6:15 and rolling by 7:30 (our planned departure time). The efficiency of our morning routine (an efficiency lacking day two) truly warmed the cockles of my heart. Sadly, Linn’s knee was bugging him. He found that the knee hurt the most whenever he stopped riding and then restarted. So he stated his intention to bike ahead and stay in Whitefish that evening and give himself a rest day. We were sad to see him go but wished him the best for his ride to Whitefish and made plans to reconnect when we made it to Whitefish in a day and a half. 
 
-We made it to the top of Phillips Pass by 8:30 and then had a fast descent down to the border.
+We made it to the top of Phillips Pass by 8:30.
 
 ![2025-Tour-Divide-057](/images/2025-06-tour-divide/2025-Tour-Divide-057.jpg)
+*Descending towards the border.*
 
 We assured the border patrol fellow that we were not carrying any fruit or chicken products, and he waved us through. After a brief bathroom break sponsored by the border patrol we biked mostly paved roads to Eureka where we had a very leisurely breakfast. I made the mistake of ordering one breakfast meal and one lunch meal. Should I first eat my pancakes and then my sandwich to follow the correct chronological order? Or should I first eat my sandwich and then my pancakes to move in the savory to sweet direction? I ultimately did the latter but was left a little unsatisfied and for the rest of the trip would order double breakfast rather than messing with any lunch food.
 
@@ -115,7 +117,7 @@ After Clay departed we summited the first unnamed pass and also climbed Red Mead
 
 We camped at Upper Whitefish Lake which was scenic if somewhat buggy.
 
-## Day 5: Upper Whitefish Lake -> Cedar Creek CG (100 miles, 5300 feet) 
+## Day 5: Upper Whitefish Lake <kbd>&rarr;</kbd> Cedar Creek CG (100 miles, 5300 feet) 
 
 The next morning started with our now routine 7:30 roll and a cold descent into Whitefish. Once there, we got a table at a local cafe where we met Linn. After a big day the day before (he had made it all the way to Whitefish by 4pm) his knee was still hurting and he was not confident it would recover quickly enough to finish the tour divide. He told us to go on without him. I was sorry to see our number reduced to three. 
 
@@ -132,10 +134,10 @@ Steph departed the restaurant first because Ronan was fixing his chain which had
 
 We camped along the Swan river where we had a nice dip and washed off the sunscreen and sweat from the day. No Swans were apparent on the river, but as their substitute many mosquitos buzzed about. 
 
-
 ![2025-Tour-Divide-064](/images/2025-06-tour-divide/2025-Tour-Divide-064.jpg)
+*Swan River.*
 
-## Day 6: Cedar Creek CG -> Seeley Lake (73 miles, 6300 feet) 
+## Day 6: Cedar Creek CG <kbd>&rarr;</kbd> Seeley Lake (73 miles, 6300 feet) 
 
 Rolling at our standard 7:30 we had a very easy and cool morning. At about 10 AM we came across a section of road that was actively being grated. The grating appeared to be finished, but the steamroller had not yet done its work. To avoid soft mud, we biked closely in the tracks of the handful of cars that had driven the road. At about 11:30 we had our next excitement when we saw Micheal (the pharmacist from Breckenridge) passed-out ten feet from the road. “He’s not dead is he?” I asked. We concluded he was likely just taking a nap, and pedaled on to Holland Lake which became a very pleasant lunch stop. 
 
@@ -145,20 +147,23 @@ Rolling at our standard 7:30 we had a very easy and cool morning. At about 10 AM
 After a swim in Holland Lake and a lunch of some cheese that hailed from Banff, we pushed over a significant climb which topped out with single track. The descent also began as single track before morphing to double track.
 
 ![2025-Tour-Divide-069](/images/2025-06-tour-divide/2025-Tour-Divide-069.jpg)
+*Sam descends towards Seeley Lake.*
 
 We made it to Seeley Lake at about 4pm and found a tasty Mexican restaurant to charge our devices and eat dinner. We camped at the Seeley Lake Campground and had a most pleasant leisurely evening with some more lake swims. 
 
 ![2025-Tour-Divide-071](/images/2025-06-tour-divide/2025-Tour-Divide-071.jpg)
+*Evening swim.*
 
-## Day 7: Seely Lake -> Lincoln, Mt (68 miles, 4500 feet)
-From Seely Lake we had about 28 miles of reasonably easy rolling to Ovando, a small town in Montana known for its hospitality towards bikepackers and as the site of unfortunate bear mauling fatality. 
-
+## Day 7: Seely Lake <kbd>&rarr;</kbd> Lincoln, Mt (68 miles, 4500 feet)
+From Seely Lake we had about 28 miles of reasonably easy rolling to Ovando, a small town in Montana known for its hospitality towards bikepackers and as the site of unfortunate [bear mauling fatality](https://bikepacking.com/plan/story-to-bear/). 
 
 ![2025-Tour-Divide-073](/images/2025-06-tour-divide/2025-Tour-Divide-073.jpg)
+*Climbing up from Seeley Lake.*
 
 We sat down at the local cafe for breakfast, and all got a coffee for $2.10 including free refills! About half the folks in the cafe were bikepackers like us. As a general rule, we liked our fellow bikepackers quite well. However, there were a minority of say 10 percent who perpetually seemed to be behind schedule, underfed, and in a bad mood. And indeed when we arrived one of the bikerpackers was complaining bitterly about how his food had been forgotten and generally what a poorly run operation the cafe was. Come on buddy, cheer up, you're out here riding your bike I wanted to tell him.
 
 ![2025-Tour-Divide-074](/images/2025-06-tour-divide/2025-Tour-Divide-074.jpg)
+*Ronan works hard on his post card while Sam chows.*
 
 While waiting for our food, I purchased a postcard at the nextdoor fishing shop and started a tradition of mailing postcards which we would maintain for the rest of the trip. Post offices, we discovered, can be found in many small towns which may not even have a grocery store bigger than the local gas station.
 
@@ -170,15 +175,17 @@ After cleaning the bikes and ourselves, I walked over to the local bar which als
 
 For dinner we all had hamburgers at the local hamburger joint. 
 
-## Day 8: Lincoln, Mt -> Helena, Mt (62, 5600 feet)
+## Day 8: Lincoln, Mt <kbd>&rarr;</kbd> Helena, Mt (62, 5600 feet)
 
 The first climb out of Lincoln is about 2k and although steep in places it felt reasonably easy in cool morning air. We descended down towards the Lama Ranch where we stopped for a sandwich and chat. The Lama Ranch is run by a woman named Barbra and partner named John. John met Barbra when he himself was a tour divide rider and came through the ranch as a guest. After completing the ride he came back to the ranch bearing groceries. Barbra was absent when we arrived but John was sitting on the porch. He invited us over and shared free drinks and homemade sandwiches. As we ate, he made a short speech: “everything is free, the only thing we ask is that you pay it forward”. The Llama ranch can sleep 12 people, and the previous night there were 18 guests meaning that some folks were camping in the yard. We chatted a bit more with John and then continued on our way. 
 
 ![2025-Tour-Divide-076](/images/2025-06-tour-divide/2025-Tour-Divide-076.jpg)
+*Peter and Anna descend towards the llama ranch.*
 
 As we biked away, I debated the merits of such a place based on charity and forward gratitude compared to the more conventional capitalist approach of charging for services proportional to their value. How does John avoid becoming resentful of dirty guests? Do people actually change their behavior after coming to a place like this? Does that change last? I didn’t have any answers, but concluded that at least for myself I could not really imagine operating my own hostel on a free-basis although I could imagine operating a hostel on a for-profit model.
 
 ![2025-Tour-Divide-077](/images/2025-06-tour-divide/2025-Tour-Divide-077.jpg)
+*Descending towards Helena.*
 
 We made it to Helena in the heat of the day at about 3 PM. After getting into our motel room, I biked down to the local natural foods store and drank a liter of kefir and ate some food and cooled down and felt better. In the evening we walked down Helena Main St, ate more burgers, and bought locally made ice cream. While we were in line to buy ice cream a woman walked out with her kids balancing a Sunday and ice cream cones in her hands. As we watched, the whipped cream from Sunday slid off the coned ice cream and splattered on the floor. With her two kids in front of her, the woman was clearly debating whether to try to clean the whip cream up or continue walking. At this point Sam stepped in “We can clean that up for you he said.” After we wiped the ice cream up he turned to me and said “I was thinking about John’s line of paying it forward”. 
 
