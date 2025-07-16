@@ -92,8 +92,8 @@ Last day of our bike ride! We started early at about 7 or so and made it to Rise
 
 We stopped in at Bread to buy lunch and write some post cards that the Visit Durango office gave us for free! We departed Bread right as they were closing at 2 PM and biked the bike trail north to the high school and then up past Needham to my parents house! Home sweet home! 
 
-
-
+## Maps:
+- [Caltopo](https://caltopo.com/m/CBU52K1)
 
 
 

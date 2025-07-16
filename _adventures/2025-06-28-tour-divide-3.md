@@ -93,5 +93,6 @@ We stopped in Hartsel for lunch, but after our lunch break had more of the same 
 
 Once we began climbing in earnest the road quality improved and we entered into the national forest and left behind the squalorous San Luis slums. We had a very nice campsite at the top of the climb. 
 
-
+## Maps:
+- [Caltopo](https://caltopo.com/m/CBU52K1)
 
