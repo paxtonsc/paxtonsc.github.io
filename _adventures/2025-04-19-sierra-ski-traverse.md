@@ -128,7 +128,7 @@ The climb turned out to be a reasonable straightforward boot, no crampons needed
 
 The descent was indeed partially melted out. We were able to scramble down the first part with packs, and then for the last pitch above the snow decided to pass packs and skis down separately. It was a good plan but we made the error of not quite positioning ourselves correctly and as a result after I passed Nahla her pack she was unable to quite downclimb while holding on to the pack and it slipped through her grasp. We all watched as it cartwheeled for about 500ft until it came to rest. 
 
-![Stanton Pass](/images/2025-04-sierra-traverse/20250422-down-stanton-pass.jpeg)
+![Stanton Pass](/images/2025-04-sierra-traverse/20250422-down-stanton-pass.jpg)
 *Moments before disaster.*
 
 We were more careful with the rest of our gear, and after a bit of faffing we all safely skied down to where the backpack had stopped. Fortunately nothing appeared damaged! We ate lunch and then had a nice, long low angle 600ft climb up to Horse Creek Pass. This was our last climb of the trip! 
