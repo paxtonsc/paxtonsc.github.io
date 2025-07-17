@@ -51,17 +51,16 @@ As we descended Elk Pass, the weather turned and hail the size of small marbles 
 
 ![2025-Tour-Divide-034](/images/2025-06-tour-divide/2025-Tour-Divide-034.jpg)*A well placed hut near Elk Pass.*
 
-Once we finished our dinner the rain had petered out, and we continued down the valley to Blue Lake where we camped. Heck of a first day! For the diversity of weather and scenery it was perhaps our most exciting day of the entire trip. 
+Once we finished our dinner, the rain had petered out, and we continued down the valley to Blue Lake where we camped. Heck of a first day! For the diversity of weather and scenery, it was perhaps our most exciting day of the entire trip.
 
+## Day 2: Blue Lake <kbd>&rarr;</kbd> Fernie (64 miles, 4500 feet)
 
-## Day 2: Blue Lake <kbd>&rarr;</kbd> Fernie (64 miles, 4500 feet) 
-
-We did not begin rolling until 8:45 AM this morning, which would be our latest departure of the entire trip save Day 11 when we intentionally took a half day due to bad weather and did not start rolling until 2 PM. The reason for the late start was a combination of wet gear, our group getting used to breaking camp, and perhaps a miscommunication about our planned 8 AM departure. Fortunately, however, we had already booked accommodations in Fernie at the Raging Elk Hostel so our day was shorter than the previous one. 
+We did not begin rolling until 8:45 AM this morning, which would be our latest departure of the entire trip, save Day 11 when we intentionally took a half day due to bad weather and did not start rolling until 2 PM. The reason for the late start was a combination of wet gear, our group getting used to breaking camp, and perhaps a miscommunication about our planned 8 AM departure. Fortunately, however, we had already booked accommodations in Fernie at the Raging Elk Hostel, so our day was shorter than the previous one.
 
 ![2025-Tour-Divide-038](/images/2025-06-tour-divide/2025-Tour-Divide-038.jpg)
 *Easy rolling down Elk Valley.*
 
-The previous night we had decided to descend the Elk Valley single track rather than follow the official race route and go over Koko Claims. This was the only detour we made from the official route (other than skipping all of New Mexico) and I think it was a good decision given that the Elk Valley single track was quite enjoyable, although not especially fast. 
+The previous night we had decided to descend the Elk Valley single track rather than follow the official race route and go over Koko Claims. This was the only detour we made from the official route (other than skipping all of New Mexico), and I think it was a good decision given that the Elk Valley single track was quite enjoyable, although not especially fast.
 
 ![2025-Tour-Divide-040](/images/2025-06-tour-divide/2025-Tour-Divide-040.jpg)
 *We ate lunch in Sparwood next to the visitor center and the world's largest truck!*
@@ -72,11 +71,11 @@ The previous night we had decided to descend the Elk Valley single track rather 
 ![2025-Tour-Divide-044](/images/2025-06-tour-divide/2025-Tour-Divide-044.jpg)
 *Proper single track.*
 
-We rolled into Fernie at about 5 PM. We checked into our room at the Raging Elk Lodge, and then walked over to a Mexican restaurant right off the course in time to see the first place rider, Robin, stop at a gas station and guzzle chocolate milk. While we ate Mexican food, many other riders pedaled by. 
+We rolled into Fernie at about 5 PM. We checked into our room at the Raging Elk Lodge, and then walked over to a Mexican restaurant right off the course in time to see the first-place rider, Robin, stop at a gas station and guzzle chocolate milk. While we ate Mexican food, many other riders pedaled by.
 
-## Day 3: Fernie <kbd>&rarr;</kbd> Rabbit Creek (93 miles, 7800 feet)  
+## Day 3: Fernie <kbd>&rarr;</kbd> Rabbit Creek (93 miles, 7800 feet)
 
-We rolled at 7:50 today and after a pleasant coffee stop in Fernie and a short wait at a red light for a trail we were on our way up the first climb. Our original plan was to camp at Wigwam campsite. The riding to Wigwam was pretty straightforward — two passes and miles of very smooth and car-free dirt roads. 
+We rolled at 7:50 today, and after a pleasant coffee stop in Fernie and a short wait at a red light for a trail, we were on our way up the first climb. Our original plan was to camp at Wigwam campsite. The riding to Wigwam was pretty straightforward — two passes and miles of very smooth and car-free dirt roads. 
 
 ![2025-Tour-Divide-049](/images/2025-06-tour-divide/2025-Tour-Divide-049.jpg)
 *Lightly traveled double track.*
