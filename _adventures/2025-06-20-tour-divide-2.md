@@ -5,7 +5,7 @@ permalink: /adventures/2025/06/tour-divide-2/
 image: /images/2025-06-tour-divide-2/2025-Tour-Divide-091.jpg
 ---
 
-## Day 9: Helena, MT <kbd>&rarr;</kbd> Sagebrush CG (86 miles, 8,300 feet)
+## Day 9: Helena, MT <kbd>&rarr;</kbd> Sagebrush CG (86 miles, 8300 feet)
 
 Today we got a slightly earlier start (7 AM) because of forecasted afternoon thunderstorms. The climb out of Helena was straightforward, and although there was a little hike-a-bike at the top, we made it to Basin by about 1 PM.
 
@@ -24,7 +24,7 @@ It looked like a pleasant place to stay, but the rain was letting up, so we cont
 
 In Butte, we stopped briefly at Safeway to resupply and—finding the hot bar closed—we biked to the nearest Pork Chop John’s, the local fast food restaurant recommended to me by a friend from Butte. After dinner, we used the last of the daylight to make it to Sagebrush Flats, a day-use area where we camped.
 
-## Day 10: Sagebrush CG <kbd>&rarr;</kbd> Elkhorn Hotsprings (77 miles, 7,400 feet)
+## Day 10: Sagebrush CG <kbd>&rarr;</kbd> Elkhorn Hotsprings (77 miles, 7400 feet)
 
 Departing Sagebrush Flats, we debated our plan for the evening. Snow was forecast above 8,000 ft starting at 8 PM or so and continuing to fall until the next afternoon. Ideally, we would stay somewhere in the vicinity of Elkhorn Hotsprings. However, today was a Saturday and as a result, Elkhorn Hotsprings was booked. Did it make sense to stop early in Wise River and stay in the community center? Should we push on to Bannack State Park and risk tomorrow's peanut butter mud? We started biking with these questions unanswered.
 
@@ -95,7 +95,7 @@ Michael, the pharmacist from Breckenridge, was also in attendance. The last time
 
 Our waitress, Chalayne, was also a character. When I called her “Ma’am,” she was quick to ask whether I was using the term “in a respectful way or because she was old.” I assured her it was the former. The proprietor of the ranch, who was also the cook, Bob, had been running the guest ranch for the last 35 years.
 
-## Day 14: Squirrel Creek Guest Ranch <kbd>&rarr;</kbd> Colter Bay CG (54 miles, 3,500 feet)
+## Day 14: Squirrel Creek Guest Ranch <kbd>&rarr;</kbd> Colter Bay CG (54 miles, 3500 feet)
 
 Today was a half day. We began with a climb into Wyoming on a dirt road in the process of being regraded, which meant the road surface was soft and a little muddy. Our climbing speed was therefore reduced to below the top speed of a mosquito (4.5 mph), and we were harassed by the buggers for the entire climb.
 
@@ -104,7 +104,7 @@ Things improved once we began our descent, and we had some very nice gravel ridi
 ![2025-Tour-Divide-109](/images/2025-06-tour-divide-2/2025-Tour-Divide-109.jpg)
 *The sun sets on Yellowstone Lake.*
 
-## Day 15: Colter Bay CG <kbd>&rarr;</kbd> Strawberry Creek Cabin (81 miles, 7,100 feet)
+## Day 15: Colter Bay CG <kbd>&rarr;</kbd> Strawberry Creek Cabin (81 miles, 7100 feet)
 
 The next day we purchased cinnamon rolls and a new propane bottle at the Colter Bay store before continuing on our ride. The morning light lit up the Tetons nicely, and we had a pleasant ride up to the Continental Divide on the road that leads to Dubois. We ate a short lunch at Brooks Lake but did not dally long due to the mosquitoes. Our second climb of the day was up Union Pass. 
 

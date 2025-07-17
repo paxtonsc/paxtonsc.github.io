@@ -5,7 +5,7 @@ permalink: /adventures/2025/06/tour-divide-3/
 image: /images/2025-06-tour-divide-3/2025-Tour-Divide-138.jpg
 ---
 
-## Day 17: Parking lot of WY 353 <kbd>&rarr;</kbd> most of the way to Wamsutter (125 miles, 7,000 feet)
+## Day 17: Parking lot of WY 353 <kbd>&rarr;</kbd> most of the way to Wamsutter (125 miles, 7000 feet)
 
 We woke up to a whipping tailwind that sped our ride to Atlantic City.
 
@@ -26,7 +26,7 @@ As the route turned more southward, our tailwind became an annoying crosswind.
 
 We persisted for a while and then camped at about 9 PM, about 30 miles from Wamsutter, just as the sun was going down. Andrew, a teacher from Vancouver whom we had met the previous day in Pinedale, joined our campsite.
 
-## Day 18: Most of the way to Wamsutter <kbd>&rarr;</kbd> Brush Mountain Lodge (109 miles, 5,300 feet)
+## Day 18: Most of the way to Wamsutter <kbd>&rarr;</kbd> Brush Mountain Lodge (109 miles, 5300 feet)
 
 With concerns about afternoon heat, we rolled at 6:48 AM. The wind from the previous day had settled and we had a pretty easy ride to Wamsutter. Apparently, some days there can be bad trucks on this section, but none were visible on this Sunday morning.
 

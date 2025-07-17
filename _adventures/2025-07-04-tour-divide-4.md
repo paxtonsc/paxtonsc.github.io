@@ -5,7 +5,7 @@ permalink: /adventures/2025/07/tour-divide-4/
 image: /images/2025-07-tour-divide-4/2025-Tour-Divide-169.jpg
 ---
 
-## Day 23: Pass above Salida <kbd>&rarr;</kbd> Upper Dome Reservoir (95 miles, 6,000 feet)
+## Day 23: Pass above Salida <kbd>&rarr;</kbd> Upper Dome Reservoir (95 miles, 6000 feet)
 
 Today was the 4th of July! We started the day with a quick 10-mile descent to Salida.
 
@@ -25,7 +25,7 @@ After lunch, we battled more headwind until turning further south, at which poin
 ![2025-Tour-Divide-155](/images/2025-07-tour-divide-4/2025-Tour-Divide-157.jpg)
 *Camped above Upper Dome Reservoir.*
 
-## Day 24: Upper Dome Reservoir <kbd>&rarr;</kbd> Ten miles past Del Norte (90 miles, 5,300 feet)
+## Day 24: Upper Dome Reservoir <kbd>&rarr;</kbd> Ten miles past Del Norte (90 miles, 5300 feet)
 
 From Upper Dome Reservoir, we had a straightforward half day of cycling to Penitente Campground, where we ate lunch and filled up on water. From there, it was a short, sandy ride to Del Norte.
 
@@ -39,7 +39,7 @@ I chatted with my dad, who reminded me that as kids we had spent time playing in
 
 At about 7:30 we continued riding and made it about 10 miles before the sun set and it started to get dark. In retrospect, we should have left town a little bit earlier because we camped in a bit of a subpar location when there were nicer spots up the road that we just didn’t have time to reach.
 
-## Day 25: Ten miles past Del Norte <kbd>&rarr;</kbd> Cumbres Pass (74 miles, 7,700 feet)
+## Day 25: Ten miles past Del Norte <kbd>&rarr;</kbd> Cumbres Pass (74 miles, 7700 feet)
 
 From our campsite, we immediately launched into a long climb that took us up to the 12,000-foot summit of Indiana Pass and a Superfund site. It was our first time since entering Colorado to be rolling along above treeline, and it was a very scenic road.
 
