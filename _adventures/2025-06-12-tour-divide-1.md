@@ -38,12 +38,12 @@ We agreed that we would stick to the roads and continued on. A friendly police o
 
 We continued to see huge numbers of police officers for the duration of Spray Valley. In fact, we later talked with some bikepackers who met one hapless policeman who had run out of water and broken his radio but was unable to leave his post. The bikepackers served as bike messengers and biked back the way they came to raise awareness of his plight. 
 
-Leading up to Lower Kananaskis Lake, there was some beautiful single track that paralleled the road. I was very happy with my front suspension and flat bars for this segment.
+Leading up to Kananaskis Lake, there was some beautiful single track that paralleled the road. I was very happy with my front suspension and flat bars for this segment.
 
 ![2025-Tour-Divide-030](/images/2025-06-tour-divide/2025-Tour-Divide-030.jpg)
 *The Canadians know a thing or two about bridges.*
 
- After passing Lower Kananaskis Lake, we bore south and had a pavement stretch. We were even able to stop and buy ice cream at the Boulton Creek Campground! 
+ After passing Lower Kananaskis Lake, we turned south and had a pavement stretch. We were even able to stop and buy ice cream at the Boulton Creek Campground! 
 
 We then had a steep climb up to the top of Elk Pass, the border of Alberta and BC. I biked most of it, but my stiff knees the next morning made a compelling argument that it would have been more prudent to walk the steep sections. 
 
