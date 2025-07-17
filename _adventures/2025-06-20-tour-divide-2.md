@@ -5,28 +5,28 @@ permalink: /adventures/2025/06/tour-divide-2/
 image: /images/2025-06-tour-divide-2/2025-Tour-Divide-091.jpg
 ---
 
-## Day 9: Helena, Mt <kbd>&rarr;</kbd> Sagebrush CG (86 miles, 8300 feet) 
+## Day 9: Helena, MT <kbd>&rarr;</kbd> Sagebrush CG (86 miles, 8,300 feet)
 
-Today we got a slightly earlier start (7AM) because of forecasted afternoon thunderstorms. The climb out of Helena was straightforward and although there was a little hike-a-bike at the top, we made it to Basin by about 1pm. 
+Today we got a slightly earlier start (7 AM) because of forecasted afternoon thunderstorms. The climb out of Helena was straightforward, and although there was a little hike-a-bike at the top, we made it to Basin by about 1 PM.
 
 ![2025-Tour-Divide-079](/images/2025-06-tour-divide-2/2025-Tour-Divide-079.jpg)
 *The hike-a-bike.*
 
-Shortly after we arrived, it started raining heavily. Fortunately there was a sheltered picnic table downtown that served as a very nice lunch and rest spot. 
+Shortly after we arrived, it started raining heavily. Fortunately, there was a sheltered picnic table downtown that served as a very nice lunch and rest spot.
 
-After a couple hours, a woman named Judy drove up in a large pickup truck —  she has been supporting the Tour Divide for many years —  and offered to open up the community center for us. The community center was a modest affair with many snacks laid out, and during the race Judy opened it up for people to sleep in. 
+After a couple of hours, a woman named Judy drove up in a large pickup truck—she has been supporting the Tour Divide for many years—and offered to open up the community center for us. The community center was a modest affair with many snacks laid out, and during the race Judy opened it up for people to sleep in.
 
 ![2025-Tour-Divide-080](/images/2025-06-tour-divide-2/2025-Tour-Divide-080.jpg)
 
-It looked like a pleasant place to stay, but the rain was letting up so we continued on towards Butte. 
+It looked like a pleasant place to stay, but the rain was letting up, so we continued on towards Butte.
 
 ![2025-Tour-Divide-083](/images/2025-06-tour-divide-2/2025-Tour-Divide-083.jpg)
 
-In Butte we stopped briefly at Safeway to resupply, and — finding the hotbar closed —  we biked to the nearest Pork Chop John’s, the local fast food restaurant recommended to me by a friend who is from Butte. After dinner, we used the last of the light to make it to Sagebrush Flats, a day use area we camped at. 
+In Butte, we stopped briefly at Safeway to resupply and—finding the hot bar closed—we biked to the nearest Pork Chop John’s, the local fast food restaurant recommended to me by a friend from Butte. After dinner, we used the last of the daylight to make it to Sagebrush Flats, a day-use area where we camped.
 
-## Day 10: Sagebrush CG <kbd>&rarr;</kbd> Elkhorn Hotsprings (77 miles, 7400 feet) 
+## Day 10: Sagebrush CG <kbd>&rarr;</kbd> Elkhorn Hotsprings (77 miles, 7,400 feet)
 
-Departing Sagebrush Flats, we debated our plan for the evening. Snow was forecasted above 8000 ft starting at 8 PM or so and continuing to fall until the next afternoon. Ideally we would stay somewhere in the vicinity of Elkhorn Hotsprings. However, today was a Saturday and as a result Elkhorn hotsprings were booked. Did it make sense to stop early in Wise River and stay in the community center? Should we push on to Bannack State Park and risk tomorrow's peanut butter mud? We started biking with these questions unanswered. 
+Departing Sagebrush Flats, we debated our plan for the evening. Snow was forecast above 8,000 ft starting at 8 PM or so and continuing to fall until the next afternoon. Ideally, we would stay somewhere in the vicinity of Elkhorn Hotsprings. However, today was a Saturday and as a result, Elkhorn Hotsprings was booked. Did it make sense to stop early in Wise River and stay in the community center? Should we push on to Bannack State Park and risk tomorrow's peanut butter mud? We started biking with these questions unanswered.
 
 ![2025-Tour-Divide-084](/images/2025-06-tour-divide-2/2025-Tour-Divide-084.jpg)
 
@@ -80,34 +80,33 @@ The next morning started with pleasant rolling through Red Rock Lakes National W
 ![2025-Tour-Divide-101](/images/2025-06-tour-divide-2/2025-Tour-Divide-101.jpg)
 *The national refuge early in the morning.*
 
-We made it to Big Springs, Idaho for lunch and ate in the town park before continuing the route towards Island Park. 
+We made it to Big Springs, Idaho, for lunch and ate in the town park before continuing the route towards Island Park.
 
 ![2025-Tour-Divide-105](/images/2025-06-tour-divide-2/2025-Tour-Divide-105.jpg)
 *Along the powerlines between Big Springs and Island Park.*
 
-From Island Park, there was a nice rails-to-trail section along Warm River, and then paved roads to Squirrel Creek Guest ranch where we spent the night. We had not originally been planning on staying at Squirrel Creek; the description as a “Guest Ranch” had led me to believe it might be a somewhat pricey affair. But right before the Ranch turned off we caught up with a bikepacker who extolled Squirrel Creek’s merits and we decided to give it a look. It was a good choice. We were able to pitch tents amidst aspen trees for \$15 dollars a night, and another \$7 purchased a shower. 
+From Island Park, there was a nice rails-to-trails section along Warm River, and then paved roads to Squirrel Creek Guest Ranch, where we spent the night. We had not originally planned on staying at Squirrel Creek; the description as a “Guest Ranch” had led me to believe it might be a somewhat pricey affair. But right before the ranch turnoff, we caught up with a bikepacker who extolled Squirrel Creek’s merits, and we decided to give it a look. It was a good choice. We were able to pitch tents amidst aspen trees for $15 a night, and another $7 purchased a shower.
 
-Over a dinner of burgers, we chatted with two Minnesota folks who were biking Northbound. They were both retired and felt no compunctions deviating from the Tour Divide route when it suited them. Finding the Great Basin an unattractive prospect, they rented a Uhaul and drove that section. 
+Over a dinner of burgers, we chatted with two folks from Minnesota who were biking northbound. They were both retired and felt no compunction about deviating from the Tour Divide route when it suited them. Finding the Great Basin an unattractive prospect, they rented a U-Haul and drove that section.
 
-There were also two folks from the Netherlands who had been biking mostly on dirt roads starting in Argentina. As part of their route, they had ridden the Peru Great Divide, a route I had ridden in 2022. 
+There were also two people from the Netherlands who had been biking mostly on dirt roads starting in Argentina. As part of their route, they had ridden the Peru Great Divide, a route I had ridden in 2022.
 
-Micheal, the pharmacist from Brekendridge, was also in attendance. The last time we had seen him was when he passed out taking a nap near Holland Lake. 
+Michael, the pharmacist from Breckenridge, was also in attendance. The last time we had seen him was when he passed out taking a nap near Holland Lake.
 
-Our waitress, Chalayne, was also a character. When I called her “Ma’am” she was quick to ask whether I was using the term “in a respectful way or because she was old”. I assure her it was the former. The proprietor of the ranch who was also the cook, Bob, had been running the guest ranch for the last 35 years. 
+Our waitress, Chalayne, was also a character. When I called her “Ma’am,” she was quick to ask whether I was using the term “in a respectful way or because she was old.” I assured her it was the former. The proprietor of the ranch, who was also the cook, Bob, had been running the guest ranch for the last 35 years.
 
+## Day 14: Squirrel Creek Guest Ranch <kbd>&rarr;</kbd> Colter Bay CG (54 miles, 3,500 feet)
 
-## Day 14: Squirrel Creek Guest Ranch <kbd>&rarr;</kbd> Colter Bay CG (54 miles, 3500 feet) 
+Today was a half day. We began with a climb into Wyoming on a dirt road in the process of being regraded, which meant the road surface was soft and a little muddy. Our climbing speed was therefore reduced to below the top speed of a mosquito (4.5 mph), and we were harassed by the buggers for the entire climb.
 
-Today was a half day. We began with a climb into Wyoming on a dirt road in the process of being regretted which meant the road surf was soft and a little muddy. Our climbing speed was therefore reduced to below the top speed of a mosquito (4.5 mph) and we were harassed by the buggers on the entire climb. 
-
-Things improved once we began our descent and we had some very nice gravel riding along the Snake river before joining the busy Rockefeller Parkway that stretches between Yellowstone and Yosemite. We made it to the Colter Bay Campground on Yellowstone Lake at 1 PM. We considered pushing on further, but many folks had recommended this campground so we decided to make this our stopping point. While the campground was nice and the view towards the Tetons across the lake beautiful, I decided that our night at the more modest Seeley Lake campground where we were within walking distance of the lake was superior. 
+Things improved once we began our descent, and we had some very nice gravel riding along the Snake River before joining the busy Rockefeller Parkway that stretches between Yellowstone and Yosemite. We made it to the Colter Bay Campground on Yellowstone Lake at 1 PM. We considered pushing on further, but many folks had recommended this campground, so we decided to make this our stopping point. While the campground was nice and the view towards the Tetons across the lake was beautiful, I decided that our night at the more modest Seeley Lake campground, where we were within walking distance of the lake, was superior.
 
 ![2025-Tour-Divide-109](/images/2025-06-tour-divide-2/2025-Tour-Divide-109.jpg)
 *The sun sets on Yellowstone Lake.*
 
-## Day 15: Colter Bay CG <kbd>&rarr;</kbd> Strawberry Creek Cabin (81 miles, 7100 feet) 
+## Day 15: Colter Bay CG <kbd>&rarr;</kbd> Strawberry Creek Cabin (81 miles, 7,100 feet)
 
-The next day we purchased cinnamon rolls and a new propane bottle at the Colter Bay store before continuing on our ride. The morning light lit up the Tetons nicely and we had a pleasant ride up to the continental divide on the road that leads to Dubois. We ate a short lunch at Brooks Lake but did not dally long due to the mosquitos. Our second climb of the day was up Union Pass. 
+The next day we purchased cinnamon rolls and a new propane bottle at the Colter Bay store before continuing on our ride. The morning light lit up the Tetons nicely, and we had a pleasant ride up to the Continental Divide on the road that leads to Dubois. We ate a short lunch at Brooks Lake but did not dally long due to the mosquitoes. Our second climb of the day was up Union Pass. 
 
 Right before we turned off the highway towards Union Pass we saw two riders going Northbound. I pulled across the road to say hello and to give them our 7-day Teton National Park Pass which in turn had been given to us by the Dutch folks we talked with at Squirrel Creek Guest Ranch. 
 
