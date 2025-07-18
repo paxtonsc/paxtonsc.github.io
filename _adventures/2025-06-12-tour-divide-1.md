@@ -7,55 +7,55 @@ image: /images/2025-06-tour-divide/2025-Tour-Divide-023.jpg
 
 ## Context
 
-The [Tour Divide](https://bikepacking.com/event/2025-tour-divide/)  is a self-supported cycling race that loosely follows the [Great Divide Mountain BIke Route (GDMBR)](https://bikepacking.com/routes/great-divide-mountain-bike-route-gdmbr/) from Banff, Alberta to Antelope Wells, New Mexico. The Tour Divide has no entry fee and no prize. The route it follows (GDMBR) was developed by Adventure Cycling and the first maps for the route were released in 1997. The first Tour Divide race occurred in 2008. 
+The [Tour Divide](https://bikepacking.com/event/2025-tour-divide/)  is a self-supported cycling race that loosely follows the [Great Divide Mountain BIke Route (GDMBR)](https://bikepacking.com/routes/great-divide-mountain-bike-route-gdmbr/) from Banff, Alberta to Antelope Wells, New Mexico. The Tour Divide has no entry fee and no prize. The was developed by Adventure Cycling and the first maps were released in 1997. The first Tour Divide race happened in 2008. 
 
-The route first came to my attention my freshman year of college when I had made loose plans with a friend to attempt the route over the summer. Those plans fell through, but during my junior of college I joined three others in cycling the [Peru Great Divide](https://paxtonsc.github.io/adventures/2022/05/peru-great-divide-p1/) route which was a hard and excellent adventure that convinced me that cycling is the best way to see a country; it's fast enough to traverse significant distance but slow enough to get a sense of the geography and talk with people along the route. 
+The route first came to my attention during my freshman year of college when I had made loose plans with a friend to attempt it over the summer. Those plans fell through, but during my junior year I joined three others in cycling the [Peru Great Divide](https://paxtonsc.github.io/adventures/2022/05/peru-great-divide-p1/) route which was a hard and excellent adventure that convinced me that cycling is the best way to see a country; it's fast enough to traverse significant distance but slow enough to get a sense of the geography and talk with people along the route. 
 
 I was eager to attempt another month-long bikepacking adventure.  In the winter of 2024 I left my job in Seattle and moved to California where I started a job with more flexibility that would permit me to take a month off. I contacted Sam Abernethy--who had been on the Peru trip--and Ronan Perry--a [Cowgill](https://cowgilltrailcollective.com/) friend from Seattle--and they were both interested.  Sam planned to join from Banff to Helena and Ronan expected to bike all the way to Antelope Wells. 
 
-We chatted with friends who had completed the route and got helpful advice about water (bring 5 liters+ for the Great Divide Basin), food (hard moiled eggs are a great snack), and sites along the way (The Penitentiary in Pinedale offers free tours). 
+We chatted with friends who had completed the route and got helpful advice about water (bring 5 liters+ for the Great Divide Basin), food (hard boiled eggs are a great snack), and sites along the way (The Penitentiary in Pinedale offers free tours). 
 
 As the trip approached we had one more join our group. Linn Rising decided to quit his job and join for an indefinite distance. 
 
-On June 7th, I caught a flight from SFO to Calgary where I met my dad in the Calgary airport. He was on a road trip from Colorado, and we spent five days together in the Canadian Rockies before the start of the trip. 
+On June 7th, I caught a flight from SFO to Calgary where I met my dad at the Calgary airport. He was on a road trip from Colorado, and we spent five days together in the Canadian Rockies before we started biking. 
 
 ## Day 1: Banff <kbd>&rarr;</kbd> Blue Lake (95 miles, 7000 feet) 
 
-We started cycling July 12th at 7:43 AM — one day before the grand departure — from the Tunnel Mountain Campground where we had  congregated the night before. After a dry and smokey week in Banff, a small storm moved in the previous afternoon and we woke up to wet ground and cloudy skies. 
+We started cycling July 12th at 7:43 AM — one day before the grand departure — from the Tunnel Mountain Campground where we had congregated the night before. After a dry and smoky week in Banff, a small storm moved in the previous afternoon and we woke up to wet ground and cloudy skies. 
 
 ![2025-Tour-Divide-015](/images/2025-06-tour-divide/2025-Tour-Divide-015.jpg)*A handsome bridge across the Bow river.*
 
-Before a big trip such as this one, I always feel some amount of nerves. On this trip, I was worried about my Achilles Tendon, which had been bothering me during the spring and had flared up while I was taking my unloaded Specilized Epic out for a spin on the rooty trails around the campground. 
+Before a big trip like this, I always feel some measure of nerves. On this trip, I was worried about my Achilles tendon, which had been bothering me during the spring and had flared up while I was taking my unloaded Specilized Epic out for a spin on the rooty trails around the campground. 
 
 After rolling from the Tunnel Mountain Campground, we briefly paused just past the Fairmount Hotel at the official start of the Tour Divide and were joined by Peter, a friend of Ronan’s from Seattle who was joining us for the first day. The first 20 miles of the route were idyllic. The trail was a smooth double track following Spray Creek. 
 
 ![2025-Tour-Divide-020](/images/2025-06-tour-divide/2025-Tour-Divide-020.jpg)
 *Into the clouds!*
 
-Once we reached Spray Lake the trail briefly transitioned to single track before dumping us on the large gravel road that runs through Spray Valley. Shortly after joining the road, we were stopped by a roadstop manned by about 20 Canadian Police officers. They were very friendly but informed us that all the trails on the left of the road were closed, and under no circumstances were we to leave the road on the left side. The stated reason was the upcoming G7 conference. “Do the world leaders want to go out for a hike?” I inquired. No, said the police officer, but their meeting location is somewhere up in the mountains.
+When we reached Spray Lake the trail briefly became singletrack while leading us to the wide gravel road that runs through Spray Valley. Shortly after joining the road, we were stopped by a blockage point by about 20 Canadian police officers. They were very friendly but informed us that all the trails on the left of the road were closed, and under no circumstances were we to leave the road on the left side. The reason was the upcoming G7 conference. “Do the world leaders want to go out for a hike?” I inquired. No, said the police officer, but their meeting location is somewhere up in the mountains.
 
 We agreed that we would stick to the roads and continued on. A friendly police officer caught up to us in a truck and offered to take our photo. I also took a photo of him with the boys, but after initially agreeing he had second thoughts and asked me to delete it. 
 
-We continued to see huge numbers of police officers for the duration of Spray Valley. In fact, we later talked with some bikepackers who met one hapless policeman who had run out of water and broken his radio but was unable to leave his post. The bikepackers served as bike messengers and biked back the way they came to raise awareness of his plight. 
+We continued to see many police officers for the length of Spray Valley. In fact, we later talked with some bikepackers who met one hapless policeman who had run out of water and broken his radio but was unable to leave his post. The bikepackers served as bike messengers and biked back the way they came to explain his plight to his fellows.   
 
 Leading up to Kananaskis Lake, there was some beautiful single track that paralleled the road. I was very happy with my front suspension and flat bars for this segment.
 
 ![2025-Tour-Divide-030](/images/2025-06-tour-divide/2025-Tour-Divide-030.jpg)
 *The Canadians know a thing or two about bridges.*
 
- After passing Lower Kananaskis Lake, we turned south and had a pavement stretch. We were even able to stop and buy ice cream at the Boulton Creek Campground! 
+After passing Lower Kananaskis Lake, we turned south and had a pavement stretch. We were even able to stop and buy ice cream at the Boulton Creek Campground! 
 
-We then had a steep climb up to the top of Elk Pass, the border of Alberta and BC. I biked most of it, but my stiff knees the next morning made a compelling argument that it would have been more prudent to walk the steep sections. 
+We then had a steep climb to the top of Elk Pass and the border of Alberta and BC. I biked most of it, but my stiff knees the next morning made a compelling argument that it would have been more prudent to walk the steep sections. 
 
-As we descended Elk Pass, the weather turned and hail the size of small marbles (well maybe really small marbles) began falling out of the sky. We had our rain jackets on and made the questionable decision to continue biking downhill rather than put on rain pants. Our questionable decision was rewarded when, after ten minutes, we rolled up to a small backcountry cabin. We quickly rolled over to it and got our bikes underneath the eves. Two bikepackers were already inside —  both named Zak and both from North Carolina. They were very gracious and we all squeezed in as the precipitation (now rain) pounded down on the tin rough. We ultimately stayed for about two hours at the hut and ate dinner there. 
+As we descended Elk Pass, the weather turned and hail the size of small marbles (well maybe really small marbles) began falling. We had our rain jackets on and made the questionable decision to continue biking downhill rather than put on rain pants. Our questionable decision was rewarded when, after ten minutes, we rolled up to a small backcountry cabin. We quickly rolled over to it and got our bikes underneath the eves. Two bikepackers were already inside —  both named Zak and both from North Carolina. They were very gracious and we all squeezed in as the precipitation (now rain) pounded down on the tin roof. We stayed about two hours at the hut and ate dinner there. 
 
 ![2025-Tour-Divide-034](/images/2025-06-tour-divide/2025-Tour-Divide-034.jpg)*A well placed hut near Elk Pass.*
 
-Once we finished our dinner, the rain had petered out, and we continued down the valley to Blue Lake where we camped. Heck of a first day! For the diversity of weather and scenery, it was perhaps our most exciting day of the entire trip.
+Once we finished dinner, the rain had petered out, and we continued down the valley to Blue Lake where we camped. Heck of a first day! For the diversity of weather and scenery, it was perhaps our most exciting day of the entire trip.
 
 ## Day 2: Blue Lake <kbd>&rarr;</kbd> Fernie (64 miles, 4500 feet)
 
-We did not begin rolling until 8:45 AM this morning, which would be our latest departure of the entire trip, save Day 11 when we intentionally took a half day due to bad weather and did not start rolling until 2 PM. The reason for the late start was a combination of wet gear, our group getting used to breaking camp, and perhaps a miscommunication about our planned 8 AM departure. Fortunately, however, we had already booked accommodations in Fernie at the Raging Elk Hostel, so our day was shorter than the previous one.
+We did not begin rolling until 8:45 AM, which would be our latest departure of the entire trip, save Day 11 when we intentionally took a half day due to bad weather and did not start rolling until 2 PM. The reason for the late start was a combination of wet gear, our group getting used to breaking camp, and perhaps a miscommunication about our planned 8 AM departure. Fortunately, however, we had already booked accommodations in Fernie at the Raging Elk Hostel, so our day was shorter than the previous one.
 
 ![2025-Tour-Divide-038](/images/2025-06-tour-divide/2025-Tour-Divide-038.jpg)
 *Easy rolling down Elk Valley.*
@@ -75,35 +75,35 @@ We rolled into Fernie at about 5 PM. We checked into our room at the Raging Elk 
 
 ## Day 3: Fernie <kbd>&rarr;</kbd> Rabbit Creek (93 miles, 7800 feet)
 
-We rolled at 7:50 today, and after a pleasant coffee stop in Fernie and a short wait at a red light for a trail, we were on our way up the first climb. Our original plan was to camp at Wigwam campsite. The riding to Wigwam was pretty straightforward — two passes and miles of very smooth and car-free dirt roads. 
+We rolled at 7:50 this morning, and after a pleasant coffee stop in Fernie and a short wait at a red light for a trail, we were on our way up the first climb. Our original plan was to camp at Wigwam campsite. The riding to Wigwam was pretty straightforward — two passes and miles of very smooth and car-free dirt roads. 
 
 ![2025-Tour-Divide-049](/images/2025-06-tour-divide/2025-Tour-Divide-049.jpg)
 *Lightly traveled double track.*
 
-We made it to Wigwam at about 4PM, and given the many hours of daylight remaining, decided to push on a bit further. 
+We made it to Wigwam about 4PM, and with several hours of daylight remaining, decided to push on a bit farther. 
 
-The going got substantially harder once we departed Wigwam and turned off the main road. We continued upstream on Wigwam on an old double track with overhanging branches and small trees lying across the road that required one to dismount the bike. Many times I heard Sam in front of me singing to himself to avoid startling an ill-tempered grizzly bear. 
+The going got substantially harder once we departed Wigwam and turned off the main road. We continued upstream on Wigwam on an old double track with overhanging branches and small trees lying across the road that required us to dismount our bike. Many times I heard Sam in front of me singing to himself to avoid startling an ill-tempered grizzly bear. 
 
 ![2025-Tour-Divide-050](/images/2025-06-tour-divide/2025-Tour-Divide-050.jpg)
 *A cattle guard of sorts.*
 
-The going became even more challenging once we turned off the double track onto single track so lightly trodden we initially missed the turn. Every 100 yards the trail became submerged by a creek or some other obstacle that made it unridable. Pretty soon we made it to a feature that we later learned is called “the wall”. The vertical change of the feature is only 150 feet, but the trail makes a steep rooty ascent that was challenging to push a fully loaded bike up.
+The going became even more challenging once we turned off the double track onto single track so lightly trodden we initially missed the turn. Every 100 yards the trail became submerged by a creek or some other obstacle that made it unridable. Pretty soon we made it to a feature that we later learned is called "The Wall". The vertical change of the feature is only 150 feet, but the trail makes a steep rooty ascent that was challenging to push a fully loaded bike up.
 
-Eventually we made it past the wall and camped on the side of the double track as it ascended Rabbit Creek. 
+Once past The Wall, we camped on the side of the double track as it ascended Rabbit Creek. 
 
 ![2025-Tour-Divide-056](/images/2025-06-tour-divide/2025-Tour-Divide-056.jpg)
 *Front row seats for the Tour Divide Race.*
 
 ## Day 4: Rabbit Creek <kbd>&rarr;</kbd> Upper Whitefish Lake (100 miles, 7600 feet) 
 
-Today we were up by 6:15 and rolling by 7:30 (our planned departure time). The efficiency of our morning routine (lacking on Day 2) truly warmed the cockles of my heart. Unfortunately, Linn's knee was bothering him. He found that the knee hurt the most whenever he stopped riding and then restarted. So he stated his intention to bike ahead and stay in Whitefish that evening and give himself a rest day. We were sad to see him go but wished him the best for his ride to Whitefish and made plans to reconnect when we made it to Whitefish in a day and a half. 
+This morning we were up by 6:15 and rolling by 7:30, which was our target departure time. The efficiency of our morning routine (lacking on Day 2) warmed the cockles of my heart. Unfortunately, Linn's knee was bothering him. He found that the knee hurt the most whenever he stopped riding and then restarted. So he planned to bike ahead to Whitefish that evening and give himself a rest day. We were sorry to see him go but wished him the best for his ride to Whitefish and made plans to reconnect when we when we got there in a day and a half. 
 
 We made it to the top of Phillips Pass by 8:30.
 
 ![2025-Tour-Divide-057](/images/2025-06-tour-divide/2025-Tour-Divide-057.jpg)
 *Descending towards the border*
 
-We assured the border patrol fellow that we were not carrying any fruit or chicken products, and he waved us through. After a brief bathroom break at the border we biked mostly paved roads to Eureka where we had a very leisurely breakfast. I made the mistake of ordering one breakfast meal and one lunch meal. Should I first eat my pancakes and then my sandwich to follow the correct chronological order? Or should I first eat my sandwich and then my pancakes to move in the savory to sweet direction? I did the latter but was left a little unsatisfied and for the rest of the trip would order double breakfast rather than messing with any lunch food.
+We assured the border agent that we were not carrying any fruit or chicken products, and he waved us through. After a brief bathroom break, we biked mostly paved roads to Eureka, Montana where we had a very leisurely breakfast. I made the mistake of ordering one breakfast meal and one lunch meal. Should I first eat my pancakes and then my sandwich to follow the correct chronological order? Or should I first eat my sandwich and then my pancakes to move in the savory to sweet direction? I did the latter but was left a little unsatisfied and for the rest of the trip would order a double breakfast and avoid lunch food.
 
 We resupplied at the local convenience store where we also met up with Clay Ellington. He had been visiting a friend in Glacier National Park and joined us for a short out-and-back from Eureka. Clay had considered joining us for a multiple day segment, but I had cautioned that he might struggle on his Specialized Crux.
 
