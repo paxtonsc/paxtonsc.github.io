@@ -7,27 +7,27 @@ image: /images/2025-06-tour-divide/2025-Tour-Divide-023.jpg
 
 ## Context
 
-The [Tour Divide](https://bikepacking.com/event/2025-tour-divide/)  is a self supported cycling race that loosely follows the [Great Divide Mountain BIke Route (GDMBR)](https://bikepacking.com/routes/great-divide-mountain-bike-route-gdmbr/)  from Banff, Alberta to Antelope Wells, New Mexico. The Tour Divide has no entry fee and no prize. The route it follows (GDMBR) was developed by Adventure Cycling and the first maps for the route were released in 1997. The first Tour Divide race occurred in 2008. 
+The [Tour Divide](https://bikepacking.com/event/2025-tour-divide/)  is a self-supported cycling race that loosely follows the [Great Divide Mountain BIke Route (GDMBR)](https://bikepacking.com/routes/great-divide-mountain-bike-route-gdmbr/) from Banff, Alberta to Antelope Wells, New Mexico. The Tour Divide has no entry fee and no prize. The route it follows (GDMBR) was developed by Adventure Cycling and the first maps for the route were released in 1997. The first Tour Divide race occurred in 2008. 
 
-The route first came to my attention my freshman year of college when I had made loose plans with a friend to attempt the route over the summer. However, those plans fell through. During my junior of college I joined three other in cycling the [Peru Great Divide](https://paxtonsc.github.io/adventures/2022/05/peru-great-divide-p1/) route which was a hard and excellent adventure and convinced me that cycling is the best way to see a country —  fast enough to traverse significant distance in a month but slow enough to get a sense of the geography and talk with the folks that live along the route. 
+The route first came to my attention my freshman year of college when I had made loose plans with a friend to attempt the route over the summer. Those plans fell through, but during my junior of college I joined three others in cycling the [Peru Great Divide](https://paxtonsc.github.io/adventures/2022/05/peru-great-divide-p1/) route which was a hard and excellent adventure that convinced me that cycling is the best way to see a country; it's fast enough to traverse significant distance but slow enough to get a sense of the geography and talk with people along the route. 
 
-After completing the Peru Great Divide route, I was enthusiastic to attempt another month-long backpacking adventure but other life constraints got in the way. Finally in the winter of 2024, I left my job in Seattle and moved to California where I started a slightly more flexible role that would permit a continuous month off. I contacted Sam Abernethy (a member of the Peru trip) and Ronan Perry, a fellow I met in Seattle through the run club [Cowgill](https://cowgilltrailcollective.com/). They were both interested! Sam planned to join from Banff to Helena and Ronan planned to bike all the way to Antelope Wells. 
+I was eager to attempt another month-long bikepacking adventure.  In the winter of 2024 I left my job in Seattle and moved to California where I started a job with more flexibility that would permit me to take a month off. I contacted Sam Abernethy--who had been on the Peru trip--and Ronan Perry--a [Cowgill](https://cowgilltrailcollective.com/) friend from Seattle--and they were both interested.  Sam planned to join from Banff to Helena and Ronan expected to bike all the way to Antelope Wells. 
 
-In planning for the trip, we chatted with friends who had completed the route and got helpful advice about water (Bring 5L+ for the Great Basin), food (Hard Boiled eggs are a great snack), and sites along the way (The Penitentiary in Pinedale offers free tours). 
+We chatted with friends who had completed the route and got helpful advice about water (bring 5 liters+ for the Great Divide Basin), food (hard moiled eggs are a great snack), and sites along the way (The Penitentiary in Pinedale offers free tours). 
 
 As the trip approached we had one more join our group. Linn Rising decided to quit his job and join for an indefinite distance. 
 
-On June 7th, I caught a flight from SFO to Calgary where I met my dad in the Calgary airport. He was on a road trip from Colorado, and spent five days together in the Canadian Rockies before the start of the trip. 
+On June 7th, I caught a flight from SFO to Calgary where I met my dad in the Calgary airport. He was on a road trip from Colorado, and we spent five days together in the Canadian Rockies before the start of the trip. 
 
 ## Day 1: Banff <kbd>&rarr;</kbd> Blue Lake (95 miles, 7000 feet) 
 
-We started cycling July 12th  at 7:43 AM — one day before the grand departure — from the Tunnel Mountain Campground where we had all congregated the night before. After a very dry and smokey week in Banff, a small storm moved in the previous afternoon and we woke up to wet ground and cloudy skies. 
+We started cycling July 12th at 7:43 AM — one day before the grand departure — from the Tunnel Mountain Campground where we had  congregated the night before. After a dry and smokey week in Banff, a small storm moved in the previous afternoon and we woke up to wet ground and cloudy skies. 
 
 ![2025-Tour-Divide-015](/images/2025-06-tour-divide/2025-Tour-Divide-015.jpg)*A handsome bridge across the Bow river.*
 
-Before a large trip such as this one, I always feel some amount of nerves. On this trip specifically, I was worried about my achilles which had been bugging me on and off during the spring and had flared up while I was taking my unloaded Specilized Epic out for a spin on the rooty trails around the Tunnel Mountain Campground. 
+Before a big trip such as this one, I always feel some amount of nerves. On this trip, I was worried about my Achilles Tendon, which had been bothering me during the spring and had flared up while I was taking my unloaded Specilized Epic out for a spin on the rooty trails around the campground. 
 
-After rolling from the Tunnel Mountain Campground, we briefly paused just past the Fairmount Hotel at the official start of the Tour Divide and were joined by Peter, a friend of Ronan’s from Seattle who was joining for the first day of riding. The first 20 miles of the route were idyllic. The trail was a smooth double track following Spray Creek. 
+After rolling from the Tunnel Mountain Campground, we briefly paused just past the Fairmount Hotel at the official start of the Tour Divide and were joined by Peter, a friend of Ronan’s from Seattle who was joining us for the first day. The first 20 miles of the route were idyllic. The trail was a smooth double track following Spray Creek. 
 
 ![2025-Tour-Divide-020](/images/2025-06-tour-divide/2025-Tour-Divide-020.jpg)
 *Into the clouds!*
