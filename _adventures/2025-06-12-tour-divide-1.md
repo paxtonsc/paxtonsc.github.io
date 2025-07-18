@@ -6,7 +6,6 @@ image: /images/2025-06-tour-divide/2025-Tour-Divide-023.jpg
 ---
 
 ## Context
-this is an edit.
 
 The [Tour Divide](https://bikepacking.com/event/2025-tour-divide/)  is a self supported cycling race that loosely follows the [Great Divide Mountain BIke Route (GDMBR)](https://bikepacking.com/routes/great-divide-mountain-bike-route-gdmbr/)  from Banff, Alberta to Antelope Wells, New Mexico. The Tour Divide has no entry fee and no prize. The route it follows (GDMBR) was developed by Adventure Cycling and the first maps for the route were released in 1997. The first Tour Divide race occurred in 2008. 
 
