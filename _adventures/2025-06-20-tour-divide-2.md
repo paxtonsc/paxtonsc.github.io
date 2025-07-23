@@ -85,7 +85,7 @@ We made it to Big Springs, Idaho, for lunch and ate in the town park before cont
 ![2025-Tour-Divide-105](/images/2025-06-tour-divide-2/2025-Tour-Divide-105.jpg)
 *Along the powerlines between Big Springs and Island Park.*
 
-From Island Park, there was a nice rails-to-trails section along Warm River, and then paved roads to Squirrel Creek Guest Ranch, where we spent the night. We had not originally planned on staying at Squirrel Creek; the description as a “Guest Ranch” had led me to believe it might be a somewhat pricey affair. But right before the ranch turnoff, we caught up with a bikepacker who extolled Squirrel Creek’s merits, and we decided to give it a look. It was a good choice. We were able to pitch tents amidst aspen trees for $15 a night, and another $7 purchased a shower.
+From Island Park, there was a nice rails-to-trails section along Warm River, and then paved roads to Squirrel Creek Guest Ranch, where we spent the night. We had not originally planned on staying at Squirrel Creek; the description as a “Guest Ranch” had led me to believe it might be a somewhat pricey affair. But right before the ranch turnoff, we caught up with a bikepacker who extolled Squirrel Creek’s merits, and we decided to give it a look. It was a good choice. We were able to pitch tents amidst aspen trees for \\$15 a night, and another \\$7 purchased a shower.
 
 Over a dinner of burgers, we chatted with two folks from Minnesota who were biking northbound. They were both retired and felt no compunction about deviating from the Tour Divide route when it suited them. Finding the Great Basin an unattractive prospect, they rented a U-Haul and drove that section.
 
