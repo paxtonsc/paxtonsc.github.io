@@ -7519,6 +7519,12 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="2025.08.24-Astranis-Interview-Notes">2025.08.24 Astranis Interview Notes<a class="anchor-link" href="#2025.08.24-Astranis-Interview-Notes">¶</a></h1><h2 id="Questions-for-Astranis-hiring-team">Questions for Astranis hiring team<a class="anchor-link" href="#Questions-for-Astranis-hiring-team">¶</a></h2><ol>
 <li>Do Astranis geo sats depend on GPS for position and velocity? If so how does that work with the GPS satellite lower in alttitude than the Astranis satellite.</li>
+<li>What are the most exciting projects you are working on right now?</li>
+<li>To the extent you have a regular day can you describe what that looks like? If your day is irregular can you describe how you spent yesterday?</li>
+<li>How would you describe the Astranis culture?</li>
+<li>What has been your favorite and least favorite part about working at Astranis?</li>
+<li>What have been some unqiue challenges that emerged as a result of working with GEO-stat sats that you did not expect?</li>
+<li>Do you guys allow your geo sats to drift in a figure 8 ground track? Or do you try to keep inclination pretty close to 0 degrees?</li>
 </ol>
 </div>
 </div>
@@ -7538,6 +7544,7 @@ a.anchor-link {
 <li><p>Geo sats can use GPS for timing, and to a lesser extent positioning but weak signal strength and limited satellite visability pose challenges.</p>
 </li>
 </ol>
+<h2 id="Relevant-equations">Relevant equations<a class="anchor-link" href="#Relevant-equations">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7562,7 +7569,7 @@ a.anchor-link {
 </li>
 <li><p>What is a TRIAD algorithm?</p>
 <ul>
-<li>combines attitude from two vector observation.</li>
+<li>combines attitude from two vector observation (i.e. sun + earth's magnetic field)</li>
 </ul>
 </li>
 <li><p>What is a control law and how would you design a PD controller for attitude stabalization?</p>
@@ -7577,6 +7584,16 @@ a.anchor-link {
 <li>Rotation vector (magnitude is the degree of rotation, and axis is the direction of the vector)</li>
 <li>Nadir refers to pointing directly down.</li>
 </ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=064e4b65">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
@@ -7647,6 +7664,132 @@ where:</p>
 <ul>
 <li>Compares two measured vectors from sensors in the body frame to their known counterpart in an inertial or earth-centered frame.</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2c67e6b5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Astranis-questions">Astranis questions<a class="anchor-link" href="#Astranis-questions">¶</a></h2><ol>
+<li><p>Orbit determination</p>
+<ul>
+<li>perterbations (J2, third bodies, solar)</li>
+<li>also further earth spherical haramonic issues</li>
+<li>drag neglibable in geo</li>
+</ul>
+</li>
+<li><p>J2 helpful for sun-sync but not geo?</p>
+<ul>
+<li>Helpful for sun sync because at 98 degrees the RAAN precession matches sun, so Raan goes around 360 degrees in 360 days. For geo, so long as you are at 0 degrees inclination raan precession isn't well defined?</li>
+<li>AHH in geo j2 leads to inclination drift</li>
+</ul>
+</li>
+<li><p>What equations govern relative motion between two nearby sats in Geo?</p>
+<ul>
+<li>Hill equations</li>
+</ul>
+</li>
+<li><p>Station-keeping strat that controls both longitude drift + inclination in geo sats?</p>
+<ul>
+<li>east/west control (corrects semi-major axis drift caused by solar/lunar perterbations)</li>
+<li>north/south drift caused by solar/lunar perterbations</li>
+</ul>
+</li>
+<li><p>Bennefit of inclined GEO orbit?</p>
+<ul>
+<li>Allowing inclination drift conserves fuel, daily figure 8.</li>
+</ul>
+</li>
+<li><p>Observability: means it is possible to estimate any state from a time history of measurments. Check column space of oberservability matrix.</p>
+</li>
+<li><p>Star tracker dropout? Can use gyroscope to maintain accurcacy for short timescale?</p>
+</li>
+<li><p>EKF instability?</p>
+<ul>
+<li>Bad values for process/measurment covariance?</li>
+<li>Bad sensor</li>
+</ul>
+</li>
+<li><p>Initialize with large state covariance matrix.</p>
+</li>
+</ol>
+<ul>
+<li>TLEs -&gt; convert to ECI position</li>
+</ul>
+<ol start="10">
+<li><p>Write a measurement model? What does measurment jacobian look like?</p>
+<ul>
+<li>Identiy matrix?</li>
+</ul>
+</li>
+<li><p>How would you model the dynamics of a reaction wheel or thurster in a simulation?</p>
+<ul>
+<li>differential equations (either linear or non-linear)</li>
+</ul>
+</li>
+<li><p>How do you design a quaternion-based attitude controller that avoids singularities and ensures smooth torque output?</p>
+<ul>
+<li>error quaternion (MEKF)</li>
+<li>apply porportional-derivative torque law.</li>
+<li></li>
+</ul>
+</li>
+<li><p>Gimbal-locked sensor geometry?</p>
+<ul>
+<li>How would you handle a situation where a sensor actually introduces singularities in certain attitude configuration?</li>
+<li>Avoid euler angles</li>
+</ul>
+</li>
+<li><p>Attitude hold mode: Design a control mode that maintains nadir-pointing attitude?</p>
+<ul>
+<li>Use qauternion feedback control.</li>
+<li></li>
+</ul>
+</li>
+<li><p>Torque allocation?</p>
+<ul>
+<li>Use a four wheel design</li>
+<li>Probably possible to use thrusters to a degree</li>
+</ul>
+</li>
+<li><p>State machine archecture</p>
+</li>
+<li><p>GNC fault tolerant</p>
+<ul>
+<li>Detect and record from stuck thruster?</li>
+</ul>
+</li>
+<li><p>Time synchonization important in GNC? How would you implement it?</p>
+<ul>
+<li>Use a control loop. High frequency (50 Hz)</li>
+<li></li>
+</ul>
+</li>
+<li><p>Sensor fusion pipeline?  Outline data flow for raw IMU / GPS measurments to a fused position-velocity estimate.</p>
+<ul>
+<li>Use EKF where you could have the state vector include both attitude and pos/vel.</li>
+</ul>
+</li>
+<li><p>Montecarlo to validate navigation filter or control algorithm?</p>
+<ul>
+<li>Perterb truth and sensors paramaters across many runs.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e573327f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
