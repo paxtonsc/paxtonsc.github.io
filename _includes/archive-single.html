@@ -1,10 +1,21 @@
 {% include base_path %}
 
+{% if page.tags %}
+  <p>Tags:
+    {% for tag in page.tags %}
+      <a href="{{ '/tags/' | append: tag | relative_url }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+  </p>
+{% endif %}
+
+
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
+
+
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
