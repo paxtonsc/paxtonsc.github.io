@@ -12,7 +12,7 @@ Desolation Wilderness is a roughly 100 square miles of wilderness area on the So
 
 This last winter I spent many days skiing [various peaks](​​https://paxtonsc.github.io/adventures/2025/02/tahoe-west-short-ridgeline/) along the West Shore of Lake Tahoe, and from each of them it is possible to look west into Desolation and pick out some of the larger peaks: Pyramid, Price, Jacks, and Dicks. 
 
-This spring, Gus Robinson proposed that we meet up for an August trail run either in the greater Tahoe area or the Eastern Sierra. We entertained various routes but eventually settled on the Seven Summit Loop in Desolation because it was close to Rhino, where Gus was working as a summer intern, and closer to Palo Alto than routes in the Eastern Sierra. 
+This spring, Gus Robinson proposed that we meet up for an August trail run either in the greater Tahoe area or the Eastern Sierra. We entertained various routes but eventually settled on the Seven Summit Loop in Desolation because it was close to Reno, where Gus was working as a summer intern, and closer to Palo Alto than routes in the Eastern Sierra. 
 
 We had friends that had previously completed the loop, and who spoke very highly of the views of lake studded Desolation. The route itself circumnavigates Lake Aloha and crosses the summits of Ralston, Pyramid, Agassiz, Price, Jacks, Dicks, and Tallac. While there are various permutations for this route, we followed [the route](https://fastestknowntime.com/fkt/david-sinclair-desolation-7-summits-ca-2022-08-01) used by the fellow who set the FKT. 
 
