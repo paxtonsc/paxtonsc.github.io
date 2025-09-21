@@ -81,7 +81,6 @@ The trail back was pretty straightforward, although we admired where the FKT run
 For us, after an early start at 5 AM or so we barely made it back in the residual light of the evening. We took our shoes off, jumped in the Prius, and after waiting for Gus to execute some half hearted stretch maneuvers, we boogied to a local Mexican restaurant to wrap up a most excellent adventure. 
 
 
-
 ## Map
 - [CALTOPO](https://caltopo.com/m/F6Q099U)
 
