@@ -13,7 +13,7 @@ redirect_from:
 
 
 ## Professional Experience
-* **Research Assistant** \| Stanford, CA \| *Stanford Doerr School of Sustainability* \| Jan 2025 - Present
+* **Research Assistant** \| Stanford, CA \| *Stanford Doerr School of Sustainability* \| Jan 2025 - Sept 2025
     * Collaborated with Prof. Eric Dunham to enhance a fluid dynamics library, improving accuracy in modeling Vulcanian eruptions.
     * Utilized Python, NumPy, SciPy, Matplotlib, and Jupyter Notebooks for data analysis and visualization.
 
