@@ -1,0 +1,858 @@
+{
+  "ground_stations": [
+    {
+      "name": "Aetherflux Ground Station Alpha",
+      "location": "Mojave Desert, CA",
+      "latitude": 35.0844,
+      "longitude": -117.6109,
+      "elevation": 854,
+      "type": "prs",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "laser_1064nm",
+        "photovoltaic_conversion",
+        "retroreflectors",
+        "rf_transmitter"
+      ],
+      "configuration": "5m x 5m layout with retroreflectors (4 corners + 1 center)",
+      "elevation_mask": 30,
+      "laser_min_elevation": 30,
+      "max_range_km": 2000,
+      "frequency_bands": [
+        "S-band"
+      ],
+      "connectivity_types": [
+        "optical",
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Primary Power Receive Station - receives 1064nm laser beam and converts to electrical power"
+    },
+    {
+      "name": "Aetherflux Ground Station Beta",
+      "location": "White Sands, NM",
+      "latitude": 32.9207,
+      "longitude": -106.3242,
+      "elevation": 1219,
+      "type": "otts",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "retroreflectors",
+        "rf_transmitter"
+      ],
+      "configuration": "Retroreflectors only (no PV arrays)",
+      "elevation_mask": 30,
+      "laser_min_elevation": 10,
+      "max_range_km": 2000,
+      "frequency_bands": [
+        "S-band"
+      ],
+      "connectivity_types": [
+        "optical",
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Optical Tracking Test Station - validates satellite high-fidelity ground tracking capability"
+    },
+    {
+      "name": "Aetherflux Ground Station Gamma",
+      "location": "Edwards AFB, CA",
+      "latitude": 34.9054,
+      "longitude": -117.8839,
+      "elevation": 700,
+      "type": "otts",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "retroreflectors",
+        "rf_transmitter"
+      ],
+      "configuration": "Retroreflectors only (no PV arrays)",
+      "elevation_mask": 25,
+      "laser_min_elevation": 10,
+      "max_range_km": 1800,
+      "frequency_bands": [
+        "S-band"
+      ],
+      "connectivity_types": [
+        "optical",
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Optical Tracking Test Station at Edwards Air Force Base"
+    },
+    {
+      "name": "San Carlos OTTS",
+      "location": "San Carlos, CA",
+      "latitude": 37.5073,
+      "longitude": -122.2602,
+      "elevation": 7,
+      "type": "otts",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "retroreflectors",
+        "rf_transmitter"
+      ],
+      "configuration": "Minimum 5 retroreflectors for testing",
+      "elevation_mask": 25,
+      "laser_min_elevation": 10,
+      "max_range_km": 1500,
+      "frequency_bands": [
+        "S-band"
+      ],
+      "connectivity_types": [
+        "optical",
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Optical Test Tracking Station at Aetherflux San Carlos facility"
+    },
+    {
+      "name": "TISTEF OTTS",
+      "location": "Florida, USA",
+      "latitude": 28.5745,
+      "longitude": -80.6501,
+      "elevation": 3,
+      "type": "otts",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "retroreflectors",
+        "rf_transmitter",
+        "laser_targets",
+        "optical_testing"
+      ],
+      "configuration": "High-precision retroreflector array for laser power beaming tests",
+      "elevation_mask": 10,
+      "laser_min_elevation": 10,
+      "max_range_km": 2000,
+      "frequency_bands": [
+        "S-band"
+      ],
+      "connectivity_types": [
+        "optical",
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Optical Tracking Test Station at TISTEF facility - specialized target site for high-power laser power beaming tests with government-approved safety protocols and precision retroreflector arrays."
+    },
+    {
+      "name": "San Carlos TT&C",
+      "location": "San Carlos, CA",
+      "latitude": 37.5073,
+      "longitude": -122.2602,
+      "elevation": 7,
+      "type": "ttc",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "s_band",
+        "uhf",
+        "uplink",
+        "downlink"
+      ],
+      "elevation_mask": 10,
+      "laser_min_elevation": 3,
+      "max_range_km": 2000,
+      "frequency_bands": [
+        "S-band",
+        "UHF"
+      ],
+      "connectivity_types": [
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "TT&C station at Aetherflux San Carlos facility"
+    },
+    {
+      "name": "Aetherflux Mission Control",
+      "location": "San Carlos, CA",
+      "latitude": 37.507752,
+      "longitude": -122.254168,
+      "elevation": 10,
+      "type": "ttc",
+      "subtype": "aetherflux",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "uhf",
+        "mission_control"
+      ],
+      "elevation_mask": 10,
+      "laser_min_elevation": 3,
+      "max_range_km": 2500,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "UHF (400-450 MHz)"
+      ],
+      "dish_size": "3m",
+      "connectivity_types": [
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Aetherflux Mission Control Center with TT&C capability"
+    },
+    {
+      "name": "Leaf Space Peterborough",
+      "location": "Peterborough, Australia",
+      "latitude": -32.967,
+      "longitude": 138.833,
+      "elevation": 420,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 2,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "SSO optimized",
+      "connectivity_types": [
+        "rf"
+      ],
+      "has_satellite_visibility": true,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Leaf Space Australia station with 2 S/X-band antennas at Nova Systems Space Precinct"
+    },
+    {
+      "name": "Leaf Space Nangetty",
+      "location": "Nangetty, Australia",
+      "latitude": -29.0,
+      "longitude": 115.333,
+      "elevation": 200,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 2,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Western Australia station with 2 S/X-band antennas"
+    },
+    {
+      "name": "Leaf Space Absheron",
+      "location": "Absheron, Azerbaijan",
+      "latitude": 40.45,
+      "longitude": 49.483,
+      "elevation": 50,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 2,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Azerbaijan station with 2 S/X-band antennas"
+    },
+    {
+      "name": "Leaf Space Kaspichan",
+      "location": "Kaspichan, Bulgaria",
+      "latitude": 43.3,
+      "longitude": 27.15,
+      "elevation": 150,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "uhf"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "UHF (400-450 MHz)"
+      ],
+      "dish_size": "2-4m",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Bulgaria station with 1 S/UHF-band antenna"
+    },
+    {
+      "name": "Leaf Space Plana",
+      "location": "Plana, Bulgaria",
+      "latitude": 42.467,
+      "longitude": 23.433,
+      "elevation": 1300,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Bulgaria mountain station with 1 S/X-band antenna"
+    },
+    {
+      "name": "Leaf Space Punta Arenas",
+      "location": "Punta Arenas, Chile",
+      "latitude": -53.033,
+      "longitude": -70.833,
+      "elevation": 20,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 3,
+      "capabilities": [
+        "s_band",
+        "x_band",
+        "ka_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)",
+        "Ka-band (26.5-40 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "Ka-band ~0.2\u00b0",
+      "orbit_coverage": "SSO optimized",
+      "description": "Leaf Space southern Chile station with 3 S/X/Ka-band antennas"
+    },
+    {
+      "name": "Leaf Space Santiago",
+      "location": "Santiago, Chile",
+      "latitude": -33.35,
+      "longitude": -70.767,
+      "elevation": 600,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 3,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Santiago station with 3 S/X-band antennas"
+    },
+    {
+      "name": "Leaf Space Bl\u00f6ndu\u00f3s",
+      "location": "Bl\u00f6ndu\u00f3s, Iceland",
+      "latitude": 65.633,
+      "longitude": -20.233,
+      "elevation": 20,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 4,
+      "capabilities": [
+        "s_band",
+        "x_band",
+        "ka_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)",
+        "Ka-band (26.5-40 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "Ka-band ~0.2\u00b0",
+      "orbit_coverage": "SSO optimized",
+      "description": "Leaf Space Iceland station with 4 S/X/Ka-band antennas"
+    },
+    {
+      "name": "Leaf Space Kandy",
+      "location": "Kandy, Sri Lanka",
+      "latitude": 7.293,
+      "longitude": 80.635,
+      "elevation": 500,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Sri Lanka station with 1 S/X-band antenna"
+    },
+    {
+      "name": "Leaf Space Jeju",
+      "location": "Jeju, South Korea",
+      "latitude": 33.383,
+      "longitude": 126.317,
+      "elevation": 200,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space South Korea station with 1 S/X-band antenna"
+    },
+    {
+      "name": "Leaf Space Mon Loisir",
+      "location": "Mon Loisir, Mauritius",
+      "latitude": -20.133,
+      "longitude": 57.683,
+      "elevation": 100,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Mauritius station with 1 S/X-band antenna"
+    },
+    {
+      "name": "Leaf Space La Paz",
+      "location": "La Paz, Mexico",
+      "latitude": 24.083,
+      "longitude": -110.383,
+      "elevation": 20,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 2,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Mexico station with 2 S/X-band antennas"
+    },
+    {
+      "name": "Leaf Space Awarua",
+      "location": "Awarua, New Zealand",
+      "latitude": -46.517,
+      "longitude": 168.367,
+      "elevation": 50,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 4,
+      "capabilities": [
+        "s_band",
+        "x_band",
+        "ka_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)",
+        "Ka-band (26.5-40 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "Ka-band ~0.2\u00b0",
+      "orbit_coverage": "SSO optimized",
+      "description": "Leaf Space New Zealand station with 4 S/X/Ka-band antennas"
+    },
+    {
+      "name": "Leaf Space Santa Maria",
+      "location": "Santa Maria, Azores, Portugal",
+      "latitude": 36.983,
+      "longitude": -25.133,
+      "elevation": 100,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 3,
+      "capabilities": [
+        "s_band",
+        "x_band",
+        "uhf"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)",
+        "UHF (400-450 MHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space Azores station with 3 S/X/UHF-band antennas"
+    },
+    {
+      "name": "Leaf Space Unst",
+      "location": "Unst, Shetland, UK",
+      "latitude": 60.733,
+      "longitude": -0.85,
+      "elevation": 100,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 1,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "SSO optimized",
+      "description": "Leaf Space UK Shetland station with 1 S/X-band antenna"
+    },
+    {
+      "name": "Leaf Space Pretoria",
+      "location": "Pretoria, South Africa",
+      "latitude": -25.85,
+      "longitude": 28.45,
+      "elevation": 1300,
+      "type": "ttc",
+      "subtype": "leaf",
+      "status": "active",
+      "antennas": 2,
+      "capabilities": [
+        "s_band",
+        "x_band"
+      ],
+      "elevation_mask": 5,
+      "max_range_km": 3000,
+      "frequency_bands": [
+        "S-band (2.0-2.3 GHz)",
+        "X-band (8.0-8.5 GHz)"
+      ],
+      "dish_size": "2-4m",
+      "beamwidth": "X-band ~0.8\u00b0",
+      "orbit_coverage": "mid-inclination",
+      "description": "Leaf Space South Africa station with 2 S/X-band antennas"
+    },
+    {
+      "name": "San Carlos Control Center",
+      "location": "San Carlos, CA",
+      "latitude": 37.5073,
+      "longitude": -122.2602,
+      "elevation": 7,
+      "type": "support-node",
+      "subtype": "aetherflux",
+      "status": "active",
+      "capabilities": [
+        "mission_control",
+        "tcp_ip",
+        "internet"
+      ],
+      "configuration": "Command and control via landlines/internet",
+      "description": "Primary Mission Control Center at 959 Terminal Way, San Carlos, CA"
+    },
+    {
+      "name": "Aetherflux Mission Control HQ",
+      "location": "San Carlos, CA",
+      "latitude": 37.507603,
+      "longitude": -122.254565,
+      "elevation": 7,
+      "type": "support-node",
+      "subtype": "aetherflux",
+      "address": "959 Terminal Way, San Carlos, CA 94070",
+      "status": "active",
+      "capabilities": [
+        "command_control",
+        "mission_planning",
+        "real_time_operations",
+        "data_analysis",
+        "emergency_response"
+      ],
+      "configuration": "Primary mission control facility with backup systems",
+      "operational_hours": "24/7",
+      "max_concurrent_missions": 5,
+      "connectivity_types": [],
+      "has_satellite_visibility": false,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Primary Mission Control Center - Command and control hub for all Aetherflux satellite operations and laser communication missions"
+    },
+    {
+      "name": "Apex Space",
+      "location": "Playa Vista, Los Angeles, CA",
+      "latitude": 33.975,
+      "longitude": -118.412,
+      "elevation": 15,
+      "type": "support-node",
+      "subtype": "manufacturing",
+      "address": "5331 McConnell Ave, Los Angeles, CA 90066",
+      "status": "active",
+      "capabilities": [
+        "spacecraft_manufacturing",
+        "integration_testing",
+        "component_assembly",
+        "clean_room_operations"
+      ],
+      "configuration": "Advanced spacecraft manufacturing and integration facility",
+      "operational_hours": "Business hours + on-call",
+      "max_concurrent_projects": 3,
+      "connectivity_types": [],
+      "has_satellite_visibility": false,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Spacecraft Manufacturing Partner - Advanced satellite and component manufacturing, integration, and testing facility"
+    },
+    {
+      "name": "SpaceX Headquarters",
+      "location": "Hawthorne, CA",
+      "latitude": 33.9206,
+      "longitude": -118.3279,
+      "elevation": 20,
+      "type": "support-node",
+      "subtype": "headquarters",
+      "address": "1 Rocket Road, Hawthorne, CA 90250",
+      "status": "active",
+      "capabilities": [
+        "launch_vehicle_coordination",
+        "mission_integration",
+        "launch_services",
+        "technical_support"
+      ],
+      "configuration": "Launch vehicle partner headquarters and coordination center",
+      "operational_hours": "24/7",
+      "max_concurrent_missions": 10,
+      "description": "Launch Vehicle Partner - Primary coordination point for Falcon 9 launch services and mission integration"
+    },
+    {
+      "name": "Vandenberg SLC-4E",
+      "location": "Vandenberg Space Force Base, CA",
+      "latitude": 34.6321,
+      "longitude": -120.6106,
+      "elevation": 101,
+      "type": "support-node",
+      "subtype": "launch-operations",
+      "address": "Space Launch Complex 4E, Vandenberg SFB, CA",
+      "status": "active",
+      "capabilities": [
+        "polar_launches",
+        "sso_launches",
+        "earth_observation",
+        "national_security",
+        "starlink_deployment"
+      ],
+      "configuration": "SpaceX Falcon 9 launch complex for polar and sun-synchronous orbits",
+      "operational_hours": "Mission dependent",
+      "max_annual_launches": 15,
+      "connectivity_types": [],
+      "has_satellite_visibility": false,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Polar Launch Complex - Primary for SSO/Polar orbit launches. SLC-4E is used for polar and sun-synchronous launches, including Earth observation, national security, and some Starlink deployments."
+    },
+    {
+      "name": "Cape Canaveral SLC-40",
+      "location": "Cape Canaveral Space Force Station, FL",
+      "latitude": 28.5619,
+      "longitude": -80.5774,
+      "elevation": 5,
+      "type": "support-node",
+      "subtype": "launch-operations",
+      "address": "Space Launch Complex 40, Cape Canaveral SFS, FL",
+      "status": "active",
+      "capabilities": [
+        "leo_launches",
+        "gto_launches",
+        "iss_resupply",
+        "commercial_missions",
+        "crew_missions"
+      ],
+      "configuration": "SpaceX Falcon 9 launch complex for equatorial and GTO missions",
+      "operational_hours": "Mission dependent",
+      "max_annual_launches": 25,
+      "connectivity_types": [],
+      "has_satellite_visibility": false,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Equatorial Launch Complex - SLC-40 has been a major launch site for SpaceX's Falcon 9 missions, particularly for missions to low Earth orbit (LEO), geostationary transfer orbit (GTO), and resupply missions to the ISS."
+    },
+    {
+      "name": "TISTEF Test Facility",
+      "location": "Florida, USA",
+      "latitude": 28.5735,
+      "longitude": -80.6511,
+      "elevation": 3,
+      "type": "support-node",
+      "subtype": "aetherflux",
+      "address": "Townes Institute Science and Technology Experimentation Facility, FL",
+      "status": "active",
+      "capabilities": [
+        "laser_testing",
+        "high_power_research",
+        "optics_experimentation",
+        "photonics_testing"
+      ],
+      "configuration": "Government-licensed facility for high-power laser testing and advanced photonics research",
+      "operational_hours": "By appointment",
+      "max_concurrent_projects": 2,
+      "connectivity_types": [],
+      "has_satellite_visibility": false,
+      "maintenance_status": {
+        "is_down": false,
+        "down_since": null,
+        "estimated_return": null,
+        "actual_return": null,
+        "reason": null
+      },
+      "description": "Aetherflux will use this location for high-powered laser testing due to its government licensing for such activities. TISTEF (Townes Institute Science and Technology Experimentation Facility) is a specialized research facility designed for advanced technology experimentation and testing. The facility provides a controlled environment for conducting cutting-edge research in optics, photonics, and high-energy systems, making it ideal for Aetherflux's laser power beaming development and validation programs."
+    }
+  ]
+}
