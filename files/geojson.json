@@ -1,0 +1,335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.6109, 35.0844]
+      },
+      "properties": {
+        "name": "Aetherflux Ground Station Alpha",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.3242, 32.9207]
+      },
+      "properties": {
+        "name": "Aetherflux Ground Station Beta",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.8839, 34.9054]
+      },
+      "properties": {
+        "name": "Aetherflux Ground Station Gamma",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2602, 37.5073]
+      },
+      "properties": {
+        "name": "San Carlos OTTS",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.6501, 28.5745]
+      },
+      "properties": {
+        "name": "TISTEF OTTS",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2602, 37.5073]
+      },
+      "properties": {
+        "name": "San Carlos TT&C",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.254168, 37.507752]
+      },
+      "properties": {
+        "name": "Aetherflux Mission Control",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.833, -32.967]
+      },
+      "properties": {
+        "name": "Leaf Space Peterborough",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [115.333, -29.0]
+      },
+      "properties": {
+        "name": "Leaf Space Nangetty",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [49.483, 40.45]
+      },
+      "properties": {
+        "name": "Leaf Space Absheron",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [27.15, 43.3]
+      },
+      "properties": {
+        "name": "Leaf Space Kaspichan",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.433, 42.467]
+      },
+      "properties": {
+        "name": "Leaf Space Plana",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.833, -53.033]
+      },
+      "properties": {
+        "name": "Leaf Space Punta Arenas",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.767, -33.35]
+      },
+      "properties": {
+        "name": "Leaf Space Santiago",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-20.233, 65.633]
+      },
+      "properties": {
+        "name": "Leaf Space Blönduós",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.635, 7.293]
+      },
+      "properties": {
+        "name": "Leaf Space Kandy",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126.317, 33.383]
+      },
+      "properties": {
+        "name": "Leaf Space Jeju",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.683, -20.133]
+      },
+      "properties": {
+        "name": "Leaf Space Mon Loisir",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.383, 24.083]
+      },
+      "properties": {
+        "name": "Leaf Space La Paz",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.367, -46.517]
+      },
+      "properties": {
+        "name": "Leaf Space Awarua",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-25.133, 36.983]
+      },
+      "properties": {
+        "name": "Leaf Space Santa Maria",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.85, 60.733]
+      },
+      "properties": {
+        "name": "Leaf Space Unst",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.45, -25.85]
+      },
+      "properties": {
+        "name": "Leaf Space Pretoria",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2602, 37.5073]
+      },
+      "properties": {
+        "name": "San Carlos Control Center",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.254565, 37.507603]
+      },
+      "properties": {
+        "name": "Aetherflux Mission Control HQ",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.412, 33.975]
+      },
+      "properties": {
+        "name": "Apex Space",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.3279, 33.9206]
+      },
+      "properties": {
+        "name": "SpaceX Headquarters",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.6106, 34.6321]
+      },
+      "properties": {
+        "name": "Vandenberg SLC-4E",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.5774, 28.5619]
+      },
+      "properties": {
+        "name": "Cape Canaveral SLC-40",
+        "radius_km": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.6511, 28.5735]
+      },
+      "properties": {
+        "name": "TISTEF Test Facility",
+        "radius_km": 500
+      }
+    }
+  ]
+}
