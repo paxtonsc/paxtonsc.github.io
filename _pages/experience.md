@@ -7,12 +7,16 @@ redirect_from:
 ---
 
 ## Education 
-* MS, **Computer Science**   \|  *Stanford University*  \|  2022-2023
+* MS, **Computer Science**   \|  *Stanford University*  \|  2022 - 2023
 * BS, **Engineering-Physics**  \|  *Stanford University*  \|  2018 - 2022
 
 
 
 ## Professional Experience
+* **GNC/Software Engineer** \| San Carlos, CA \| *Aetherflux* \| Sept 2025 - Present
+    * Write flight and ground software for Mission 1.
+    * Simulate and analyze attitude control for tight pointing requirements.
+
 * **Research Assistant** \| Stanford, CA \| *Stanford Doerr School of Sustainability* \| Jan 2025 - Sept 2025
     * Collaborated with Prof. Eric Dunham to enhance a fluid dynamics library, improving accuracy in modeling Vulcanian eruptions.
     * Utilized Python, NumPy, SciPy, Matplotlib, and Jupyter Notebooks for data analysis and visualization.
