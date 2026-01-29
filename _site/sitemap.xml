@@ -61,6 +61,14 @@
 <lastmod>2025-09-08T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/adventures/2025/11/white-rim/</loc>
+<lastmod>2025-11-26T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/adventures/2026/01/ludlow-ski-hut/</loc>
+<lastmod>2026-01-23T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/posts/2024/10/blog-post-1/</loc>
 <lastmod>2024-10-15T00:00:00+00:00</lastmod>
 </url>
@@ -180,6 +188,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/adventures/page/3/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/adventures/page/4/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/projects/</loc>
