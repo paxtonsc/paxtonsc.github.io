@@ -87,7 +87,7 @@ From Bomber, we continued down the valley on mostly good trails until we arrived
 ![alt text](/images/2026-08-22-bomber-traverse/DSC06142.jpg)
 *Snowbird hut is a stunner.*
 
-The most that can be said against it is that it was built for snow recreation, and as a result, there is no water nearby. After we arrived, Mary and I walked down to the glacier to fill all our water vessels and a pot.
+The most that can be said against the hut is that it was built for snow recreation, and as a result, there is no water nearby. After we arrived, Mary and I walked down to the glacier to fill all our water vessels and a pot.
 
 ![alt text](/images/2026-08-22-bomber-traverse/DSC06159.jpg)
 *Mary's upper-body workout for the day.*
