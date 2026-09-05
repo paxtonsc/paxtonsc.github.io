@@ -78,10 +78,10 @@ We ate lunch at Bomber Hut, which is the smallest of the three. It certainly had
 
 From Bomber, we continued down the valley on mostly good trails until we arrived at the creek flowing down from Snowbird Glacier and turned left to walk up it. The crux of the climb to Snowbird was likely scrambling up Snowbird Creek to gain the ridge adjacent to Snowbird Glacier, where the hut was built. Gus took an easier, lower line, but Mary’s line was a better photo opportunity.
 
-![alt text](../../images/2026-08-22-bomber-traverse/DSC06134.jpg)
+![alt text](/images/2026-08-22-bomber-traverse/DSC06134.jpg)
 *The photo opportunity.*
 
-![alt text](../../images/2026-08-22-bomber-traverse/DSC06139.jpg)
+![alt text](/images/2026-08-22-bomber-traverse/DSC06139.jpg)
 *Gus and Mary exhibit their classic adventure expressions.*
 
 ![alt text](/images/2026-08-22-bomber-traverse/DSC06142.jpg)
