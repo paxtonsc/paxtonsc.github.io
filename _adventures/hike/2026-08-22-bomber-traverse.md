@@ -117,4 +117,5 @@ A very successful trip!
 
 - Should have packed more cheese.
 - Given that we never used our tent, it would have been nicer to carry a lighter alternative to the four-season, seven-pound Norwegian behemoth I ended up lugging. But that was the only tent we had with us in Alaska, and we didn’t feel bold enough to go without one.
+- Consider carrying an empty water bladder to have a better vessel to haul water to the Snowbird Hut than a pot.
 
