@@ -32,7 +32,7 @@ We started our walk under cloudy but dry skies at 11 AM. The trail up the valley
 ![](/images/2026-08-22-bomber-traverse/DSC06054.jpg)
 *Mary and Gus along Little Susitna River.*
 
-![](/images/2026-08-22-bomber-traverse/DSC06065.jpg)
+![](/images/2026-08-22-bomber-traverse/DSC06065.jpg){: width="50%" .align-center }
 *We walked up the valley before cutting up left to a local promontory point..*
 
 ![](/images/2026-08-22-bomber-traverse/DSC06078.jpg)
@@ -63,7 +63,7 @@ The scramble up to Backdoor Gap was pretty straightforward. The day was clear en
 
 From the gap there was a fixed rope that we used to descend down onto the glacier which was gentle. Gus and I put our microspikes on, but Mary didn't bother. 
 
-![alt text](../../images/2026-08-22-bomber-traverse/DSC06106.jpg)
+![alt text](/images/2026-08-22-bomber-traverse/DSC06106.jpg)
 *Easy walking.*
 
 We ate lunch at Bomber hut which is the smallest of the three, it certainly had plenty of space for our group but would have become crowded if a second group arrived. 
@@ -111,7 +111,6 @@ A very successful trip!
 ## Notes 
 - Should have packed more cheese. 
 - Given that we never used our tent, it would have been nicer to carry a lighter alternative to the four season 8-lb Norwegian behemoth I ended up lugging. But that was the only tent we had with us in AK and we didn’t feel bold enough to go with no tent. 
-
 
 
 
