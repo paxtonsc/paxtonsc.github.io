@@ -10,16 +10,16 @@ tags: []
 
 Shortly after my fiancée, Mary, made plans to spend a summer in Palmer working as a public defender, I booked flights to visit her for the last two weeks of her stay. We both planned to take the second week completely off from work and head out on some Alaskan adventures. As I began researching, I found Luc Mehl’s write-up of his [traverse across the Brooks Range](https://thingstolucat.com/brooks-range-traverse/). We did not have the time or experience for such an epic route, but a packrafting trip—if the weather cooperated—was in the cards. We had two constraints:
 
-1. The whitewater could not exceed Class II. This would be our first time in packrafts and on rivers in Alaska. While Mary and I have both spent time on Class III whitewater in kayaks and canoes, this trip already had enough variables without adding more whitewater risk.
+1. The whitewater could not exceed Class II. This would be our first time packrafting and our first time on rivers in Alaska. While Mary and I have both spent time on Class III whitewater in kayaks and canoes, this trip already had enough variables without adding more whitewater risk.
 2. The trip needed to be reasonably accessible from Palmer, Alaska, where Mary was living. With only a week to work with, we did not want to spend too much time driving or flying.
 
 With these two constraints, I found [this route](https://thingstolucat.com/2021/09/24/south-fork-matanuska-loop/) on Luc’s website. He described it as “a candidate for the best true packraft loop around, especially during the autumn.”
 
-The best true packraft loop in autumn sounded pretty good to me. Our dates were in early September, which lined up well for some fall colors and not too much water. Now we just had to hope for good weather.
+The best true packraft loop in autumn sounded pretty good to me. Our early-September dates lined up well for fall colors and lower water levels. Now we just had to hope for good weather.
 
 Once I arrived in Alaska, we began filling in the details. Before the packrafting trip, we made plans to fish on the Kenai River with some of Mary’s coworkers. On our way back through Anchorage on Tuesday, September 1, we would rent packrafts and dry suits from [The Hoarding Marmot](https://hoardingmarmot.com/) and return them right before we flew out on Sunday, September 6. That gave us four days, Wednesday through Saturday, to complete the loop.
 
-As the trip approached, the forecast made our decision clear: Wednesday through Friday would be reasonably clear, and Saturday would be rainy. So we would start hiking Wednesday morning and plan to exit Friday.
+As the trip approached, the forecast made our decision clear: Wednesday through Friday would be mostly clear, and Saturday would be rainy. So we would start hiking Wednesday morning and plan to exit Friday.
 
 Our friend Nahla had packrafted this route the previous year and offered the following beta:
 
@@ -31,11 +31,11 @@ Nahla was kind enough to send us her GPX file, which provided slightly more deta
 
 We anticipated that the weather might begin to deteriorate Friday afternoon, and the trip involved a fair amount of uncertainty, so we decided to get an early start Wednesday. I set my alarm for 4:45 a.m. We departed Palmer at about 5:15 and drove most of the way to the Lionhead Trailhead in the dark.
 
-It was light by the time we reached the trailhead. From there, it is about a three-quarter-mile walk to Caribou Creek. We began inflating our boats for the second time (the first was at The Hoarding Marmot the previous afternoon). I was immediately concerned that the valve on my packraft did not seem to operate correctly as a one-way valve, despite being turned in the “left” direction. However, after a brief consultation with the web (we still had service), we learned that Alpacka Raft does not intend its valves to be perfectly one-way. Air only stops flowing out once the cap is tightened after the boat is fully inflated.
+It was light by the time we reached the trailhead. From there, we had about a three-quarter-mile walk to Caribou Creek. We began inflating our boats for the second time (the first was at The Hoarding Marmot the previous afternoon). I was immediately concerned that the valve on my packraft did not seem to operate correctly as a one-way valve, despite being turned in the “left” direction. However, after a brief consultation with the web (we still had service), we learned that Alpacka Raft does not intend its valves to be perfectly one-way. Air stops flowing out only once the boat is fully inflated and the cap is tightened.
 
 With added confidence from this discovery, we finished inflating the packrafts. I was using the Classic model, while Mary was in a Gnarwhal. The Gnarwhal includes a zipper that allows gear to be stored inside the packraft tubes. Very clever! The Classic does not have that feature, so I gave Mary most of my stuff and kept my backpack between my legs.
 
-The first packraft section is about a mile and involves floating down Caribou Creek to its confluence with the Matanuska, then taking out on the far side of the river. We put in just as the first rays of sun hit the water. Packrafting turned out to be pretty straightforward. When we took out on river left of the Matanuska, the air temperature must have been below freezing because ice formed on our boats and gear as we packed up. The trail toward Spoon Valley was initially pretty good, but it eventually disappeared. Nahla’s track hugged the creek, but in the interest of keeping our feet dry, we stayed farther right and ended up with some bushwhacking and extra climbing that may or may not have been better than getting our feet wet.
+The first packraft section was about a mile and involved floating down Caribou Creek to its confluence with the Matanuska, then taking out on the far side of the river. We put in just as the first rays of sun hit the water. Packrafting turned out to be pretty straightforward. When we took out on river left of the Matanuska, the air temperature must have been below freezing because ice formed on our boats and gear as we packed up. The trail toward Spoon Valley was initially pretty good, but it eventually disappeared. Nahla’s track hugged the creek, but in the interest of keeping our feet dry, we stayed farther right and ended up with some bushwhacking and extra climbing that may or may not have been better than getting our feet wet.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06318.jpeg){: width="50%" .align-center }
 *Mary crosses the creek flowing out of Matanuska Glacier.*
@@ -57,7 +57,7 @@ From there, we had an easy walk up the rest of the valley. The colors were begin
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06351.jpeg)
 *The lower sections of Matanuska Glacier could benefit from a wash.*
 
-Reviewing Nahla’s map, we concluded that the next crux would be descending into the side valley we needed to hike up from Spoon Valley.
+Reviewing Nahla’s map, we concluded that the next crux would be descending from Spoon Valley into the side valley we needed to hike up.
 
 Indeed, that was the case. The route Nahla took appeared to be a cliff. Perhaps closer inspection would have revealed a viable route, but we decided instead to continue climbing and descend a gentler slope.
 
@@ -88,10 +88,10 @@ We packed our gear, ate a snack, and started walking. The previous night, we had
 The creek walking was mostly fine. Snow on the ground made the rocks a little slippery in places, but otherwise, the walking was pretty good. When we had the chance, we cut left of the creek and walked on more southerly slopes that were largely clear of snow. Periodically, we saw bear prints. The big fella seemed to be going the same place we were.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06400.jpeg)
-*Spoon valley is visable in the background as Mary walks towards me.*
+*Spoon Valley is visible in the background as Mary walks toward me.*
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06406.jpeg)
-*The snowy Northeast face of the valley as we ascend.*
+*The snowy northeast face of the valley as we ascend.*
 
 The final challenge before the pass was walking up a small creek that was steep in places. Fortunately, the creek was largely south-facing, with minimal snow in the creek bed. All the same, we were happy to be hiking up the creek rather than down it.
 
@@ -129,10 +129,10 @@ At one point, we got close to a small creek, so I thought: What the heck, maybe 
 
 “Let’s go for it,” she said.
 
-So we did, but damned if it didn’t take us 15 minutes to cover those 39 feet. The creek, it turned out, had even tighter trees than the surrounding brush, so we spent another 15 minutes beating our way back to our starting point on a slightly different heading.
+So we did, but damned if it didn’t take us 15 minutes to cover those 39 feet. The creek, it turned out, was choked with even tighter trees than the surrounding brush, so we spent another 15 minutes beating our way back to our starting point on a slightly different heading.
 
 ![](/images/2026-09-south-fork-of-the-matanuska/IMG_0667.jpg){: width="50%" .align-center }
-The shwack.
+*The bushwhack.*
 
 Ah, well. We eventually made it to the river at 4 p.m. and celebrated with a snack and some water. From our snack spot, we walked downstream for about 10 minutes until the creek we had followed earlier joined the South Fork. There, we stopped, inflated our packrafts, and prepared to push off.
 
@@ -143,7 +143,7 @@ Of all the challenges this trip posed, the one we had focused on most beforehand
 
 We started floating and quickly realized that this was going to work out, as long as we didn’t encounter any unexpected rapids. We had found no reports of any and had not spotted any major features in satellite imagery.
 
-We floated for about an hour and a half, then made camp on an elevated gravel bar in the river plain.
+We floated for about an hour and a half, then made camp on an elevated gravel bar in the floodplain.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06537.jpeg)
 *Camp 2.*
@@ -152,9 +152,9 @@ Our camp caught the last rays of sun, and we ate a very pleasant dinner of ramen
 
 Compared with the previous night, the weather was warm, and we seemingly had the whole South Fork of the Matanuska Valley to ourselves.
 
-## Day 3 
+## Day 3
 
-Today, we had no urgency to get moving. The sun would not hit our spot in the valley until around 9:15. We slept until about 7, and then I recovered the bear can from where we had stashed it the night before and heated water for oats. After a relaxed breakfast, we packed up camp and inflated our boats. Mary had read about some packrafts being punctured by a bear, so we had deflated ours the night before and stored them in the tent vestibule.
+That morning, we had no urgency to get moving. The sun would not hit our spot in the valley until around 9:15. We slept until about 7, and then I recovered the bear can from where we had stashed it the night before and heated water for oats. After a relaxed breakfast, we packed up camp and inflated our boats. Mary had read about packrafts being punctured by bears, so we had deflated ours the night before and stored them in the tent vestibule.
 
 We hit the water at 9 a.m., just as the first light made its way into the valley.
 
@@ -162,9 +162,9 @@ We hit the water at 9 a.m., just as the first light made its way into the valley
 
 The biggest problem with our packraft setup was that my seat cushion had a leak and slowly deflated over about 15 minutes. This caused two problems. First, my butt was somewhat unprotected when we smashed into rocks, which happened regularly in the low water. During most of the float, a quick paddle poke showed the river to be less than 12 inches deep. Second, I sat lower in the packraft than intended, so when water splashed onto my spray skirt, it formed a small and unpleasant moat around my torso. I tried to mitigate the issue by sitting on my mostly empty backpack. This helped.
 
-Otherwise, the packrafts performed great, and we covered easy miles at a rapid pace. After many painfully slow hiking miles, it felt great to whiz along with only the occasional paddle stroke.
+Otherwise, the packrafts performed well, and we covered easy miles at a rapid pace. After many painfully slow hiking miles, it felt great to whiz along with only the occasional paddle stroke.
 
-We stopped for a short snack once the river bent but otherwise floated nearly continuously. It was a beautiful day.
+We stopped for a short snack after the river rounded a bend but otherwise floated nearly continuously. It was a beautiful day.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06575.jpeg)
 
