@@ -29,7 +29,7 @@ Nahla was kind enough to send us her GPX file, which provided slightly more deta
 
 ## Day 1
 
-We anticipated that the weather might begin to deteriorate Friday afternoon, and the trip involved a fair amount of uncertainty, so we decided to get an early start Wedensday. I set my alarm for 4:45 a.m. We departed Palmer at about 5:15 and drove most of the way to the Lionhead Trailhead in the dark.
+We anticipated that the weather might begin to deteriorate Friday afternoon, and the trip involved a fair amount of uncertainty, so we decided to get an early start Wednesday. I set my alarm for 4:45 a.m. We departed Palmer at about 5:15 and drove most of the way to the Lionhead Trailhead in the dark.
 
 It was light by the time we reached the trailhead. From there, it is about a three-quarter-mile walk to Caribou Creek. We began inflating our boats for the second time (the first was at The Hoarding Marmot the previous afternoon). I was immediately concerned that the valve on my packraft did not seem to operate correctly as a one-way valve, despite being turned in the “left” direction. However, after a brief consultation with the web (we still had service), we learned that Alpacka Raft does not intend its valves to be perfectly one-way. Air only stops flowing out once the cap is tightened after the boat is fully inflated.
 
@@ -73,6 +73,7 @@ We decided to walk another four miles or so, until the route branched away from 
 We reached our campsite shortly before 7 p.m., pitched the tent, organized our gear, and ate burritos purchased from the only Mexican restaurant in Palmer (not Taco Bell this time). We then carried our food some distance from camp, put it in a bear can, stashed it in a bush, and got into the tent.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06382.jpeg)
+*Camp 1.*
 
 Temperatures dropped quickly once the sun went down—maybe from cold air blowing off the glacier at the head of the valley. I was very happy to have brought a 0-degree Marmot bag that I had recently inherited from my dad. Mary was in a 15-degree bag, but with a sleeping bag liner and additional layers, she also claimed to be sufficiently warm.
 
@@ -87,8 +88,10 @@ We packed our gear, ate a snack, and started walking. The previous night, we had
 The creek walking was mostly fine. Snow on the ground made the rocks a little slippery in places, but otherwise, the walking was pretty good. When we had the chance, we cut left of the creek and walked on more southerly slopes that were largely clear of snow. Periodically, we saw bear prints. The big fella seemed to be going the same place we were.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06400.jpeg)
+*Spoon valley is visable in the background as Mary walks towards me.*
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06406.jpeg)
+*The snowy Northeast face of the valley as we ascend.*
 
 The final challenge before the pass was walking up a small creek that was steep in places. Fortunately, the creek was largely south-facing, with minimal snow in the creek bed. All the same, we were happy to be hiking up the creek rather than down it.
 
@@ -128,6 +131,9 @@ At one point, we got close to a small creek, so I thought: What the heck, maybe 
 
 So we did, but damned if it didn’t take us 15 minutes to cover those 39 feet. The creek, it turned out, had even tighter trees than the surrounding brush, so we spent another 15 minutes beating our way back to our starting point on a slightly different heading.
 
+![](/images/2026-09-south-fork-of-the-matanuska/IMG_0667.jpg){: width="50%" .align-center }
+The shwack.
+
 Ah, well. We eventually made it to the river at 4 p.m. and celebrated with a snack and some water. From our snack spot, we walked downstream for about 10 minutes until the creek we had followed earlier joined the South Fork. There, we stopped, inflated our packrafts, and prepared to push off.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06509.jpeg)
@@ -140,6 +146,7 @@ We started floating and quickly realized that this was going to work out, as lon
 We floated for about an hour and a half, then made camp on an elevated gravel bar in the river plain.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06537.jpeg)
+*Camp 2.*
 
 Our camp caught the last rays of sun, and we ate a very pleasant dinner of ramen and instant potatoes, reveling in the feeling of having overcome so many challenges that, at times, had seemed insurmountable.
 
@@ -165,7 +172,6 @@ We took out well above the confluence of Caribou Creek and the Matanuska, packed
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06580.jpeg)
 *Take out.*
-
 
 A short hike brought us back to the car. We were the only ones in the parking lot. Magical trip!
 
