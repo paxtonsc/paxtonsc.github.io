@@ -168,7 +168,7 @@ We stopped for a short snack once the river bent but otherwise floated nearly co
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06575.jpeg)
 
-We took out well above the confluence of Caribou Creek and the Matanuska, packed our packrafts a bit sloppily, and hiked back toward the car.
+We took out well above the confluence of Caribou Creek and the Matanuska.
 
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06580.jpeg)
 *Take out.*
