@@ -182,3 +182,6 @@ A short hike brought us back to the car. We were the only ones in the parking lo
 - We were limited by rental inventory, but in the future, two Gnarwhals would be ideal for this trip so both boats can hold some gear.
 - Storing a backpack between one’s legs or under one’s butt results in the backpack getting totally soaked.
 - We should have broken our paddles down more than we did. We each split our paddle into only two sections rather than four. After each bushwhack, I convinced myself there would be no more bushwhacking. I was wrong every time except the last.
+
+## Map
+- [CALTOPO](https://caltopo.com/m/FDA3BVC)
