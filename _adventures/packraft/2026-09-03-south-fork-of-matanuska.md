@@ -133,7 +133,7 @@ Ah, well. We eventually made it to the river at 4 p.m. and celebrated with a sna
 ![alt text](/images/2026-09-south-fork-of-the-matanuska/DSC06509.jpeg)
 *What beautiful contraptions these Alpacka Rafts are!*
 
-Of all the challenges this trip posed, the one we had focused on most beforehand was this Class II descent. Neither Mary nor I had ever packrafted. Would we be able to handle a Class II river in a packraft? Even with dry suits, swimming struck both of us as a serious and largely unacceptable outcome. The short float at the start of the trip had bolstered our confidence, and looking at the South Fork encouraged us further. For one thing, there wasn’t much water in the river. It seemed like the biggest risk would be getting stuck where the braided channels diverged.
+Of all the challenges this trip posed, the one we had focused on most beforehand was this Class II descent. Neither Mary nor I had ever packrafted. Would we be able to handle a Class II river in a packraft? Even with dry suits, swimming struck both of us as a serious and largely unacceptable outcome. The short float at the start of the trip had bolstered our confidence, and looking at the South Fork encouraged us further. For one thing, there wasn’t much water in the river. It seemed like the biggest risk would be getting stuck on rocks due to low water levels.
 
 We started floating and quickly realized that this was going to work out, as long as we didn’t encounter any unexpected rapids. We had found no reports of any and had not spotted any major features in satellite imagery.
 
