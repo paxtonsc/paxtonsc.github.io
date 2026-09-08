@@ -18,7 +18,7 @@
 
 
 
-<title>Fun &amp; Hobbies - Paxton Scott</title>
+<title>Adventures - Paxton Scott</title>
 
 
 
@@ -28,7 +28,7 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Paxton Scott ">
-<meta property="og:title" content="Fun &amp; Hobbies">
+<meta property="og:title" content="Adventures">
 
 
   <link rel="canonical" href="http://localhost:4000/adventures/">
@@ -50,8 +50,6 @@
 
 
 
-
-  <link rel="next" href="http://localhost:4000/adventures/page/2/">
 
 
 
@@ -285,268 +283,807 @@
 
   <div class="archive">
     
-      <h1 class="page__title">Fun & Hobbies</h1>
+      <h1 class="page__title"></h1>
     
-    
+    <style>
+  .adventure-tools {
+    margin: 0 0 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.65rem;
+    background: #f8fafc;
+  }
 
+  .adventure-tools__top {
+    display: grid;
+    grid-template-columns: minmax(12rem, 1fr) auto;
+    gap: 0.75rem;
+  }
+
+  .adventure-search,
+  .adventure-sort {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 2.6rem;
+    margin: 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.4rem;
+    background: #fff;
+    font: inherit;
+  }
+
+  .adventure-search { padding: 0.55rem 0.75rem; }
+  .adventure-sort { padding: 0.45rem 2rem 0.45rem 0.65rem; }
+
+  .adventure-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.8rem;
+  }
+
+  .adventure-filter {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid #64748b;
+    border-radius: 999px;
+    background: #fff;
+    color: #334155;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .adventure-filter:hover,
+  .adventure-filter:focus-visible { background: #e2e8f0; }
+
+  .adventure-filter[aria-pressed="true"] {
+    border-color: #1f2937;
+    background: #1f2937;
+    color: #fff;
+  }
+
+  .adventure-results {
+    margin: 0.75rem 0 0;
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+
+  .adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.2rem;
+  }
+
+  .adventure-card {
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.6rem;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+    transition: transform 120ms ease, box-shadow 120ms ease;
+  }
+
+  .adventure-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(15, 23, 42, 0.14);
+  }
+
+  .adventure-card[hidden] { display: none; }
+
+  .adventure-card__image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .adventure-card__body { padding: 0.9rem; }
+
+  .adventure-card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #64748b;
+    font-size: 0.76rem;
+  }
+
+  .adventure-card__activity {
+    padding: 0.18rem 0.5rem;
+    border-radius: 999px;
+    background: #e2e8f0;
+    color: #334155;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .adventure-card__title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+
+  .adventure-card__title a { text-decoration: none; }
+
+  .adventure-card__summary {
+    margin: 0.6rem 0 0;
+    color: #475569;
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+
+  .adventure-empty {
+    display: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #64748b;
+  }
+
+  .adventure-empty.is-visible { display: block; }
+
+  @media (max-width: 540px) {
+    .adventure-tools__top { grid-template-columns: 1fr; }
+    .adventure-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="adventure-tools" aria-label="Filter adventure reports">
+  <div class="adventure-tools__top">
+    <label>
+      <span class="screen-reader-text">Search trip reports</span>
+      <input class="adventure-search" id="adventure-search" type="search" placeholder="Search trip reports…" autocomplete="off">
+    </label>
+    <label>
+      <span class="screen-reader-text">Sort trip reports</span>
+      <select class="adventure-sort" id="adventure-sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="adventure-filters" role="group" aria-label="Activity">
+    <button class="adventure-filter" type="button" data-activity="all" aria-pressed="true">All</button>
+    <button class="adventure-filter" type="button" data-activity="ski" aria-pressed="false">Ski</button>
+    <button class="adventure-filter" type="button" data-activity="bike" aria-pressed="false">Bike</button>
+    <button class="adventure-filter" type="button" data-activity="hike" aria-pressed="false">Hike</button>
+    <button class="adventure-filter" type="button" data-activity="run" aria-pressed="false">Run</button>
+    <button class="adventure-filter" type="button" data-activity="packraft" aria-pressed="false">Packraft</button>
+  </div>
+
+  <p class="adventure-results" id="adventure-results" aria-live="polite"></p>
+</div>
+
+<div class="adventure-grid" id="adventure-grid">
+  
   
     
-
-
-
-
-
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/adventures/2026/03/asulkan-ski-hut/" rel="permalink">Asulkan Ski Hut
-</a>
       
-    </h2>
-    
-    
-
-        
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-03-23T00:00:00+00:00">March 23, 2026</time></p>
-        
       
-    
-    <img src="/images/2026-04-05-Asulkan/asulkan_rogers_pass - 11.jpg" alt="Asulkan Ski Hut">
-    
-
-    
-
-    <!--
-    <p class="archive__item-excerpt" itemprop="description"><h2 id="contents">Contents</h2>
-<ul>
-  <li><a href="#context">Context</a></li>
-  <li><a href="#avalanches">Avalanches</a></li>
-  <li><a href="#rogers-pass-history">Rogers Pass History</a></li>
-  <li><a href="#pre-trip">Pre-trip</a></li>
-  <li><a href="#day-1-ski-in">Day 1: Ski in</a></li>
-  <li><a href="#day-2-storm-day">Day 2: Storm Day</a></li>
-  <li><a href="#day-3-tree-triangle-day">Day 3: Tree Triangle Day</a></li>
-  <li><a href="#day-4-more-tree-triangle">Day 4: More tree triangle</a></li>
-  <li><a href="#day-5-asulkan-pass-and-ski-out">Day 5: Asulkan Pass and ski out</a></li>
-  <li><a href="#notes">Notes</a></li>
-</ul>
+      
+      <article
+        class="adventure-card"
+        data-activity="packraft"
+        data-date="1788393600"
+        data-title="south fork of the matanuska"
+        data-search="south fork of the matanuska packraft [] context">
+        <a href="/adventures/2026/09/south-fork-of-the-matanuska/" aria-label="Read South Fork of the Matanuska">
+          
+            <img class="adventure-card__image" src="/images/2026-09-south-fork-of-the-matanuska/DSC06509.jpeg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">packraft</span>
+            <time datetime="2026-09-03T00:00:00+00:00">Sep 3, 2026</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2026/09/south-fork-of-the-matanuska/">South Fork of the Matanuska</a></h2>
+          <p class="adventure-card__summary">Context
 </p>
-    -->
+        </div>
+      </article>
     
-    
-
-  </article>
-</div>
-
-  
-
   
     
-
-
-
-
-
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/adventures/2026/01/ludlow-ski-hut/" rel="permalink">Ludlow Ski Hut
-</a>
       
-    </h2>
-    
-    
-
-        
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2026-01-23T00:00:00+00:00">January 23, 2026</time></p>
-        
       
-    
-    <img src="/images/2026-01-Ludlow/DSC04632.jpeg" alt="Ludlow Ski Hut">
-    
-
-    
-
-    <!--
-    <p class="archive__item-excerpt" itemprop="description"><h2 id="context">Context</h2>
+      
+      <article
+        class="adventure-card"
+        data-activity="hike"
+        data-date="1787356800"
+        data-title="bomber traverse"
+        data-search="bomber traverse hike [] history">
+        <a href="/adventures/2026/08/bomber-traverse/" aria-label="Read Bomber Traverse">
+          
+            <img class="adventure-card__image" src="/images/2026-08-22-bomber-traverse/DSC06139.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">hike</span>
+            <time datetime="2026-08-22T00:00:00+00:00">Aug 22, 2026</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2026/08/bomber-traverse/">Bomber Traverse</a></h2>
+          <p class="adventure-card__summary">History
 </p>
-    -->
+        </div>
+      </article>
     
-    
-
-  </article>
-</div>
-
-  
-
   
     
-
-
-
-
-
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/adventures/2025/11/white-rim/" rel="permalink">White Rim
-</a>
       
-    </h2>
-    
-    
-
-        
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-11-26T00:00:00+00:00">November 26, 2025</time></p>
-        
       
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1774224000"
+        data-title="asulkan ski hut"
+        data-search="asulkan ski hut ski [&quot;ski traverse&quot;, &quot;backcountry skiing&quot;] contents  context  avalanches  rogers pass history  pre-trip  day 1: ski in  day 2: storm day  day 3: tree triangle day  day 4: more tree triangle  day 5: asulkan pass and ski out  notes">
+        <a href="/adventures/2026/03/asulkan-ski-hut/" aria-label="Read Asulkan Ski Hut">
+          
+            <img class="adventure-card__image" src="/images/2026-04-05-Asulkan/asulkan_rogers_pass%20-%2011.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2026-03-23T00:00:00+00:00">Mar 23, 2026</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2026/03/asulkan-ski-hut/">Asulkan Ski Hut</a></h2>
+          <p class="adventure-card__summary">Contents Context Avalanches Rogers Pass History Pre-trip Day 1: Ski in Day 2: Storm Day Day 3: Tree Triangle Day Day 4: More tree...</p>
+        </div>
+      </article>
     
-    <img src="/images/2025-11-white-rim/DSC04505.jpeg" alt="White Rim">
+  
     
-
-    
-
-    <!--
-    <p class="archive__item-excerpt" itemprop="description"><h2 id="context">Context</h2>
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1769126400"
+        data-title="ludlow ski hut"
+        data-search="ludlow ski hut ski [&quot;ski traverse&quot;, &quot;backcountry skiing&quot;, &quot;tahoe&quot;] context">
+        <a href="/adventures/2026/01/ludlow-ski-hut/" aria-label="Read Ludlow Ski Hut">
+          
+            <img class="adventure-card__image" src="/images/2026-01-Ludlow/DSC04632.jpeg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2026-01-23T00:00:00+00:00">Jan 23, 2026</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2026/01/ludlow-ski-hut/">Ludlow Ski Hut</a></h2>
+          <p class="adventure-card__summary">Context
 </p>
-    -->
+        </div>
+      </article>
     
-    
-
-  </article>
-</div>
-
-  
-
   
     
-
-
-
-
-
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/adventures/2025/09/alta-via-2/" rel="permalink">Alta Via 2
-</a>
       
-    </h2>
-    
-    
-
-        
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-09-08T00:00:00+00:00">September 08, 2025</time></p>
-        
       
-    
-    <img src="/images/2025-09-alta-via-2/2025-Europe-078.jpg" alt="Alta Via 2">
-    
-
-    
-
-    <!--
-    <p class="archive__item-excerpt" itemprop="description"><h2 id="context">Context</h2>
-<p>The Alta Via 2 is a high route between Brixen in South Tyrol to Feltre in Veneto. The route was developed in the 1960s by the Italian Alpine Club to promote multi-day trekking through the Dolomites. It was originally pieced together from traditional shepherd’s paths, World War I military roads, and alpine club trails. The official route is ~100 miles long with ~35,000 feet of ascending.</p>
+      
+      <article
+        class="adventure-card"
+        data-activity="bike"
+        data-date="1764115200"
+        data-title="white rim"
+        data-search="white rim bike [&quot;utah&quot;, &quot;cycling&quot;] context">
+        <a href="/adventures/2025/11/white-rim/" aria-label="Read White Rim">
+          
+            <img class="adventure-card__image" src="/images/2025-11-white-rim/DSC04505.jpeg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">bike</span>
+            <time datetime="2025-11-26T00:00:00+00:00">Nov 26, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/11/white-rim/">White Rim</a></h2>
+          <p class="adventure-card__summary">Context
 </p>
-    -->
+        </div>
+      </article>
     
-    
-
-  </article>
-</div>
-
-  
-
   
     
-
-
-
-
-
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-
-    <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/adventures/2025/08/desolation-seven-summits/" rel="permalink">Desolation Seven Summit Loop
-</a>
       
-    </h2>
-    
-    
-
-        
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2025-08-27T00:00:00+00:00">August 27, 2025</time></p>
-        
       
+      
+      <article
+        class="adventure-card"
+        data-activity="hike"
+        data-date="1757289600"
+        data-title="alta via 2"
+        data-search="alta via 2 hike [] contextthe alta via 2 is a high route between brixen in south tyrol to feltre in veneto. the route was developed in the 1960s by the italian alpine club to promote multi-day trekking through the dolomites. it was originally pieced together from traditional shepherd’s paths,...">
+        <a href="/adventures/2025/09/alta-via-2/" aria-label="Read Alta Via 2">
+          
+            <img class="adventure-card__image" src="/images/2025-09-alta-via-2/2025-Europe-078.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">hike</span>
+            <time datetime="2025-09-08T00:00:00+00:00">Sep 8, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/09/alta-via-2/">Alta Via 2</a></h2>
+          <p class="adventure-card__summary">Context The Alta Via 2 is a high route between Brixen in South Tyrol to Feltre in Veneto. The route was developed in the...</p>
+        </div>
+      </article>
     
-    <img src="/images/2025-08-desolation-seven-summits/desolation_1.jpeg" alt="Desolation Seven Summit Loop">
+  
     
-
-    
-
-    <!--
-    <p class="archive__item-excerpt" itemprop="description"><h2 id="the-context">The context</h2>
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="run"
+        data-date="1756252800"
+        data-title="desolation seven summit loop"
+        data-search="desolation seven summit loop run [&quot;run&quot;, &quot;desolation&quot;, &quot;tallac&quot;] the context">
+        <a href="/adventures/2025/08/desolation-seven-summits/" aria-label="Read Desolation Seven Summit Loop">
+          
+            <img class="adventure-card__image" src="/images/2025-08-desolation-seven-summits/desolation_1.jpeg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">run</span>
+            <time datetime="2025-08-27T00:00:00+00:00">Aug 27, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/08/desolation-seven-summits/">Desolation Seven Summit Loop</a></h2>
+          <p class="adventure-card__summary">The context
 </p>
-    -->
+        </div>
+      </article>
     
+  
     
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="bike"
+        data-date="1751587200"
+        data-title="tour divide part 4: salida &amp;rarr; durango"
+        data-search="tour divide part 4: salida &amp;rarr; durango bike [&quot;tour divide&quot;, &quot;cycling&quot;, &quot;bikepacking&quot;, &quot;gdmbr&quot;] day 23: pass above salida &amp;rarr; upper dome reservoir (95 miles, 6000 feet)">
+        <a href="/adventures/2025/07/tour-divide-4/" aria-label="Read Tour Divide Part 4: Salida &amp;rarr; Durango">
+          
+            <img class="adventure-card__image" src="/images/2025-07-tour-divide-4/2025-Tour-Divide-169.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">bike</span>
+            <time datetime="2025-07-04T00:00:00+00:00">Jul 4, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/07/tour-divide-4/">Tour Divide Part 4: Salida <kbd>&rarr;</kbd> Durango</a></h2>
+          <p class="adventure-card__summary">Day 23: Pass above Salida &rarr; Upper Dome Reservoir (95 miles, 6000 feet)
+</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="bike"
+        data-date="1751068800"
+        data-title="tour divide part 3: pinedale &amp;rarr; salida"
+        data-search="tour divide part 3: pinedale &amp;rarr; salida bike [&quot;tour divide&quot;, &quot;cycling&quot;, &quot;bikepacking&quot;, &quot;gdmbr&quot;] day 17: parking lot of wy 353 &amp;rarr; most of the way to wamsutter (125 miles, 7000 feet)">
+        <a href="/adventures/2025/06/tour-divide-3/" aria-label="Read Tour Divide Part 3: Pinedale &amp;rarr; Salida">
+          
+            <img class="adventure-card__image" src="/images/2025-06-tour-divide-3/2025-Tour-Divide-138.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">bike</span>
+            <time datetime="2025-06-28T00:00:00+00:00">Jun 28, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/06/tour-divide-3/">Tour Divide Part 3: Pinedale <kbd>&rarr;</kbd> Salida</a></h2>
+          <p class="adventure-card__summary">Day 17: Parking lot of WY 353 &rarr; most of the way to Wamsutter (125 miles, 7000 feet)
+</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="bike"
+        data-date="1750377600"
+        data-title="tour divide part 2: helena &amp;rarr; pinedale"
+        data-search="tour divide part 2: helena &amp;rarr; pinedale bike [&quot;tour divide&quot;, &quot;cycling&quot;, &quot;bikepacking&quot;, &quot;gdmbr&quot;] day 9: helena, mt &amp;rarr; sagebrush cg (86 miles, 8300 feet)">
+        <a href="/adventures/2025/06/tour-divide-2/" aria-label="Read Tour Divide Part 2: Helena &amp;rarr; Pinedale">
+          
+            <img class="adventure-card__image" src="/images/2025-06-tour-divide-2/2025-Tour-Divide-091.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">bike</span>
+            <time datetime="2025-06-20T00:00:00+00:00">Jun 20, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/06/tour-divide-2/">Tour Divide Part 2: Helena <kbd>&rarr;</kbd> Pinedale</a></h2>
+          <p class="adventure-card__summary">Day 9: Helena, MT &rarr; Sagebrush CG (86 miles, 8300 feet)
+</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="bike"
+        data-date="1749686400"
+        data-title="tour divide part 1: banff &amp;rarr; helena"
+        data-search="tour divide part 1: banff &amp;rarr; helena bike [&quot;tour divide&quot;, &quot;cycling&quot;, &quot;bikepacking&quot;, &quot;gdmbr&quot;] context">
+        <a href="/adventures/2025/06/tour-divide-1/" aria-label="Read Tour Divide Part 1: Banff &amp;rarr; Helena">
+          
+            <img class="adventure-card__image" src="/images/2025-06-tour-divide/2025-Tour-Divide-023.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">bike</span>
+            <time datetime="2025-06-12T00:00:00+00:00">Jun 12, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/06/tour-divide-1/">Tour Divide Part 1: Banff <kbd>&rarr;</kbd> Helena</a></h2>
+          <p class="adventure-card__summary">Context
+</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1745020800"
+        data-title="sierra ski traverse: mammoth &amp;rarr; twin lakes"
+        data-search="sierra ski traverse: mammoth &amp;rarr; twin lakes ski [&quot;ski traverse&quot;, &quot;backcountry skiing&quot;, &quot;eastern sierras&quot;] preparationsam and i started scheming the possibility of a sierra traverse in the fall of 2024 after deciding bugs to rogers was too committing an objective for the spring of 2025. our basic idea was a 7-day north/south traverse along the crest of the sierra....">
+        <a href="/adventures/2025/04/sierra-ski-traverse/" aria-label="Read Sierra Ski Traverse: Mammoth &amp;rarr; Twin Lakes">
+          
+            <img class="adventure-card__image" src="/images/2025-04-sierra-traverse/20250421-sierra-traverse6183.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2025-04-19T00:00:00+00:00">Apr 19, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/04/sierra-ski-traverse/">Sierra Ski Traverse: Mammoth <kbd>&rarr;</kbd> Twin Lakes</a></h2>
+          <p class="adventure-card__summary">Preparation Sam and I started scheming the possibility of a Sierra traverse in the fall of 2024 after deciding Bugs to Rogers was too...</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1743465600"
+        data-title="bow yoho traverse"
+        data-search="bow yoho traverse ski [&quot;canada&quot;, &quot;ski traverse&quot;, &quot;backcountry skiing&quot;, &quot;yoho national park&quot;, &quot;bow lake&quot;, &quot;hut trip&quot;] preparation">
+        <a href="/adventures/2025/04/bow-yoho-traverse/" aria-label="Read Bow Yoho Traverse">
+          
+            <img class="adventure-card__image" src="/images/2025-04-bow-yoho/20250402-BowYoho-16.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2025-04-01T00:00:00+00:00">Apr 1, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/04/bow-yoho-traverse/">Bow Yoho Traverse</a></h2>
+          <p class="adventure-card__summary">Preparation
+</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1739318400"
+        data-title="tahoe west shore ridgeline"
+        data-search="tahoe west shore ridgeline ski [&quot;tahoe&quot;, &quot;backcountry skiing&quot;, &quot;jake&#39;s&quot;, &quot;rubicon&quot;, &quot;hidden&quot;]   jake’s peak  rubicon peak  hidden peak">
+        <a href="/adventures/2025/02/tahoe-west-short-ridgeline/" aria-label="Read Tahoe West Shore Ridgeline">
+          
+            <img class="adventure-card__image" src="/images/2025-02-tahoe-west-shore/2025-2-tahoe5317.JPG" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2025-02-12T00:00:00+00:00">Feb 12, 2025</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2025/02/tahoe-west-short-ridgeline/">Tahoe West Shore Ridgeline</a></h2>
+          <p class="adventure-card__summary">
+  Jake’s Peak
+  Rubicon Peak
+  Hidden Peak
 
-  </article>
+</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="hike"
+        data-date="1727568000"
+        data-title="napeequa traverse"
+        data-search="napeequa traverse hike [&quot;cascades&quot;, &quot;backpacking&quot;, &quot;high route&quot;, &quot;wyatt&quot;] friday evening, wyatt and i departed seattle at roughly 8:20 pm and made it to the white river trailhead at 11pm where we had a very comfortable night in the back of the prius which is surprisingly well suited for trailhead camping. with the front...">
+        <a href="/adventures/2024/09/napeequa-traverse/" aria-label="Read Napeequa Traverse">
+          
+            <img class="adventure-card__image" src="/images/2024-09-napeequa/2024-09-27-Napeequa4964.JPG" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">hike</span>
+            <time datetime="2024-09-29T00:00:00+00:00">Sep 29, 2024</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2024/09/napeequa-traverse/">Napeequa Traverse</a></h2>
+          <p class="adventure-card__summary">Friday evening, Wyatt and I departed Seattle at roughly 8:20 PM and made it to the White River Trailhead at 11PM where we had...</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1720051200"
+        data-title="ptarmigan traverse"
+        data-search="ptarmigan traverse ski [] with two days off work for july 4th, mary and i decided to backpack the ptarmigan traverse, a route our friend wyatt mullen recommended.">
+        <a href="/adventures/2024/07/ptarmigan-traverse/" aria-label="Read Ptarmigan Traverse">
+          
+            <img class="adventure-card__image" src="/images/2024-07-ptarmigan/2024-07-ptarmigan4641.JPG" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2024-07-04T00:00:00+00:00">Jul 4, 2024</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2024/07/ptarmigan-traverse/">Ptarmigan Traverse</a></h2>
+          <p class="adventure-card__summary">With two days off work for July 4th, Mary and I decided to backpack the Ptarmigan traverse, a route our friend Wyatt Mullen recommended....</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1718928000"
+        data-title="rainer via emmons"
+        data-search="rainer via emmons ski [] last sunday, wyatt and i made loose plans to climb rainier on friday. wyatt was worried about lenticular clouds on saturday, so friday became our day. we decided to check trip reports on wednesday evening to make the final go/no-go call. wyatt’s biggest concern was...">
+        <a href="/adventures/2024/06/rainer-via-emmons/" aria-label="Read Rainer via Emmons">
+          
+            <img class="adventure-card__image" src="/images/2024-06-rainer/2024-6-rainer4489.JPG" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2024-06-21T00:00:00+00:00">Jun 21, 2024</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2024/06/rainer-via-emmons/">Rainer via Emmons</a></h2>
+          <p class="adventure-card__summary">Last Sunday, Wyatt and I made loose plans to climb Rainier on Friday. Wyatt was worried about lenticular clouds on Saturday, so Friday became...</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="ski"
+        data-date="1713139200"
+        data-title="bow yoho traverse"
+        data-search="bow yoho traverse ski [&quot;canada&quot;, &quot;ski traverse&quot;, &quot;backcountry skiing&quot;, &quot;yoho national park&quot;, &quot;bow lake&quot;, &quot;hut trip&quot;] the bow yoho ski traverse is a sister traverse of the much more famous wapta traverse. both traverses lie on the border of alberta and british columiba in the canadian rockies. the bow yoho traverse begins at bow lake, crosses the wapta icefield, and ends...">
+        <a href="/adventures/2024/04/bow-yoho-traverse/" aria-label="Read Bow Yoho Traverse">
+          
+            <img class="adventure-card__image" src="/images/2024-04-bow-yo-ho/Bow-Yoho-55.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">ski</span>
+            <time datetime="2024-04-15T00:00:00+00:00">Apr 15, 2024</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2024/04/bow-yoho-traverse/">Bow Yoho Traverse</a></h2>
+          <p class="adventure-card__summary">The Bow Yoho ski traverse is a sister traverse of the much more famous Wapta Traverse. Both traverses lie on the border of Alberta...</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="run"
+        data-date="1700784000"
+        data-title="rim to rim to rim"
+        data-search="rim to rim to rim run [&quot;run&quot;, &quot;grand canyon&quot;] the rim-to-rim-to-rim is a reasonably well known trail run that crosses from the south rim of the grand canyon to the north rim and back. mary and i were meeting my family for thanksgiving in sedona in novemeber of 2023 and it seemed like the...">
+        <a href="/adventures/2023/11/rim-to-rim-to-rim/" aria-label="Read Rim to Rim to Rim">
+          
+            <img class="adventure-card__image" src="/images/2023-11-rim-to-rim-to-rim/IMG_2625.jpeg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">run</span>
+            <time datetime="2023-11-24T00:00:00+00:00">Nov 24, 2023</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2023/11/rim-to-rim-to-rim/">Rim to Rim to Rim</a></h2>
+          <p class="adventure-card__summary">The rim-to-rim-to-rim is a reasonably well known trail run that crosses from the south rim of the grand canyon to the north rim and...</p>
+        </div>
+      </article>
+    
+  
+    
+      
+      
+      
+      
+      <article
+        class="adventure-card"
+        data-activity="bike"
+        data-date="1651363200"
+        data-title="peru great divide"
+        data-search="peru great divide bike [&quot;bikepacking&quot;, &quot;peru&quot;, &quot;cycling&quot;] the concept behind bikepacking the peru great divide route originated on a much shorter backpacking trip around the san francisco bay. i was biking with sam abernathy, who i had met through the stanford triathlon team a couple weeks prior, margret antonio, and brian ly....">
+        <a href="/adventures/2022/05/peru-great-divide-p1/" aria-label="Read Peru Great Divide">
+          
+            <img class="adventure-card__image" src="/images/2022-05-peru-great-divide/peru-great-divide-4.jpg" alt="" loading="lazy" decoding="async">
+          
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">bike</span>
+            <time datetime="2022-05-01T00:00:00+00:00">May 1, 2022</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="/adventures/2022/05/peru-great-divide-p1/">Peru Great Divide</a></h2>
+          <p class="adventure-card__summary">The concept behind bikepacking the Peru Great Divide route originated on a much shorter backpacking trip around the San Francisco Bay. I was biking...</p>
+        </div>
+      </article>
+    
+  
 </div>
 
-  
+<p class="adventure-empty" id="adventure-empty">No trip reports match those filters.</p>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.getElementById("adventure-grid");
+    const cards = Array.from(grid.querySelectorAll(".adventure-card"));
+    const search = document.getElementById("adventure-search");
+    const sort = document.getElementById("adventure-sort");
+    const filters = Array.from(document.querySelectorAll(".adventure-filter"));
+    const results = document.getElementById("adventure-results");
+    const empty = document.getElementById("adventure-empty");
+    const params = new URLSearchParams(window.location.search);
+    const validActivities = filters.map((button) => button.dataset.activity);
+    const validSorts = ["newest", "oldest", "title"];
+    let activity = validActivities.includes(params.get("activity")) ? params.get("activity") : "all";
 
-<div class="pagination">
-  
+    search.value = params.get("q") || "";
+    sort.value = validSorts.includes(params.get("sort")) ? params.get("sort") : "newest";
 
-  <span>Page 1 of 4</span>
+    function updateUrl() {
+      const next = new URLSearchParams();
+      const query = search.value.trim();
+      if (query) next.set("q", query);
+      if (activity !== "all") next.set("activity", activity);
+      if (sort.value !== "newest") next.set("sort", sort.value);
+      const nextUrl = window.location.pathname + (next.toString() ? "?" + next.toString() : "") + window.location.hash;
+      window.history.replaceState(null, "", nextUrl);
+    }
 
-  
-    <a href="/adventures/page/2/" class="next">Next</a>
-  
-</div>
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const activityMatches = activity === "all" || card.dataset.activity === activity;
+        const searchMatches = !query || card.dataset.search.includes(query);
+        card.hidden = !(activityMatches && searchMatches);
+        if (!card.hidden) visible += 1;
+      });
+
+      const sorted = cards.slice().sort((a, b) => {
+        if (sort.value === "title") return a.dataset.title.localeCompare(b.dataset.title);
+        const difference = Number(a.dataset.date) - Number(b.dataset.date);
+        return sort.value === "oldest" ? difference : -difference;
+      });
+      sorted.forEach((card) => grid.appendChild(card));
+
+      filters.forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.dataset.activity === activity));
+      });
+      results.textContent = visible + (visible === 1 ? " trip report" : " trip reports");
+      empty.classList.toggle("is-visible", visible === 0);
+      updateUrl();
+    }
+
+    filters.forEach((button) => {
+      button.addEventListener("click", function () {
+        activity = button.dataset.activity;
+        render();
+      });
+    });
+    search.addEventListener("input", render);
+    sort.addEventListener("change", render);
+    render();
+  });
+</script>
+
   </div>
 </div>
 
@@ -559,7 +1096,7 @@
 
 <div class="page__footer-copyright">
   &copy; 2026 Paxton Scott, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2026-04-12
+  Site last updated 2026-09-08
 </div>
 
       </footer>

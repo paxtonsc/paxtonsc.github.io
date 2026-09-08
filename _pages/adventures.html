@@ -1,30 +1,277 @@
 ---
 layout: archive
 permalink: /adventures/
-title: "Fun & Hobbies"
-pagination: 
-  enabled: true
-  per_page: 5
-  permalink: "/page/:num/"
-  collection: adventures
-  sort_reverse: true
+title: "Adventures"
+classes: wide
 ---
 
-{% include base_path %}
-{% for post in paginator.posts %}
-  {% if post.draft == false %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+<style>
+  .adventure-tools {
+    margin: 0 0 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.65rem;
+    background: #f8fafc;
+  }
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="prev">Previous</a>
-  {% endif %}
+  .adventure-tools__top {
+    display: grid;
+    grid-template-columns: minmax(12rem, 1fr) auto;
+    gap: 0.75rem;
+  }
 
-  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  .adventure-search,
+  .adventure-sort {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 2.6rem;
+    margin: 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.4rem;
+    background: #fff;
+    font: inherit;
+  }
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% endif %}
+  .adventure-search { padding: 0.55rem 0.75rem; }
+  .adventure-sort { padding: 0.45rem 2rem 0.45rem 0.65rem; }
+
+  .adventure-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.8rem;
+  }
+
+  .adventure-filter {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid #64748b;
+    border-radius: 999px;
+    background: #fff;
+    color: #334155;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .adventure-filter:hover,
+  .adventure-filter:focus-visible { background: #e2e8f0; }
+
+  .adventure-filter[aria-pressed="true"] {
+    border-color: #1f2937;
+    background: #1f2937;
+    color: #fff;
+  }
+
+  .adventure-results {
+    margin: 0.75rem 0 0;
+    color: #64748b;
+    font-size: 0.85rem;
+  }
+
+  .adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.2rem;
+  }
+
+  .adventure-card {
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.6rem;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+    transition: transform 120ms ease, box-shadow 120ms ease;
+  }
+
+  .adventure-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(15, 23, 42, 0.14);
+  }
+
+  .adventure-card[hidden] { display: none; }
+
+  .adventure-card__image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .adventure-card__body { padding: 0.9rem; }
+
+  .adventure-card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #64748b;
+    font-size: 0.76rem;
+  }
+
+  .adventure-card__activity {
+    padding: 0.18rem 0.5rem;
+    border-radius: 999px;
+    background: #e2e8f0;
+    color: #334155;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .adventure-card__title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+
+  .adventure-card__title a { text-decoration: none; }
+
+  .adventure-card__summary {
+    margin: 0.6rem 0 0;
+    color: #475569;
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+
+  .adventure-empty {
+    display: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #64748b;
+  }
+
+  .adventure-empty.is-visible { display: block; }
+
+  @media (max-width: 540px) {
+    .adventure-tools__top { grid-template-columns: 1fr; }
+    .adventure-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="adventure-tools" aria-label="Filter adventure reports">
+  <div class="adventure-tools__top">
+    <label>
+      <span class="screen-reader-text">Search trip reports</span>
+      <input class="adventure-search" id="adventure-search" type="search" placeholder="Search trip reports…" autocomplete="off">
+    </label>
+    <label>
+      <span class="screen-reader-text">Sort trip reports</span>
+      <select class="adventure-sort" id="adventure-sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="adventure-filters" role="group" aria-label="Activity">
+    <button class="adventure-filter" type="button" data-activity="all" aria-pressed="true">All</button>
+    <button class="adventure-filter" type="button" data-activity="ski" aria-pressed="false">Ski</button>
+    <button class="adventure-filter" type="button" data-activity="bike" aria-pressed="false">Bike</button>
+    <button class="adventure-filter" type="button" data-activity="hike" aria-pressed="false">Hike</button>
+    <button class="adventure-filter" type="button" data-activity="run" aria-pressed="false">Run</button>
+    <button class="adventure-filter" type="button" data-activity="packraft" aria-pressed="false">Packraft</button>
+  </div>
+
+  <p class="adventure-results" id="adventure-results" aria-live="polite"></p>
 </div>
+
+<div class="adventure-grid" id="adventure-grid">
+  {% assign adventures = site.adventures | sort: "date" | reverse %}
+  {% for post in adventures %}
+    {% unless post.draft == true %}
+      {% assign path_without_collection = post.path | remove_first: "_adventures/" %}
+      {% assign activity = path_without_collection | split: "/" | first %}
+      {% assign clean_title = post.title | markdownify | strip_html | strip_newlines %}
+      {% assign search_summary = post.summary | default: post.excerpt | strip_html | strip_newlines | truncatewords: 45 %}
+      <article
+        class="adventure-card"
+        data-activity="{{ activity | downcase | escape }}"
+        data-date="{{ post.date | date: '%s' }}"
+        data-title="{{ clean_title | downcase | escape }}"
+        data-search="{{ clean_title | append: ' ' | append: activity | append: ' ' | append: post.tags | append: ' ' | append: search_summary | downcase | escape }}">
+        <a href="{{ post.url | relative_url }}" aria-label="Read {{ clean_title | escape }}">
+          {% if post.image %}
+            <img class="adventure-card__image" src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
+          {% endif %}
+        </a>
+        <div class="adventure-card__body">
+          <div class="adventure-card__meta">
+            <span class="adventure-card__activity">{{ activity }}</span>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          </div>
+          <h2 class="adventure-card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="adventure-card__summary">{{ post.summary | default: post.excerpt | strip_html | truncatewords: 24 }}</p>
+        </div>
+      </article>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<p class="adventure-empty" id="adventure-empty">No trip reports match those filters.</p>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.getElementById("adventure-grid");
+    const cards = Array.from(grid.querySelectorAll(".adventure-card"));
+    const search = document.getElementById("adventure-search");
+    const sort = document.getElementById("adventure-sort");
+    const filters = Array.from(document.querySelectorAll(".adventure-filter"));
+    const results = document.getElementById("adventure-results");
+    const empty = document.getElementById("adventure-empty");
+    const params = new URLSearchParams(window.location.search);
+    const validActivities = filters.map((button) => button.dataset.activity);
+    const validSorts = ["newest", "oldest", "title"];
+    let activity = validActivities.includes(params.get("activity")) ? params.get("activity") : "all";
+
+    search.value = params.get("q") || "";
+    sort.value = validSorts.includes(params.get("sort")) ? params.get("sort") : "newest";
+
+    function updateUrl() {
+      const next = new URLSearchParams();
+      const query = search.value.trim();
+      if (query) next.set("q", query);
+      if (activity !== "all") next.set("activity", activity);
+      if (sort.value !== "newest") next.set("sort", sort.value);
+      const nextUrl = window.location.pathname + (next.toString() ? "?" + next.toString() : "") + window.location.hash;
+      window.history.replaceState(null, "", nextUrl);
+    }
+
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const activityMatches = activity === "all" || card.dataset.activity === activity;
+        const searchMatches = !query || card.dataset.search.includes(query);
+        card.hidden = !(activityMatches && searchMatches);
+        if (!card.hidden) visible += 1;
+      });
+
+      const sorted = cards.slice().sort((a, b) => {
+        if (sort.value === "title") return a.dataset.title.localeCompare(b.dataset.title);
+        const difference = Number(a.dataset.date) - Number(b.dataset.date);
+        return sort.value === "oldest" ? difference : -difference;
+      });
+      sorted.forEach((card) => grid.appendChild(card));
+
+      filters.forEach((button) => {
+        button.setAttribute("aria-pressed", String(button.dataset.activity === activity));
+      });
+      results.textContent = visible + (visible === 1 ? " trip report" : " trip reports");
+      empty.classList.toggle("is-visible", visible === 0);
+      updateUrl();
+    }
+
+    filters.forEach((button) => {
+      button.addEventListener("click", function () {
+        activity = button.dataset.activity;
+        render();
+      });
+    });
+    search.addEventListener("input", render);
+    sort.addEventListener("change", render);
+    render();
+  });
+</script>
