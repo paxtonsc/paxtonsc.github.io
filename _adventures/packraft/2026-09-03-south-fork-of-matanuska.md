@@ -129,7 +129,7 @@ At one point, we got close to a small creek, so I thought: What the heck, maybe 
 
 “Let’s go for it,” she said.
 
-So we did, but damned if it didn’t take us 15 minutes to cover those 39 feet. The creek, it turned out, was choked with even tighter trees than the surrounding brush, so we spent another 15 minutes beating our way back to our starting point on a slightly different heading.
+So we did, but damned if it didn’t take us 10 minutes to cover those 39 feet. The creek, it turned out, was choked with even tighter trees than the surrounding brush, so we spent another 10 minutes beating our way back to our starting point on a slightly different heading.
 
 ![](/images/2026-09-south-fork-of-the-matanuska/IMG_0667.jpg){: width="50%" .align-center }
 *The bushwhack.*
