@@ -6,7 +6,7 @@ image: /files/inverted_pendulum/inverted_pendulum_graphic.jpg
 show_excerpt: true
 summary: "During my time at SpaceX, I realized my favorite problems involved physics rather than pure software."
 ---
-During my time at SpaceX, I realized my favorite problems involved physics rather than pure software. This was a small project to refresh myself on kinematics, control laws, and Kalaman filters.
+During my time at SpaceX, I realized my favorite problems involved physics rather than pure software. This was a small project to refresh myself on kinematics, control laws, and Kalman filters.
 
 <br>
 <iframe src="/files/inverted_pendulum/inverted_pendulm.html" width="100%" height="800px" style="border: 1px solid #ccc;"></iframe>

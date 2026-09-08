@@ -94,7 +94,7 @@ _After the bath, we began riding on the 8th day and ultimately made it up to 14k
 _The next day I continued to feel bad and the weather was not very good. We stopped early at some more in a very small town. There was no official hostel, but a women allowed us to stay in her families unused house. While we were there the local electrician rigged a light bulb for us. I spent most of the evening sleeping._ 
 
 ![Up to Cascade Pass](/images/2022-05-peru-great-divide/peru-great-divide-2.jpg)
-_The 11th day of riding I was feeling somewhat healthier and we got a full day of pedaling in, mostly rolling along at around 15k. We stopped briefly in a small town called San Fransisco, and a local tried to give Brian a goat._ 
+_The 11th day of riding I was feeling somewhat healthier and we got a full day of pedaling in, mostly rolling along at around 15k. We stopped briefly in a small town called San Francisco, and a local tried to give Brian a goat._ 
 
 ![Up to Cascade Pass](/images/2022-05-peru-great-divide/peru-great-divide-3.jpg)
 _Sam pauses to allow the locals to cross the road._
