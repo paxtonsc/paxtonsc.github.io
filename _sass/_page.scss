@@ -59,6 +59,13 @@
     font-size: 1em;
   }
 
+  /* keep top-level list text flush with headings/paragraphs instead of the
+     browser-default ~40px indent; nested lists keep their relative indent */
+  > ul, > ol {
+    margin-left: 0;
+    padding-left: 1.1em;
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
