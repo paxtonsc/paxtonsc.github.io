@@ -3,9 +3,11 @@ title: 'Tour Divide Part 4: Salida <kbd>&rarr;</kbd> Durango'
 date: 2025-07-04
 permalink: /adventures/2025/07/tour-divide-4/
 image: /images/2025-07-tour-divide-4/2025-Tour-Divide-169.jpg
+thumbnail: /images/thumbnails/adventures/2025-07-04-tour-divide-4.jpg
 tags: [tour divide, cycling, bikepacking, GDMBR]
+activity: bike
+summary: "Today was the 4th of July!"
 ---
-
 ## Day 23: Pass above Salida <kbd>&rarr;</kbd> Upper Dome Reservoir (95 miles, 6000 feet)
 
 Today was the 4th of July! We started the day with a quick 10-mile descent to Salida.

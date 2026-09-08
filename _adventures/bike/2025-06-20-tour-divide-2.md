@@ -3,9 +3,12 @@ title: 'Tour Divide Part 2: Helena <kbd>&rarr;</kbd> Pinedale'
 date: 2025-06-20
 permalink: /adventures/2025/06/tour-divide-2/
 image: /images/2025-06-tour-divide-2/2025-Tour-Divide-091.jpg
+thumbnail: /images/thumbnails/adventures/2025-06-20-tour-divide-2.jpg
 tags: [tour divide, cycling, bikepacking, GDMBR]
+activity: bike
+summary: "Today we got a slightly earlier start (7 AM) because of forecasted afternoon thunderstorms."
+math: true
 ---
-
 ## Day 9: Helena, MT <kbd>&rarr;</kbd> Sagebrush CG (86 miles, 8300 feet)
 
 Today we got a slightly earlier start (7 AM) because of forecasted afternoon thunderstorms. The climb out of Helena was straightforward, and although there was a little hike-a-bike at the top, we made it to Basin by about 1 PM.

@@ -3,9 +3,11 @@ title: 'Bow Yoho Traverse'
 date: 2025-04-01
 permalink: /adventures/2025/04/bow-yoho-traverse/
 image: /images/2025-04-bow-yoho/20250402-BowYoho-16.jpg
+thumbnail: /images/thumbnails/adventures/2025-04-08-bow-yoho-traverse.jpg
 tags: [Canada, ski traverse, backcountry skiing, Yoho National Park, Bow Lake, hut trip]
+activity: ski
+summary: "In late February, I got a surprise invite from Ben to join him and five others on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out."
 ---
-
 ##  Preparation
 
 In late February, I got a surprise invite from Ben to join him and five others on the Bow Yoho traverse in BC and Alberta after one of his group members dropped out. I had skied the traverse just a year before, and it had been an excellent trip. Initially, I had some reservations about joining (I’ve seen the traverse already! What if the snow isn’t any good?) but ultimately I decided life was too short to say no to such opportunities.
@@ -40,7 +42,7 @@ After those two laps we lost all visibility, so we skinned towards Gordon, navig
 
 ## Guy Hut 
 
-Thursday was traverse day! We briefly debated an early morning summit of Gordon before traversing over to Guy as Sam and I had done [last year](https://paxtonsc.github.io/adventures/2024/04/bow-yoho-traverse/). However, we ultimately decided for our larger group of 7, it was more prudent to first cross the Wapta Icefield before pleasure skiing.
+Thursday was traverse day! We briefly debated an early morning summit of Gordon before traversing over to Guy as Sam and I had done [last year](/adventures/2024/04/bow-yoho-traverse/). However, we ultimately decided for our larger group of 7, it was more prudent to first cross the Wapta Icefield before pleasure skiing.
 
 ![20250403-BowYoho-30.jpg](/images/2025-04-bow-yoho/20250403-BowYoho-30.jpg) *Some kind folks from Revelstoke snapped one of the two full group photos we took on the traverse.*
 

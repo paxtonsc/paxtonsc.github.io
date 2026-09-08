@@ -3,9 +3,11 @@ title: 'Bomber Traverse'
 date: 2026-08-22
 permalink: /adventures/2026/08/bomber-traverse/
 image: /images/2026-08-22-bomber-traverse/DSC06139.jpg
+thumbnail: /images/thumbnails/adventures/2026-08-22-bomber-traverse.jpg
 tags: []
+activity: hike
+summary: "On November 15, 1957, a Boeing TB-29 Superfortress was returning to Elmendorf Air Force Base just north of Anchorage after a radar-calibration mission."
 ---
-
 ## History
 
 On November 15, 1957, a Boeing TB-29 Superfortress was returning to Elmendorf Air Force Base just north of Anchorage after a radar-calibration mission. The weather had deteriorated badly, and the crew was flying through clouds and snow in the Susitna Valley.
@@ -32,22 +34,22 @@ Our second stop was the NOLS used-gear sale. The NOLS Alaska program is based in
 ## Trailhead -> Mint 
 We started our walk under cloudy but dry skies at 11 a.m. 
 
-![](/images/2026-08-22-bomber-traverse/DSC06054.jpg)
+![DSC06054](/images/2026-08-22-bomber-traverse/DSC06054.jpg)
 *Mary and Gus along the Little Susitna River.*
 
 The trail up the valley was in reasonably good condition except for the spots where beavers had dammed the creek, causing the trail to flood.
 
-![](/images/2026-08-22-bomber-traverse/DSC06065.jpg){: width="50%" .align-center }
+![DSC06065](/images/2026-08-22-bomber-traverse/DSC06065.jpg){: width="50%" .align-center }
 *We walked up the valley before cutting left toward a local promontory point.*
 
-![](/images/2026-08-22-bomber-traverse/DSC06078.jpg)
+![DSC06078](/images/2026-08-22-bomber-traverse/DSC06078.jpg)
 *Dropping down towards Mint Hut.* 
 
 At the hut, we were greeted by a friendly group of four girls from Bend, Oregon, who were doing our route in reverse over four days. In addition to staying at Mint and Snowbird, they also spent a night at Bomber, which we planned to skip entirely. The lead stoker of their group was a big whitewater kayaker, so she and Gus chatted about boating while we made quesadillas with the Jetboil. We also learned that one of their group members was a graduate of Fort Lewis in Durango (Go Skyhawks!) and still worked in the outdoor education program there despite residing in Bend.
 
 With rainy skies, the hut was a bit chilly, so we retreated to our sleeping bags. Mary and Gus read while I passed out for about two hours.
 
-![](/images/2026-08-22-bomber-traverse/DSC06081.jpg)
+![DSC06081](/images/2026-08-22-bomber-traverse/DSC06081.jpg)
 *Cozy sleeping quarters.*
 
 And then it was dinnertime! The overall review of Taco Bell dinner burritos is three stars: perfectly adequate but uninspired.
@@ -63,7 +65,7 @@ The next morning dawned clear. Walking outside the hut, we were able to get a go
 
 The scramble up to Backdoor Gap was pretty straightforward. The day was clear enough to have a nice view of Denali! 
 
-![](/images/2026-08-22-bomber-traverse/DSC06096.jpg)
+![DSC06096](/images/2026-08-22-bomber-traverse/DSC06096.jpg)
 *Denali peeks out behind us while we pose for the self-timer.*
 
 From the gap, we used a fixed rope to descend onto the gentle glacier. Gus and I put on our microspikes, but Mary didn't bother.

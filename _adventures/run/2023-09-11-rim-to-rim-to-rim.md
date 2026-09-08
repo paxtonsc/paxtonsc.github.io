@@ -3,9 +3,11 @@ title: 'Rim to Rim to Rim'
 date: 2023-11-24
 permalink: /adventures/2023/11/rim-to-rim-to-rim/
 image: /images/2023-11-rim-to-rim-to-rim/IMG_2625.jpeg
+thumbnail: /images/thumbnails/adventures/2023-09-11-rim-to-rim-to-rim.jpg
 tags: [run, Grand Canyon]
+activity: run
+summary: "The rim-to-rim-to-rim is a reasonably well known trail run that crosses from the south rim of the grand canyon to the north rim and back."
 ---
-
 The rim-to-rim-to-rim is a reasonably well known trail run that crosses from the south rim of the grand canyon to the north rim and back. Mary and I were meeting my family for Thanksgiving in Sedona in Novemeber of 2023 and it seemed like the perfect opportunity to give the rim to rim to rim a go . 
 We departed Sedona around 4:10pm, and immediately encountered quite a lot of traffic. We saw a dude get pulled over for trying to skirt by it in the left-hand turn lane (sucker!). We continued uneventfully to Flagstaff, where we got gas and 3x chicken burritos + 1x quesadilla. Then, we proceeded to the Grand Canyon along a surprisingly busy highway. At the park entrance the rangerinformed us that it was less busy now because “it’s pretty dark so you can’t see the canyon.” We made it to Mayer Campground after one confusing loop through the parking area. Set up a tent, got in sleeping bags, and devoured burritos. We organized snacks (4500-5000 cal for the day) and went to bed.
 

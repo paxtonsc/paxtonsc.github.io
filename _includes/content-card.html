@@ -1,0 +1,18 @@
+{% assign item = include.item %}
+{% assign clean_title = item.title | markdownify | strip_html | strip_newlines %}
+{% assign card_image = item.thumbnail | default: item.image %}
+<article class="content-card"{% if include.activity %} data-activity="{{ include.activity | downcase | escape }}"{% endif %} data-date="{{ item.date | date: '%s' }}" data-title="{{ clean_title | downcase | escape }}" data-search="{{ clean_title | append: ' ' | append: include.activity | append: ' ' | append: item.location | append: ' ' | append: item.tags | append: ' ' | append: item.summary | downcase | escape }}">
+  {% if card_image %}
+    <a href="{{ item.url | relative_url }}" aria-label="Read {{ clean_title | escape }}">
+      <img class="content-card__image" src="{{ card_image | relative_url }}" alt="" loading="lazy" decoding="async">
+    </a>
+  {% endif %}
+  <div class="content-card__body">
+    <div class="content-card__meta">
+      {% if include.activity %}<span class="content-card__label">{{ include.activity }}</span>{% endif %}
+      <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+    </div>
+    <h2 class="content-card__title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+    <p class="content-card__summary">{{ item.summary | default: item.excerpt | strip_html | truncatewords: 28 }}</p>
+  </div>
+</article>

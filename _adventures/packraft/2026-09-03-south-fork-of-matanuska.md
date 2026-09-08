@@ -3,9 +3,11 @@ title: 'South Fork of the Matanuska'
 date: 2026-09-03
 permalink: /adventures/2026/09/south-fork-of-the-matanuska/
 image: /images/2026-09-south-fork-of-the-matanuska/DSC06509.jpeg
+thumbnail: /images/thumbnails/adventures/2026-09-03-south-fork-of-matanuska.jpg
 tags: []
+activity: packraft
+summary: "Shortly after my fiancée, Mary, made plans to spend a summer in Palmer working as a public defender, I booked flights to visit her for the last two weeks of her stay."
 ---
-
 ## Context
 
 Shortly after my fiancée, Mary, made plans to spend a summer in Palmer working as a public defender, I booked flights to visit her for the last two weeks of her stay. We both planned to take the second week completely off from work and head out on some Alaskan adventures. As I began researching, I found Luc Mehl’s write-up of his [traverse across the Brooks Range](https://thingstolucat.com/brooks-range-traverse/). We did not have the time or experience for such an epic route, but a packrafting trip—if the weather cooperated—was in the cards. We had two constraints:
@@ -45,7 +47,7 @@ The first packraft section was about a mile and involved floating down Caribou C
 
 We stayed as far left, against the cliff, as possible while heading farther up Spoon Valley. The first crux was a narrow creek section with a series of cascading falls. It was still early enough that the rocks above the waterline had a sheen of ice, making everything very slippery. We had to cross the creek below one waterfall and above another. The crossing itself was simple enough, and the water was never more than a foot deep, but the consequences—getting washed down the lower falls—felt a bit dire. I went first and found the footing below the waterline pretty decent. I ferried both packs across, and then Mary followed. There were no additional challenging moves as we climbed the canyon, but even with dry suits, our feet became reasonably cold.
 
-![](/images/2026-09-south-fork-of-the-matanuska/DSC06338.jpeg)
+![DSC06338](/images/2026-09-south-fork-of-the-matanuska/DSC06338.jpeg)
 *Chilly!*
 
 Once out of the canyon, we stopped to warm up in the sun and eat a snack. Would we continue walking in creek beds all the way up Spoon Valley?
@@ -131,7 +133,7 @@ At one point, we got close to a small creek, so I thought: What the heck, maybe 
 
 So we did, but damned if it didn’t take us 10 minutes to cover those 39 feet. The creek, it turned out, was choked with even tighter trees than the surrounding brush, so we spent another 10 minutes beating our way back to our starting point on a slightly different heading.
 
-![](/images/2026-09-south-fork-of-the-matanuska/IMG_0667.jpg){: width="50%" .align-center }
+![IMG 0667](/images/2026-09-south-fork-of-the-matanuska/IMG_0667.jpg){: width="50%" .align-center }
 *The bushwhack.*
 
 Ah, well. We eventually made it to the river at 4 p.m. and celebrated with a snack and some water. From our snack spot, we walked downstream for about 10 minutes until the creek we had followed earlier joined the South Fork. There, we stopped, inflated our packrafts, and prepared to push off.

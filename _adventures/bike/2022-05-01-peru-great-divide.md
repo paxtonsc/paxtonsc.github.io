@@ -3,9 +3,11 @@ title: 'Peru Great Divide'
 date: 2022-05-01
 permalink: /adventures/2022/05/peru-great-divide-p1/
 image: /images/2022-05-peru-great-divide/peru-great-divide-4.jpg
+thumbnail: /images/thumbnails/adventures/2022-05-01-peru-great-divide.jpg
 tags: [bikepacking, Peru, cycling]
+activity: bike
+summary: "The concept behind bikepacking the Peru Great Divide route originated on a much shorter backpacking trip around the San Francisco Bay."
 ---
-
 The concept behind bikepacking the Peru Great Divide route originated on a much shorter backpacking trip around the San Francisco Bay. I was biking with Sam Abernathy, who I had met through the Stanford triathlon team a couple weeks prior, Margret Antonio, and Brian Ly. On that trip, we had a somewhat ridiculous first day that included 94 miles, 10k of climbing, and a very silly hike-a-bike at 10 pm after attempting a shortcut to our planned campsite Mt. Tam. That trip was my first exposure to bikepacking, and I was somewhat ill prepared with only a spare jacket and tarp in a handle bar bag, a little food in a frame bag, and my sleeping back strapped haphazardly with NRS river strap to rack on my gravel bike. At some point on the trip Sam mentioned that he was interested in bikepacking the Peru Great Divide – a route composed of 1000 miles of dirt riding in the Andes of Peru  – in the spring. I was sold.
 
 Once I got hired for a summer internship in Seattle and I felt that my life had sufficient direction in the professional realm I texted Sam : “Peru invite still open? Is the trip happening?”.  I happily let Stanford housing know I would be moving out of the fraternity I resided in and started figuring out my gear setup. I initially planned to take my Specialized Sequoia which I already owned and was a solid reliable alloy gravel bike. However, the Sequoia maxed out at about 45mm tires which was on the edge of what I wanted for a longer rough gravel bikepacking trip. So I bought a used Specialized Epic hardtail and an Old Man Mountain rack that mounted onto the thru axle and thus became the only member of our motley crew with suspension. 

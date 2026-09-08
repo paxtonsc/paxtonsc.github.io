@@ -3,8 +3,10 @@ title: 'Rainer via Emmons'
 date: 2024-06-21
 permalink: /adventures/2024/06/rainer-via-emmons/
 image: /images/2024-06-rainer/2024-6-rainer4489.JPG 
+thumbnail: /images/thumbnails/adventures/2024-06-21-rainer-emmons.jpg
+activity: ski
+summary: "Last Sunday, Wyatt and I made loose plans to climb Rainier on Friday."
 ---
-
 Last Sunday, Wyatt and I made loose plans to climb Rainier on Friday. Wyatt was worried about lenticular clouds on Saturday, so Friday became our day. We decided to check trip reports on Wednesday evening to make the final go/no-go call. Wyatt’s biggest concern was that the snow from the previous weekend would not be sufficiently consolidated to provide good corn skiing. On Wednesday, Wyatt found a Strava trip report indicating decent conditions. We decided to go for it. We each paid the $68 annual climbing fee and made plans for me to pick up the climbing permit at the ranger station before 5 p.m. on Thursday.
 
 On Thursday at around 2:10 p.m., I left SpaceX and drove directly to the White River Ranger Station. I was a bit concerned that I wouldn’t be able to get a walk-up permit, but it turned out to be no problem. The two young women working there were friendly. I filled out a form with information about Wyatt and me, including details on the preparatory routes we’d climbed and our glacier gear. As far as I could tell, the rangers barely looked at the form before issuing the permit. They mentioned they had overheard someone “who seemed like he might be a ski patroller” talking about wind slabs up the mountain; however, they reassured me that I shouldn’t worry too much since the slabs were only the size of dinner plates. Slightly perplexed, I didn’t push the point. At the ranger station, I also briefly chatted with two guys from Aspen, CO, who were also making a single-push climb. They worked in physical therapy and had taken a 10-day trip to the PNW with the goal of climbing Rainier, among other things. A man who had climbed Rainier 93 times was also there. “That’s a lot of times,” one of the Aspen guys remarked. “Maybe go find another mountain. There’s a lot of them.”

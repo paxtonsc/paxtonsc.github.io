@@ -3,10 +3,12 @@ title: 'Tahoe West Shore Ridgeline'
 date: 2025-02-12
 permalink: /adventures/2025/02/tahoe-west-short-ridgeline/
 image: /images/2025-02-tahoe-west-shore/2025-2-tahoe5317.JPG
+thumbnail: /images/thumbnails/adventures/2025-02-10-tahoe-west-shore-ridgeline.jpg
 excerpt: false
 tags: [Tahoe, backcountry skiing, Jake's, Rubicon, Hidden]
+activity: ski
+summary: "Over the weekend of February 8th, Charlie flew in from Seattle and Ben from Chicago to see the Lake Tahoe backcountry scene."
 ---
-
 1. [Jake's Peak](#jakes-peak)
 2. [Rubicon Peak](#rubicon-peak)
 3. [Hidden Peak](#hidden-peak)

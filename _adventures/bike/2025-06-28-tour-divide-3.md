@@ -3,9 +3,11 @@ title: 'Tour Divide Part 3: Pinedale <kbd>&rarr;</kbd> Salida'
 date: 2025-06-28
 permalink: /adventures/2025/06/tour-divide-3/
 image: /images/2025-06-tour-divide-3/2025-Tour-Divide-138.jpg
+thumbnail: /images/thumbnails/adventures/2025-06-28-tour-divide-3.jpg
 tags: [tour divide, cycling, bikepacking, GDMBR]
+activity: bike
+summary: "We woke up to a whipping tailwind that sped our ride to Atlantic City."
 ---
-
 ## Day 17: Parking lot of WY 353 <kbd>&rarr;</kbd> most of the way to Wamsutter (125 miles, 7000 feet)
 
 We woke up to a whipping tailwind that sped our ride to Atlantic City.

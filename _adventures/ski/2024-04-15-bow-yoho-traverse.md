@@ -3,9 +3,11 @@ title: 'Bow Yoho Traverse'
 date: 2024-04-15
 permalink: /adventures/2024/04/bow-yoho-traverse/
 image: /images/2024-04-bow-yo-ho/Bow-Yoho-55.jpg
+thumbnail: /images/thumbnails/adventures/2024-04-15-bow-yoho-traverse.jpg
 tags: [Canada, ski traverse, backcountry skiing, Yoho National Park, Bow Lake, hut trip]
+activity: ski
+summary: "The Bow Yoho ski traverse is a sister traverse of the much more famous Wapta Traverse."
 ---
-
 The Bow Yoho ski traverse is a sister traverse of the much more famous Wapta Traverse. Both traverses lie on the border of Alberta and British Columiba in the Canadian Rockies. The Bow Yoho traverse begins at Bow Lake, crosses the Wapta Icefield, and ends in Yoho National Park. A large part of what makes both traverses so well known is the impressive network of huts built and maintained by the [Alpine Club of Canada](https://alpineclubofcanada.ca/). For 50 CAD per night, any Alpine Club of Canada member can book a spot in one of the six huts on the Wapta Icefield and in Yoho National Park.
 
 In the fall of 2023 I made plans with Sam Abernethy, Celia Keany, and Wyatt Mullen to make a five day traverse of Bow Yoho in early April of 2024. Sam had originally proposed the route. The hut to hut nature of the route appealed to us, as did the reasonably economical nightly fee and the absence of an expensive mandatory helicopter bump that many Canadian huts require. 
