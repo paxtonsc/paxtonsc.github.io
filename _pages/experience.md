@@ -13,7 +13,7 @@ redirect_from:
 
 
 ## Professional Experience
-* **GNC/Software Engineer** \| San Carlos, CA \| *Aetherflux* \| Sept 2025 - Present
+* **GNC/Software Engineer** \| San Carlos, CA \| *Cowboy Space* \| Sept 2025 - Present
     * Write flight and ground software for Mission 1.
     * Simulate and analyze attitude control for tight pointing requirements.
 
