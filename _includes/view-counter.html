@@ -1,0 +1,18 @@
+<p class="page__meta page__views" id="goatcounter-views" hidden>
+  <i class="fa fa-fw fa-eye" aria-hidden="true"></i> <span id="goatcounter-views-count"></span> views
+</p>
+<script>
+(function () {
+  var path = window.location.pathname;
+  fetch("https://paxtonsc.goatcounter.com/counter" + path + ".json")
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      var el = document.getElementById("goatcounter-views");
+      var countEl = document.getElementById("goatcounter-views-count");
+      if (!data || typeof data.count === "undefined") return;
+      countEl.textContent = data.count;
+      el.hidden = false;
+    })
+    .catch(function () { /* counter unavailable (e.g. bad path, service down); leave hidden */ });
+})();
+</script>
