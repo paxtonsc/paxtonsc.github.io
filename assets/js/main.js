@@ -21,7 +21,7 @@
             .removeClass("danger")
             .addClass("success");
           showAlert(
-            '<strong>Thanks for your comment!</strong> It is currently pending and will show on the site once approved.'
+            '<strong>Thanks for your comment!</strong> It will appear on the site shortly once the page rebuilds.'
           );
         },
         error: function(err) {
