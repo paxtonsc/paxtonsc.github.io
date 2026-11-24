@@ -1,5 +1,5 @@
 # Base image: Ruby with necessary dependencies for Jekyll
-FROM ruby:3.2
+FROM ruby:3.4.13
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
@@ -10,11 +10,12 @@ RUN apt-get update && apt-get install -y \
 # Set the working directory inside the container
 WORKDIR /usr/src/app
 
-# Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
+# Install the same locked dependencies used by GitHub Pages.
+COPY .ruby-version Gemfile Gemfile.lock ./
+ENV BUNDLE_FROZEN=true
 
 # Install bundler and dependencies
-RUN gem install bundler:2.3.26 && bundle install
+RUN bundle install
 
 # Expose port 4000 for Jekyll server
 EXPOSE 4000
